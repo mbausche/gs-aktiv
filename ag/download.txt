@@ -1,0 +1,18 @@
+ext/html2pdf => http://html2pdf.fr/en/download (4.03)
+ext/phpMailer => https://github.com/PHPMailer/PHPMailer (5.2.13)
+ext/redbean_orm => http://www.redbeanphp.com/index.php (4.3)
+ext/xlsx => https://github.com/mk-j/PHP_XLSXWriter
+
+
+scripts/AutoFill-2.1.0 => https://datatables.net/extensions/autofill/#Download
+scripts/bootstrap-checkbox-1.4.0 => https://vsn4ik.github.io/bootstrap-checkbox/
+scripts/bootstrap-toastr => https://codeseven.github.io/toastr/
+scripts/Buttons-1.1.0 => https://cdn.datatables.net/buttons/1.1.0/
+scripts/captcha => https://github.com/supop/PuzzleCAPTCHA.js/
+scripts/chartjs => http://www.chartjs.org/docs/ (1.0.2)
+scripts/codemirror => https://codemirror.net/
+scripts/dataTables => https://datatables.net/ (1.10.10)
+scripts/jquery => http://jquery.com/ (1.10.2)
+scripts/jquery-ui => http://jqueryui.com (11.1.4)
+scripts/packery => http://packery.metafizzy.co (1.4.3)
+scripts/tagCloud => https://github.com/mrodrig/tag-cloud (1.1.2)
