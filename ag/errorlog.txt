@@ -1,0 +1,3934 @@
+[18-May-2016 08:32:32 Europe/Paris] FILES: Array
+(
+    [bild] => Array
+        (
+            [name] => 
+            [type] => 
+            [tmp_name] => 
+            [error] => 4
+            [size] => 0
+        )
+
+)
+
+[18-May-2016 08:32:54 Europe/Paris] Cannot send Mail. Reason: Mailer Error: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+[18-May-2016 08:32:54 Europe/Paris] Retry
+[18-May-2016 08:33:15 Europe/Paris] Cannot send Mail. Reason: Mailer Error: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+[18-May-2016 08:33:15 Europe/Paris] Retry
+[18-May-2016 08:33:36 Europe/Paris] Cannot send Mail. Reason: Mailer Error: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+[18-May-2016 08:33:36 Europe/Paris] Giving up
+[18-May-2016 08:35:40 Europe/Paris] FILES: Array
+(
+    [bild] => Array
+        (
+            [name] => 
+            [type] => 
+            [tmp_name] => 
+            [error] => 4
+            [size] => 0
+        )
+
+)
+
+[18-May-2016 08:36:23 Europe/Paris] FILES: Array
+(
+    [bild] => Array
+        (
+            [name] => 
+            [type] => 
+            [tmp_name] => 
+            [error] => 4
+            [size] => 0
+        )
+
+)
+
+[18-May-2016 08:36:24 Europe/Paris] Message sent!
+[15-Jun-2016 09:40:51 Europe/Paris] SESSION: Array
+(
+)
+
+[15-Jun-2016 09:47:17 Europe/Paris] SESSION: Array
+(
+)
+
+[15-Jun-2016 09:49:00 Europe/Paris] SESSION: Array
+(
+)
+
+[15-Jun-2016 09:53:39 Europe/Paris] SESSION: Array
+(
+)
+
+[15-Jun-2016 09:54:33 Europe/Paris] FILES: Array
+(
+    [bild] => Array
+        (
+            [name] => 
+            [type] => 
+            [tmp_name] => 
+            [error] => 4
+            [size] => 0
+        )
+
+)
+
+[15-Jun-2016 09:54:41 Europe/Paris] SESSION: Array
+(
+    [error] => 
+)
+
+[15-Jun-2016 09:55:11 Europe/Paris] SESSION: Array
+(
+    [error] => 
+)
+
+[15-Jun-2016 09:55:47 Europe/Paris] SESSION: Array
+(
+    [error] => 
+)
+
+[15-Jun-2016 09:58:02 Europe/Paris] SESSION: Array
+(
+    [error] => 
+)
+
+[15-Jun-2016 09:59:09 Europe/Paris] SESSION: Array
+(
+    [error] => 
+)
+
+[15-Jun-2016 10:00:27 Europe/Paris] SESSION: Array
+(
+    [error] => 
+)
+
+[15-Jun-2016 10:03:15 Europe/Paris] SESSION: Array
+(
+    [error] => 
+)
+
+[15-Jun-2016 10:07:46 Europe/Paris] SESSION: Array
+(
+    [error] => 
+)
+
+[15-Jun-2016 10:08:23 Europe/Paris] SESSION: Array
+(
+    [error] => 
+)
+
+[15-Jun-2016 10:10:19 Europe/Paris] SESSION: Array
+(
+    [error] => 
+)
+
+[15-Jun-2016 10:26:16 Europe/Paris] SESSION: Array
+(
+)
+
+[15-Jun-2016 16:00:37 Europe/Paris] FILES: Array
+(
+    [bild] => Array
+        (
+            [name] => 
+            [type] => 
+            [tmp_name] => 
+            [error] => 4
+            [size] => 0
+        )
+
+)
+
+[15-Jun-2016 16:57:55 Europe/Paris] FILES: Array
+(
+)
+
+[15-Jun-2016 16:57:55 Europe/Paris] PHP Fatal error:  Uncaught [23000] - SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'namen' cannot be null
+trace: #0 C:\wamp\www\ag\redbean_orm\rb.php(854): RedBeanPHP\Driver\RPDO->runQuery('INSERT INTO `ne...', Array)
+#1 C:\wamp\www\ag\redbean_orm\rb.php(891): RedBeanPHP\Driver\RPDO->GetAll('INSERT INTO `ne...', Array)
+#2 C:\wamp\www\ag\redbean_orm\rb.php(3420): RedBeanPHP\Driver\RPDO->GetOne('INSERT INTO `ne...', Array)
+#3 C:\wamp\www\ag\redbean_orm\rb.php(4848): RedBeanPHP\Adapter\DBAdapter->getCell('INSERT INTO `ne...', Array, 0)
+#4 C:\wamp\www\ag\redbean_orm\rb.php(4975): RedBeanPHP\QueryWriter\AQueryWriter->insertRecord('neueag', Array, Array)
+#5 C:\wamp\www\ag\redbean_orm\rb.php(7655): RedBeanPHP\QueryWriter\AQueryWriter->updateRecord('neueag', Array, 0)
+#6 C:\wamp\www\ag\redbean_orm\rb.php(7100): RedBeanPHP\Repository\Frozen->storeBean(Object(RedBeanPHP\OODBBean))
+#7 C:\wamp\www\ag\redbean_orm\rb.php(8143): RedBeanPHP\Repository->store(Object(RedBeanPHP\OODBBean))
+#8 C:\wamp\www\ag\redbean_orm\rb.php(1037 in C:\wamp\www\ag\redbean_orm\rb.php on line 692
+[15-Jun-2016 17:40:24 Europe/Paris] Send Mail to info@grundschule-aktiv.de Subject: POSITIVE Rückmeldung für AG Test von Michael Bauschert
+[15-Jun-2016 17:40:24 Europe/Paris] Message sent!
+[15-Jun-2016 17:41:11 Europe/Paris] Send Mail to info@grundschule-aktiv.de Subject: POSITIVE Rückmeldung für AG Test von Michael Bauschert
+[15-Jun-2016 17:41:11 Europe/Paris] Message sent!
+[15-Jun-2016 17:42:33 Europe/Paris] Send Mail to info@grundschule-aktiv.de Subject: POSITIVE Rückmeldung für AG Test von Michael Bauschert
+[15-Jun-2016 17:42:34 Europe/Paris] Message sent!
+[16-Jun-2016 10:18:01 Europe/Paris] SESSION: Array
+(
+)
+
+[16-Jun-2016 10:18:14 Europe/Paris] SESSION: Array
+(
+)
+
+[16-Jun-2016 10:19:08 Europe/Paris] SESSION: Array
+(
+)
+
+[16-Jun-2016 10:19:16 Europe/Paris] SESSION: Array
+(
+)
+
+[16-Jun-2016 10:19:45 Europe/Paris] SESSION: Array
+(
+)
+
+[16-Jun-2016 10:20:22 Europe/Paris] SESSION: Array
+(
+)
+
+[16-Jun-2016 10:21:25 Europe/Paris] SESSION: Array
+(
+)
+
+[16-Jun-2016 10:22:32 Europe/Paris] SESSION: Array
+(
+)
+
+[16-Jun-2016 10:22:43 Europe/Paris] SESSION: Array
+(
+)
+
+[17-Jun-2016 11:27:13 Europe/Paris] FILES: Array
+(
+    [bild] => Array
+        (
+            [name] => 
+            [type] => 
+            [tmp_name] => 
+            [error] => 4
+            [size] => 0
+        )
+
+)
+
+[17-Jun-2016 11:27:47 Europe/Paris] FILES: Array
+(
+    [bild] => Array
+        (
+            [name] => 
+            [type] => 
+            [tmp_name] => 
+            [error] => 4
+            [size] => 0
+        )
+
+)
+
+[17-Jun-2016 11:28:53 Europe/Paris] FILES: Array
+(
+    [bild] => Array
+        (
+            [name] => 
+            [type] => 
+            [tmp_name] => 
+            [error] => 4
+            [size] => 0
+        )
+
+)
+
+[17-Jun-2016 15:44:57 Europe/Paris] SESSION: Array
+(
+    [manageTemplates.php_templateTable] => check
+)
+
+[17-Jun-2016 15:45:51 Europe/Paris] FILES: Array
+(
+    [bild] => Array
+        (
+            [name] => 
+            [type] => 
+            [tmp_name] => 
+            [error] => 4
+            [size] => 0
+        )
+
+)
+
+[17-Jun-2016 15:45:51 Europe/Paris] Send Mail to info@grundschule-aktiv.de Subject: H16: Neue AG Test 2312 von Michael Bauschert
+[17-Jun-2016 15:46:12 Europe/Paris] Cannot send Mail. Reason: Mailer Error: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+[17-Jun-2016 15:46:12 Europe/Paris] Retry
+[17-Jun-2016 15:46:36 Europe/Paris] Cannot send Mail. Reason: Mailer Error: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+[17-Jun-2016 15:46:36 Europe/Paris] Retry
+[17-Jun-2016 15:46:59 Europe/Paris] Cannot send Mail. Reason: Mailer Error: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+[17-Jun-2016 15:46:59 Europe/Paris] Giving up
+[17-Jun-2016 15:49:33 Europe/Paris] SESSION: Array
+(
+    [manageTemplates.php_templateTable] => check
+    [error] => 
+)
+
+[17-Jun-2016 15:52:43 Europe/Paris] SESSION: Array
+(
+    [manageTemplates.php_templateTable] => check
+    [error] => 
+)
+
+[17-Jun-2016 15:52:54 Europe/Paris] FILES: Array
+(
+    [bild] => Array
+        (
+            [name] => 
+            [type] => 
+            [tmp_name] => 
+            [error] => 4
+            [size] => 0
+        )
+
+)
+
+[17-Jun-2016 15:52:55 Europe/Paris] Send Mail to info@grundschule-aktiv.de Subject: H16: Neue AG Test 231222222 von Michael Bauschert
+[17-Jun-2016 15:53:16 Europe/Paris] Cannot send Mail. Reason: Mailer Error: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+[17-Jun-2016 15:53:16 Europe/Paris] Retry
+[17-Jun-2016 15:53:39 Europe/Paris] Cannot send Mail. Reason: Mailer Error: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+[17-Jun-2016 15:53:39 Europe/Paris] Retry
+[17-Jun-2016 15:54:02 Europe/Paris] Cannot send Mail. Reason: Mailer Error: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+[17-Jun-2016 15:54:02 Europe/Paris] Giving up
+[17-Jun-2016 15:54:20 Europe/Paris] SESSION: Array
+(
+    [manageTemplates.php_templateTable] => check
+    [error] => 
+)
+
+[17-Jun-2016 15:54:22 Europe/Paris] SESSION: Array
+(
+    [manageTemplates.php_templateTable] => check
+    [error] => 
+)
+
+[17-Jun-2016 15:54:39 Europe/Paris] SESSION: Array
+(
+    [manageTemplates.php_templateTable] => check
+    [error] => 
+)
+
+[17-Jun-2016 15:58:37 Europe/Paris] SESSION: Array
+(
+    [manageTemplates.php_templateTable] => check
+    [error] => 
+)
+
+[17-Jun-2016 15:58:59 Europe/Paris] SESSION: Array
+(
+    [manageTemplates.php_templateTable] => check
+    [error] => 
+)
+
+[17-Jun-2016 15:59:41 Europe/Paris] SESSION: Array
+(
+    [manageTemplates.php_templateTable] => check
+    [error] => 
+)
+
+[17-Jun-2016 16:01:54 Europe/Paris] SESSION: Array
+(
+    [manageTemplates.php_templateTable] => check
+    [error] => 
+)
+
+[17-Jun-2016 16:02:23 Europe/Paris] SESSION: Array
+(
+    [manageTemplates.php_templateTable] => check
+    [error] => 
+)
+
+[17-Jun-2016 16:02:40 Europe/Paris] SESSION: Array
+(
+    [manageTemplates.php_templateTable] => check
+    [error] => 
+)
+
+[17-Jun-2016 16:03:28 Europe/Paris] SESSION: Array
+(
+    [manageTemplates.php_templateTable] => check
+    [error] => 
+)
+
+[17-Jun-2016 16:03:44 Europe/Paris] FILES: Array
+(
+    [bild] => Array
+        (
+            [name] => 
+            [type] => 
+            [tmp_name] => 
+            [error] => 4
+            [size] => 0
+        )
+
+)
+
+[17-Jun-2016 16:04:13 Europe/Paris] SESSION: Array
+(
+    [manageTemplates.php_templateTable] => check
+    [error] => 
+)
+
+[17-Jun-2016 16:06:23 Europe/Paris] SESSION: Array
+(
+    [manageTemplates.php_templateTable] => check
+    [error] => 
+)
+
+[17-Jun-2016 16:06:30 Europe/Paris] FILES: Array
+(
+    [bild] => Array
+        (
+            [name] => 
+            [type] => 
+            [tmp_name] => 
+            [error] => 4
+            [size] => 0
+        )
+
+)
+
+[17-Jun-2016 16:06:41 Europe/Paris] SESSION: Array
+(
+    [manageTemplates.php_templateTable] => check
+    [error] => 
+)
+
+[17-Jun-2016 16:10:14 Europe/Paris] FILES: Array
+(
+    [bild] => Array
+        (
+            [name] => 
+            [type] => 
+            [tmp_name] => 
+            [error] => 4
+            [size] => 0
+        )
+
+)
+
+[17-Jun-2016 16:25:27 Europe/Paris] SESSION: Array
+(
+    [manageTemplates.php_templateTable] => check
+    [manageNeueAGs.php_agTable] => XYZ
+    [error] => 
+)
+
+[17-Jun-2016 16:26:22 Europe/Paris] FILES: Array
+(
+    [bild] => Array
+        (
+            [name] => 
+            [type] => 
+            [tmp_name] => 
+            [error] => 4
+            [size] => 0
+        )
+
+)
+
+[17-Jun-2016 16:26:22 Europe/Paris] Send Mail to info@grundschule-aktiv.de Subject: H16: Neue AG AG für alle von Michael Bauschert
+[17-Jun-2016 16:26:43 Europe/Paris] Cannot send Mail. Reason: Mailer Error: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+[17-Jun-2016 16:26:43 Europe/Paris] Retry
+[17-Jun-2016 16:27:06 Europe/Paris] Cannot send Mail. Reason: Mailer Error: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+[17-Jun-2016 16:27:06 Europe/Paris] Retry
+[17-Jun-2016 16:27:29 Europe/Paris] Cannot send Mail. Reason: Mailer Error: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+[17-Jun-2016 16:27:29 Europe/Paris] Giving up
+[17-Jun-2016 16:30:24 Europe/Paris] SESSION: Array
+(
+    [manageTemplates.php_templateTable] => check
+    [manageNeueAGs.php_agTable] => XYZ
+    [error] => 
+)
+
+[17-Jun-2016 16:41:33 Europe/Paris] SESSION: Array
+(
+    [manageTemplates.php_templateTable] => check
+    [manageNeueAGs.php_agTable] => alle
+    [error] => 
+)
+
+[17-Jun-2016 16:41:35 Europe/Paris] SESSION: Array
+(
+    [manageTemplates.php_templateTable] => check
+    [manageNeueAGs.php_agTable] => alle
+    [error] => 
+)
+
+[17-Jun-2016 16:46:54 Europe/Paris] SESSION: Array
+(
+    [manageTemplates.php_templateTable] => check
+    [manageNeueAGs.php_agTable] => alle
+)
+
+[17-Jun-2016 17:02:37 Europe/Paris] SESSION: Array
+(
+    [manageTemplates.php_templateTable] => check
+    [manageNeueAGs.php_agTable] => alle
+)
+
+[17-Jun-2016 17:02:40 Europe/Paris] FILES: Array
+(
+    [bild] => Array
+        (
+            [name] => 
+            [type] => 
+            [tmp_name] => 
+            [error] => 4
+            [size] => 0
+        )
+
+)
+
+[17-Jun-2016 17:03:56 Europe/Paris] SESSION: Array
+(
+    [manageTemplates.php_templateTable] => check
+    [manageNeueAGs.php_agTable] => alle
+    [error] => 
+)
+
+[17-Jun-2016 17:04:04 Europe/Paris] SESSION: Array
+(
+    [manageTemplates.php_templateTable] => check
+    [manageNeueAGs.php_agTable] => alle
+    [error] => 
+)
+
+[17-Jun-2016 17:04:07 Europe/Paris] FILES: Array
+(
+    [bild] => Array
+        (
+            [name] => 
+            [type] => 
+            [tmp_name] => 
+            [error] => 4
+            [size] => 0
+        )
+
+)
+
+[17-Jun-2016 17:04:07 Europe/Paris] PHP Fatal error:  Uncaught exception 'RedBeanPHP\RedException' with message 'OODB Store requires a bean, got: array' in C:\wamp\www\ag\redbean_orm\rb.php:7903
+Stack trace:
+#0 C:\wamp\www\ag\redbean_orm\rb.php(8142): RedBeanPHP\OODB->unboxIfNeeded(Array)
+#1 C:\wamp\www\ag\redbean_orm\rb.php(10371): RedBeanPHP\OODB->store(Array)
+#2 C:\wamp\www\ag\model\neueAgModel.php(117): RedBeanPHP\Facade::store(Array)
+#3 C:\wamp\www\ag\neue_ag_geandert.php(21): NeueAgModel::saveFeedBack(NULL, '0')
+#4 {main}
+  thrown in C:\wamp\www\ag\redbean_orm\rb.php on line 7903
+[17-Jun-2016 17:52:35 Europe/Paris] SESSION: Array
+(
+    [manageTemplates.php_templateTable] => check
+    [manageNeueAGs.php_agTable] => alle
+    [error] => 
+)
+
+[17-Jun-2016 17:53:23 Europe/Paris] FILES: Array
+(
+    [bild] => Array
+        (
+            [name] => 
+            [type] => 
+            [tmp_name] => 
+            [error] => 4
+            [size] => 0
+        )
+
+)
+
+[17-Jun-2016 17:53:24 Europe/Paris] Send Mail to info@grundschule-aktiv.de Subject: H16: Neue AG NEUE AG von Michael Bauschert
+[17-Jun-2016 17:53:27 Europe/Paris] Message sent!
+[17-Jun-2016 17:56:46 Europe/Paris] FILES: Array
+(
+    [bild] => Array
+        (
+            [name] => info (2).png
+            [type] => image/png
+            [tmp_name] => C:\wamp\tmp\phpEC58.tmp
+            [error] => 0
+            [size] => 540
+        )
+
+)
+
+[17-Jun-2016 17:56:46 Europe/Paris] Datei: info (2).png
+[17-Jun-2016 17:57:04 Europe/Paris] SESSION: Array
+(
+    [manageTemplates.php_templateTable] => ändern
+    [manageNeueAGs.php_agTable] => NEUE
+    [error] => 
+)
+
+[17-Jun-2016 17:57:15 Europe/Paris] FILES: Array
+(
+    [bild] => Array
+        (
+            [name] => card-game-570698_1280.jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\wamp\tmp\php5E30.tmp
+            [error] => 0
+            [size] => 219921
+        )
+
+)
+
+[17-Jun-2016 17:57:15 Europe/Paris] Datei: card-game-570698_1280.jpg
+[17-Jun-2016 17:58:42 Europe/Paris] SESSION: Array
+(
+    [manageTemplates.php_templateTable] => ändern
+    [manageNeueAGs.php_agTable] => NEUE
+    [error] => 
+)
+
+[20-Jun-2016 16:22:29 Europe/Paris] FILES: Array
+(
+    [bild] => Array
+        (
+            [name] => 
+            [type] => 
+            [tmp_name] => 
+            [error] => 4
+            [size] => 0
+        )
+
+)
+
+[20-Jun-2016 16:22:43 Europe/Paris] FILES: Array
+(
+    [bild] => Array
+        (
+            [name] => 
+            [type] => 
+            [tmp_name] => 
+            [error] => 4
+            [size] => 0
+        )
+
+)
+
+[24-Jun-2016 10:05:30 Europe/Paris] SESSION: Array
+(
+    [manageTemplates.php_templateTable] => ändern
+    [manageNeueAGs.php_agTable] => 
+    [error] => 
+)
+
+[24-Jun-2016 10:07:30 Europe/Paris] SESSION: Array
+(
+    [manageTemplates.php_templateTable] => ändern
+    [manageNeueAGs.php_agTable] => 
+    [error] => 
+)
+
+[24-Jun-2016 10:09:35 Europe/Paris] SESSION: Array
+(
+)
+
+[24-Jun-2016 10:10:05 Europe/Paris] SESSION: Array
+(
+    [manageTemplates.php_templateTable] => ändern
+    [manageNeueAGs.php_agTable] => 
+    [error] => 
+)
+
+[27-Jun-2016 13:32:05 Europe/Paris] FILES: Array
+(
+    [bild] => Array
+        (
+            [name] => 
+            [type] => 
+            [tmp_name] => 
+            [error] => 4
+            [size] => 0
+        )
+
+)
+
+[28-Jun-2016 09:38:36 Europe/Paris] SESSION: Array
+(
+    [error] => 
+    [manageTemplates.php_templateTable] => check
+)
+
+[28-Jun-2016 09:38:49 Europe/Paris] SESSION: Array
+(
+    [error] => 
+    [manageTemplates.php_templateTable] => check
+)
+
+[28-Jun-2016 09:39:46 Europe/Paris] SESSION: Array
+(
+    [error] => 
+    [manageTemplates.php_templateTable] => check
+)
+
+[28-Jun-2016 09:39:58 Europe/Paris] FILES: Array
+(
+    [bild] => Array
+        (
+            [name] => 
+            [type] => 
+            [tmp_name] => 
+            [error] => 4
+            [size] => 0
+        )
+
+)
+
+[28-Jun-2016 09:43:59 Europe/Paris] Send Mail to info@grundschule-aktiv.de Subject: POSITIVE Rückmeldung für AG Test von Michael Bauschert
+[28-Jun-2016 09:43:59 Europe/Paris] Message sent!
+[28-Jun-2016 14:43:40 Europe/Paris] SESSION: Array
+(
+)
+
+[28-Jun-2016 14:45:16 Europe/Paris] SESSION: Array
+(
+    [speichern] => true
+    [MAX_FILE_SIZE] => 1048576
+    [namen] => Michael Bauschert
+    [verantwortlicher_name] => Michael Bauschert
+    [verantwortlicher_telefon] => 01791354023
+    [verantwortlicher_mail] => michael.bauschert@googlemail.com
+    [ag_name] => Michael Bauschert
+    [text_ausschreibung] => Michael Bauschert
+    [wichtige_infos] => Michael Bauschert
+    [termin] => 06.10.2016
+    [termin_ueberbuchung] => 
+    [termin_ersatz] => 
+    [termin_von] => 15:00
+    [termin_bis] => 17:00
+    [klasse1] => Ja
+    [klasse2] => Ja
+    [max_kinder] => unbegrenzt
+    [betrag_mitglied] => 3
+    [betrag_nicht_mitglied] => 4
+    [ort] => Calw
+    [anzahl_helfer] => 32
+    [ausserdem] => 
+    [check1] => Ja
+    [check2] => Ja
+    [check3] => Ja
+    [check4] => Ja
+    [check5] => Ja
+    [captcha] => true
+    [error] => Falsche Eingabe
+)
+
+[28-Jun-2016 14:47:34 Europe/Paris] SESSION: Array
+(
+    [speichern] => true
+    [MAX_FILE_SIZE] => 1048576
+    [namen] => Michael Bauschert
+    [verantwortlicher_name] => Michael Bauschert
+    [verantwortlicher_telefon] => 01791354023
+    [verantwortlicher_mail] => michael.bauschert@googlemail.com
+    [ag_name] => Michael Bauschert
+    [text_ausschreibung] => Michael Bauschert
+    [wichtige_infos] => Michael Bauschert
+    [termin] => 06.10.2016
+    [termin_ueberbuchung] => 
+    [termin_ersatz] => 
+    [termin_von] => 15:00
+    [termin_bis] => 17:00
+    [klasse1] => Ja
+    [klasse2] => Ja
+    [max_kinder] => unbegrenzt
+    [betrag_mitglied] => 3
+    [betrag_nicht_mitglied] => 4
+    [ort] => Calw
+    [anzahl_helfer] => 32
+    [ausserdem] => 
+    [check1] => Ja
+    [check2] => Ja
+    [check3] => Ja
+    [check4] => Ja
+    [check5] => Ja
+    [captcha] => true
+    [error] => Falsche Eingabemethode
+)
+
+[28-Jun-2016 14:47:44 Europe/Paris] SESSION: Array
+(
+    [speichern] => true
+    [MAX_FILE_SIZE] => 1048576
+    [namen] => Michael Bauschert
+    [verantwortlicher_name] => Michael Bauschert
+    [verantwortlicher_telefon] => 01791354023
+    [verantwortlicher_mail] => michael.bauschert@googlemail.com
+    [ag_name] => Michael Bauschert
+    [text_ausschreibung] => Michael Bauschert
+    [wichtige_infos] => Michael Bauschert
+    [termin] => 06.10.2016
+    [termin_ueberbuchung] => 
+    [termin_ersatz] => 
+    [termin_von] => 15:00
+    [termin_bis] => 17:00
+    [klasse1] => Ja
+    [klasse2] => Ja
+    [max_kinder] => unbegrenzt
+    [betrag_mitglied] => 3
+    [betrag_nicht_mitglied] => 4
+    [ort] => Calw
+    [anzahl_helfer] => 32
+    [ausserdem] => 
+    [check1] => Ja
+    [check2] => Ja
+    [check3] => Ja
+    [check4] => Ja
+    [check5] => Ja
+    [captcha] => true
+    [error] => Falsche Eingabe
+)
+
+[28-Jun-2016 14:47:53 Europe/Paris] FILES: Array
+(
+    [bild] => Array
+        (
+            [name] => 
+            [type] => 
+            [tmp_name] => 
+            [error] => 4
+            [size] => 0
+        )
+
+)
+
+[28-Jun-2016 14:47:53 Europe/Paris] PHP Fatal error:  Uncaught [23000] - SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'termin' cannot be null
+trace: #0 C:\wamp\www\ag\redbean_orm\rb.php(854): RedBeanPHP\Driver\RPDO->runQuery('INSERT INTO `ne...', Array)
+#1 C:\wamp\www\ag\redbean_orm\rb.php(891): RedBeanPHP\Driver\RPDO->GetAll('INSERT INTO `ne...', Array)
+#2 C:\wamp\www\ag\redbean_orm\rb.php(3420): RedBeanPHP\Driver\RPDO->GetOne('INSERT INTO `ne...', Array)
+#3 C:\wamp\www\ag\redbean_orm\rb.php(4848): RedBeanPHP\Adapter\DBAdapter->getCell('INSERT INTO `ne...', Array, 0)
+#4 C:\wamp\www\ag\redbean_orm\rb.php(4975): RedBeanPHP\QueryWriter\AQueryWriter->insertRecord('neueag', Array, Array)
+#5 C:\wamp\www\ag\redbean_orm\rb.php(7655): RedBeanPHP\QueryWriter\AQueryWriter->updateRecord('neueag', Array, 0)
+#6 C:\wamp\www\ag\redbean_orm\rb.php(7100): RedBeanPHP\Repository\Frozen->storeBean(Object(RedBeanPHP\OODBBean))
+#7 C:\wamp\www\ag\redbean_orm\rb.php(8143): RedBeanPHP\Repository->store(Object(RedBeanPHP\OODBBean))
+#8 C:\wamp\www\ag\redbean_orm\rb.php(103 in C:\wamp\www\ag\redbean_orm\rb.php on line 692
+[28-Jun-2016 14:48:03 Europe/Paris] SESSION: Array
+(
+    [speichern] => true
+    [MAX_FILE_SIZE] => 1048576
+    [namen] => Michael Bauschert
+    [verantwortlicher_name] => Michael Bauschert
+    [verantwortlicher_telefon] => 01791354023
+    [verantwortlicher_mail] => michael.bauschert@googlemail.com
+    [ag_name] => Michael Bauschert
+    [text_ausschreibung] => Michael Bauschert
+    [wichtige_infos] => Michael Bauschert
+    [termin] => 06.10.2016
+    [termin_ueberbuchung] => 
+    [termin_ersatz] => 
+    [termin_von] => 15:00
+    [termin_bis] => 17:00
+    [klasse1] => Ja
+    [klasse2] => Ja
+    [max_kinder] => unbegrenzt
+    [betrag_mitglied] => 3
+    [betrag_nicht_mitglied] => 4
+    [ort] => Calw
+    [anzahl_helfer] => 32
+    [ausserdem] => 
+    [check1] => Ja
+    [check2] => Ja
+    [check3] => Ja
+    [check4] => Ja
+    [check5] => Ja
+    [captcha] => true
+    [error] => 
+)
+
+[28-Jun-2016 14:48:13 Europe/Paris] FILES: Array
+(
+    [bild] => Array
+        (
+            [name] => 
+            [type] => 
+            [tmp_name] => 
+            [error] => 4
+            [size] => 0
+        )
+
+)
+
+[28-Jun-2016 14:48:13 Europe/Paris] PHP Fatal error:  Uncaught [23000] - SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'termin' cannot be null
+trace: #0 C:\wamp\www\ag\redbean_orm\rb.php(854): RedBeanPHP\Driver\RPDO->runQuery('INSERT INTO `ne...', Array)
+#1 C:\wamp\www\ag\redbean_orm\rb.php(891): RedBeanPHP\Driver\RPDO->GetAll('INSERT INTO `ne...', Array)
+#2 C:\wamp\www\ag\redbean_orm\rb.php(3420): RedBeanPHP\Driver\RPDO->GetOne('INSERT INTO `ne...', Array)
+#3 C:\wamp\www\ag\redbean_orm\rb.php(4848): RedBeanPHP\Adapter\DBAdapter->getCell('INSERT INTO `ne...', Array, 0)
+#4 C:\wamp\www\ag\redbean_orm\rb.php(4975): RedBeanPHP\QueryWriter\AQueryWriter->insertRecord('neueag', Array, Array)
+#5 C:\wamp\www\ag\redbean_orm\rb.php(7655): RedBeanPHP\QueryWriter\AQueryWriter->updateRecord('neueag', Array, 0)
+#6 C:\wamp\www\ag\redbean_orm\rb.php(7100): RedBeanPHP\Repository\Frozen->storeBean(Object(RedBeanPHP\OODBBean))
+#7 C:\wamp\www\ag\redbean_orm\rb.php(8143): RedBeanPHP\Repository->store(Object(RedBeanPHP\OODBBean))
+#8 C:\wamp\www\ag\redbean_orm\rb.php(103 in C:\wamp\www\ag\redbean_orm\rb.php on line 692
+[28-Jun-2016 14:48:20 Europe/Paris] SESSION: Array
+(
+    [speichern] => true
+    [MAX_FILE_SIZE] => 1048576
+    [namen] => Michael Bauschert
+    [verantwortlicher_name] => Michael Bauschert
+    [verantwortlicher_telefon] => 01791354023
+    [verantwortlicher_mail] => michael.bauschert@googlemail.com
+    [ag_name] => Michael Bauschert
+    [text_ausschreibung] => Michael Bauschert
+    [wichtige_infos] => Michael Bauschert
+    [termin] => 06.10.2016
+    [termin_ueberbuchung] => 
+    [termin_ersatz] => 
+    [termin_von] => 15:00
+    [termin_bis] => 17:00
+    [klasse1] => Ja
+    [klasse2] => Ja
+    [max_kinder] => unbegrenzt
+    [betrag_mitglied] => 3
+    [betrag_nicht_mitglied] => 4
+    [ort] => Calw
+    [anzahl_helfer] => 32
+    [ausserdem] => 
+    [check1] => Ja
+    [check2] => Ja
+    [check3] => Ja
+    [check4] => Ja
+    [check5] => Ja
+    [captcha] => true
+    [error] => 
+)
+
+[28-Jun-2016 14:48:51 Europe/Paris] FILES: Array
+(
+    [bild] => Array
+        (
+            [name] => 
+            [type] => 
+            [tmp_name] => 
+            [error] => 4
+            [size] => 0
+        )
+
+)
+
+[28-Jun-2016 14:48:51 Europe/Paris] PHP Fatal error:  Uncaught [23000] - SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'termin' cannot be null
+trace: #0 C:\wamp\www\ag\redbean_orm\rb.php(854): RedBeanPHP\Driver\RPDO->runQuery('INSERT INTO `ne...', Array)
+#1 C:\wamp\www\ag\redbean_orm\rb.php(891): RedBeanPHP\Driver\RPDO->GetAll('INSERT INTO `ne...', Array)
+#2 C:\wamp\www\ag\redbean_orm\rb.php(3420): RedBeanPHP\Driver\RPDO->GetOne('INSERT INTO `ne...', Array)
+#3 C:\wamp\www\ag\redbean_orm\rb.php(4848): RedBeanPHP\Adapter\DBAdapter->getCell('INSERT INTO `ne...', Array, 0)
+#4 C:\wamp\www\ag\redbean_orm\rb.php(4975): RedBeanPHP\QueryWriter\AQueryWriter->insertRecord('neueag', Array, Array)
+#5 C:\wamp\www\ag\redbean_orm\rb.php(7655): RedBeanPHP\QueryWriter\AQueryWriter->updateRecord('neueag', Array, 0)
+#6 C:\wamp\www\ag\redbean_orm\rb.php(7100): RedBeanPHP\Repository\Frozen->storeBean(Object(RedBeanPHP\OODBBean))
+#7 C:\wamp\www\ag\redbean_orm\rb.php(8143): RedBeanPHP\Repository->store(Object(RedBeanPHP\OODBBean))
+#8 C:\wamp\www\ag\redbean_orm\rb.php(103 in C:\wamp\www\ag\redbean_orm\rb.php on line 692
+[28-Jun-2016 14:49:54 Europe/Paris] FILES: Array
+(
+    [bild] => Array
+        (
+            [name] => 
+            [type] => 
+            [tmp_name] => 
+            [error] => 4
+            [size] => 0
+        )
+
+)
+
+[28-Jun-2016 14:49:55 Europe/Paris] Send Mail to info@grundschule-aktiv.de Subject: H16: Neue AG Test 23 von Michael Bauschert
+[28-Jun-2016 14:50:16 Europe/Paris] Cannot send Mail. Reason: Mailer Error: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+[28-Jun-2016 14:50:16 Europe/Paris] Retry
+[28-Jun-2016 14:50:39 Europe/Paris] Cannot send Mail. Reason: Mailer Error: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+[28-Jun-2016 14:50:39 Europe/Paris] Retry
+[28-Jun-2016 14:51:02 Europe/Paris] Cannot send Mail. Reason: Mailer Error: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+[28-Jun-2016 14:51:02 Europe/Paris] Giving up
+[28-Jun-2016 14:51:02 Europe/Paris] SESSION: Array
+(
+    [speichern] => true
+    [MAX_FILE_SIZE] => 1048576
+    [namen] => Michael Bauschert
+    [verantwortlicher_name] => Michael Bauschert
+    [verantwortlicher_telefon] => 01791354023
+    [verantwortlicher_mail] => michael.bauschert@googlemail.com
+    [ag_name] => Michael Bauschert
+    [text_ausschreibung] => Michael Bauschert
+    [wichtige_infos] => Michael Bauschert
+    [termin] => 06.10.2016
+    [termin_ueberbuchung] => 
+    [termin_ersatz] => 
+    [termin_von] => 15:00
+    [termin_bis] => 17:00
+    [klasse1] => Ja
+    [klasse2] => Ja
+    [max_kinder] => unbegrenzt
+    [betrag_mitglied] => 3
+    [betrag_nicht_mitglied] => 4
+    [ort] => Calw
+    [anzahl_helfer] => 32
+    [ausserdem] => 
+    [check1] => Ja
+    [check2] => Ja
+    [check3] => Ja
+    [check4] => Ja
+    [check5] => Ja
+    [captcha] => true
+    [error] => 
+)
+
+[28-Jun-2016 14:51:02 Europe/Paris] SESSION: Array
+(
+    [speichern] => true
+    [MAX_FILE_SIZE] => 1048576
+    [namen] => Michael Bauschert
+    [verantwortlicher_name] => Michael Bauschert
+    [verantwortlicher_telefon] => 01791354023
+    [verantwortlicher_mail] => michael.bauschert@googlemail.com
+    [ag_name] => Michael Bauschert
+    [text_ausschreibung] => Michael Bauschert
+    [wichtige_infos] => Michael Bauschert
+    [termin] => 06.10.2016
+    [termin_ueberbuchung] => 
+    [termin_ersatz] => 
+    [termin_von] => 15:00
+    [termin_bis] => 17:00
+    [klasse1] => Ja
+    [klasse2] => Ja
+    [max_kinder] => unbegrenzt
+    [betrag_mitglied] => 3
+    [betrag_nicht_mitglied] => 4
+    [ort] => Calw
+    [anzahl_helfer] => 32
+    [ausserdem] => 
+    [check1] => Ja
+    [check2] => Ja
+    [check3] => Ja
+    [check4] => Ja
+    [check5] => Ja
+    [captcha] => true
+    [error] => 
+)
+
+[28-Jun-2016 14:51:02 Europe/Paris] SESSION: Array
+(
+    [speichern] => true
+    [MAX_FILE_SIZE] => 1048576
+    [namen] => Michael Bauschert
+    [verantwortlicher_name] => Michael Bauschert
+    [verantwortlicher_telefon] => 01791354023
+    [verantwortlicher_mail] => michael.bauschert@googlemail.com
+    [ag_name] => Michael Bauschert
+    [text_ausschreibung] => Michael Bauschert
+    [wichtige_infos] => Michael Bauschert
+    [termin] => 06.10.2016
+    [termin_ueberbuchung] => 
+    [termin_ersatz] => 
+    [termin_von] => 15:00
+    [termin_bis] => 17:00
+    [klasse1] => Ja
+    [klasse2] => Ja
+    [max_kinder] => unbegrenzt
+    [betrag_mitglied] => 3
+    [betrag_nicht_mitglied] => 4
+    [ort] => Calw
+    [anzahl_helfer] => 32
+    [ausserdem] => 
+    [check1] => Ja
+    [check2] => Ja
+    [check3] => Ja
+    [check4] => Ja
+    [check5] => Ja
+    [captcha] => true
+    [error] => 
+)
+
+[28-Jun-2016 14:51:02 Europe/Paris] SESSION: Array
+(
+    [speichern] => true
+    [MAX_FILE_SIZE] => 1048576
+    [namen] => Michael Bauschert
+    [verantwortlicher_name] => Michael Bauschert
+    [verantwortlicher_telefon] => 01791354023
+    [verantwortlicher_mail] => michael.bauschert@googlemail.com
+    [ag_name] => Michael Bauschert
+    [text_ausschreibung] => Michael Bauschert
+    [wichtige_infos] => Michael Bauschert
+    [termin] => 06.10.2016
+    [termin_ueberbuchung] => 
+    [termin_ersatz] => 
+    [termin_von] => 15:00
+    [termin_bis] => 17:00
+    [klasse1] => Ja
+    [klasse2] => Ja
+    [max_kinder] => unbegrenzt
+    [betrag_mitglied] => 3
+    [betrag_nicht_mitglied] => 4
+    [ort] => Calw
+    [anzahl_helfer] => 32
+    [ausserdem] => 
+    [check1] => Ja
+    [check2] => Ja
+    [check3] => Ja
+    [check4] => Ja
+    [check5] => Ja
+    [captcha] => true
+    [error] => 
+)
+
+[28-Jun-2016 14:51:13 Europe/Paris] SESSION: Array
+(
+    [speichern] => true
+    [MAX_FILE_SIZE] => 1048576
+    [namen] => Michael Bauschert
+    [verantwortlicher_name] => Michael Bauschert
+    [verantwortlicher_telefon] => 01791354023
+    [verantwortlicher_mail] => michael.bauschert@googlemail.com
+    [ag_name] => Michael Bauschert
+    [text_ausschreibung] => Michael Bauschert
+    [wichtige_infos] => Michael Bauschert
+    [termin] => 06.10.2016
+    [termin_ueberbuchung] => 
+    [termin_ersatz] => 
+    [termin_von] => 15:00
+    [termin_bis] => 17:00
+    [klasse1] => Ja
+    [klasse2] => Ja
+    [max_kinder] => unbegrenzt
+    [betrag_mitglied] => 3
+    [betrag_nicht_mitglied] => 4
+    [ort] => Calw
+    [anzahl_helfer] => 32
+    [ausserdem] => 
+    [check1] => Ja
+    [check2] => Ja
+    [check3] => Ja
+    [check4] => Ja
+    [check5] => Ja
+    [captcha] => true
+    [error] => 
+)
+
+[28-Jun-2016 14:51:17 Europe/Paris] SESSION: Array
+(
+    [speichern] => true
+    [MAX_FILE_SIZE] => 1048576
+    [namen] => Michael Bauschert
+    [verantwortlicher_name] => Michael Bauschert
+    [verantwortlicher_telefon] => 01791354023
+    [verantwortlicher_mail] => michael.bauschert@googlemail.com
+    [ag_name] => Michael Bauschert
+    [text_ausschreibung] => Michael Bauschert
+    [wichtige_infos] => Michael Bauschert
+    [termin] => 06.10.2016
+    [termin_ueberbuchung] => 
+    [termin_ersatz] => 
+    [termin_von] => 15:00
+    [termin_bis] => 17:00
+    [klasse1] => Ja
+    [klasse2] => Ja
+    [max_kinder] => unbegrenzt
+    [betrag_mitglied] => 3
+    [betrag_nicht_mitglied] => 4
+    [ort] => Calw
+    [anzahl_helfer] => 32
+    [ausserdem] => 
+    [check1] => Ja
+    [check2] => Ja
+    [check3] => Ja
+    [check4] => Ja
+    [check5] => Ja
+    [captcha] => true
+    [error] => 
+)
+
+[28-Jun-2016 14:51:30 Europe/Paris] FILES: Array
+(
+    [bild] => Array
+        (
+            [name] => 
+            [type] => 
+            [tmp_name] => 
+            [error] => 4
+            [size] => 0
+        )
+
+)
+
+[28-Jun-2016 14:51:31 Europe/Paris] Send Mail to info@grundschule-aktiv.de Subject: H16: Neue AG AG1 von Michael Bauschert
+[28-Jun-2016 14:51:52 Europe/Paris] Cannot send Mail. Reason: Mailer Error: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+[28-Jun-2016 14:51:52 Europe/Paris] Retry
+[28-Jun-2016 14:52:15 Europe/Paris] Cannot send Mail. Reason: Mailer Error: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+[28-Jun-2016 14:52:15 Europe/Paris] Retry
+[28-Jun-2016 14:52:38 Europe/Paris] Cannot send Mail. Reason: Mailer Error: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+[28-Jun-2016 14:52:38 Europe/Paris] Giving up
+[28-Jun-2016 15:06:59 Europe/Paris] SESSION: Array
+(
+    [speichern] => true
+    [MAX_FILE_SIZE] => 1048576
+    [namen] => Michael Bauschert
+    [verantwortlicher_name] => Michael Bauschert
+    [verantwortlicher_telefon] => 01791354023
+    [verantwortlicher_mail] => michael.bauschert@googlemail.com
+    [ag_name] => Michael Bauschert
+    [text_ausschreibung] => Michael Bauschert
+    [wichtige_infos] => Michael Bauschert
+    [termin] => 06.10.2016
+    [termin_ueberbuchung] => 
+    [termin_ersatz] => 
+    [termin_von] => 15:00
+    [termin_bis] => 17:00
+    [klasse1] => Ja
+    [klasse2] => Ja
+    [max_kinder] => unbegrenzt
+    [betrag_mitglied] => 3
+    [betrag_nicht_mitglied] => 4
+    [ort] => Calw
+    [anzahl_helfer] => 32
+    [ausserdem] => 
+    [check1] => Ja
+    [check2] => Ja
+    [check3] => Ja
+    [check4] => Ja
+    [check5] => Ja
+    [captcha] => true
+    [error] => Falsche Eingabemethode
+)
+
+[28-Jun-2016 15:07:08 Europe/Paris] SESSION: Array
+(
+    [speichern] => true
+    [MAX_FILE_SIZE] => 1048576
+    [namen] => Michael Bauschert
+    [verantwortlicher_name] => Michael Bauschert
+    [verantwortlicher_telefon] => 01791354023
+    [verantwortlicher_mail] => michael.bauschert@googlemail.com
+    [ag_name] => Michael Bauschert
+    [text_ausschreibung] => Michael Bauschert
+    [wichtige_infos] => Michael Bauschert
+    [termin] => 06.10.2016
+    [termin_ueberbuchung] => 
+    [termin_ersatz] => 
+    [termin_von] => 15:00
+    [termin_bis] => 17:00
+    [klasse1] => Ja
+    [klasse2] => Ja
+    [max_kinder] => unbegrenzt
+    [betrag_mitglied] => 3
+    [betrag_nicht_mitglied] => 4
+    [ort] => Calw
+    [anzahl_helfer] => 32
+    [ausserdem] => 
+    [check1] => Ja
+    [check2] => Ja
+    [check3] => Ja
+    [check4] => Ja
+    [check5] => Ja
+    [captcha] => true
+    [error] => Falsche Eingabe
+)
+
+[28-Jun-2016 15:07:53 Europe/Paris] SESSION: Array
+(
+    [speichern] => true
+    [MAX_FILE_SIZE] => 1048576
+    [namen] => Michael Bauschert
+    [verantwortlicher_name] => Michael Bauschert
+    [verantwortlicher_telefon] => 01791354023
+    [verantwortlicher_mail] => michael.bauschert@googlemail.com
+    [ag_name] => Michael Bauschert
+    [text_ausschreibung] => Michael Bauschert
+    [wichtige_infos] => Michael Bauschert
+    [termin] => 06.10.2016
+    [termin_ueberbuchung] => 
+    [termin_ersatz] => 
+    [termin_von] => 15:00
+    [termin_bis] => 17:00
+    [klasse1] => Ja
+    [klasse2] => Ja
+    [max_kinder] => unbegrenzt
+    [betrag_mitglied] => 3
+    [betrag_nicht_mitglied] => 4
+    [ort] => Calw
+    [anzahl_helfer] => 32
+    [ausserdem] => 
+    [check1] => Ja
+    [check2] => Ja
+    [check3] => Ja
+    [check4] => Ja
+    [check5] => Ja
+    [captcha] => true
+    [error] => Falsche Eingabe
+)
+
+[03-Jul-2016 19:22:50 Europe/Paris] FILES: Array
+(
+    [bild] => Array
+        (
+            [name] => 
+            [type] => 
+            [tmp_name] => 
+            [error] => 4
+            [size] => 0
+        )
+
+)
+
+[03-Jul-2016 19:24:18 Europe/Paris] FILES: Array
+(
+    [bild] => Array
+        (
+            [name] => 
+            [type] => 
+            [tmp_name] => 
+            [error] => 4
+            [size] => 0
+        )
+
+)
+
+[03-Jul-2016 19:24:32 Europe/Paris] FILES: Array
+(
+    [bild] => Array
+        (
+            [name] => 
+            [type] => 
+            [tmp_name] => 
+            [error] => 4
+            [size] => 0
+        )
+
+)
+
+[08-Jul-2016 14:09:09 Europe/Paris] Array
+(
+)
+
+[08-Jul-2016 14:09:09 Europe/Paris] row: Array
+(
+    [tage] => -123
+)
+
+[08-Jul-2016 14:09:09 Europe/Paris] row: Array
+(
+    [tage] => -111
+)
+
+[08-Jul-2016 14:09:09 Europe/Paris] row: Array
+(
+    [tage] => -99
+)
+
+[08-Jul-2016 14:09:09 Europe/Paris] row: Array
+(
+    [tage] => -95
+)
+
+[08-Jul-2016 14:09:09 Europe/Paris] row: Array
+(
+    [tage] => -93
+)
+
+[08-Jul-2016 14:09:09 Europe/Paris] row: Array
+(
+    [tage] => -88
+)
+
+[08-Jul-2016 14:09:09 Europe/Paris] row: Array
+(
+    [tage] => -86
+)
+
+[08-Jul-2016 14:09:09 Europe/Paris] row: Array
+(
+    [tage] => -39
+)
+
+[08-Jul-2016 14:09:09 Europe/Paris] row: Array
+(
+    [tage] => -2
+)
+
+[08-Jul-2016 14:09:09 Europe/Paris] row: Array
+(
+    [tage] => -122
+)
+
+[08-Jul-2016 14:09:09 Europe/Paris] row: Array
+(
+    [tage] => -111
+)
+
+[08-Jul-2016 14:09:09 Europe/Paris] row: Array
+(
+    [tage] => -111
+)
+
+[08-Jul-2016 14:09:09 Europe/Paris] row: Array
+(
+    [tage] => -16
+)
+
+[08-Jul-2016 14:09:09 Europe/Paris] row: Array
+(
+    [tage] => -80
+)
+
+[08-Jul-2016 14:09:09 Europe/Paris] row: Array
+(
+    [tage] => -79
+)
+
+[08-Jul-2016 14:09:09 Europe/Paris] row: Array
+(
+    [tage] => -58
+)
+
+[08-Jul-2016 14:09:09 Europe/Paris] row: Array
+(
+    [tage] => -3
+)
+
+[08-Jul-2016 14:09:09 Europe/Paris] row: Array
+(
+    [tage] => -111
+)
+
+[08-Jul-2016 14:09:09 Europe/Paris] row: Array
+(
+    [tage] => -77
+)
+
+[08-Jul-2016 14:09:09 Europe/Paris] row: Array
+(
+    [tage] => -189
+)
+
+[08-Jul-2016 14:09:09 Europe/Paris] row: Array
+(
+    [tage] => -34
+)
+
+[08-Jul-2016 14:09:09 Europe/Paris] row: Array
+(
+    [tage] => -32
+)
+
+[08-Jul-2016 14:09:09 Europe/Paris] row: Array
+(
+    [tage] => -13
+)
+
+[08-Jul-2016 14:09:09 Europe/Paris] row: Array
+(
+    [tage] => -130
+)
+
+[08-Jul-2016 14:09:09 Europe/Paris] row: Array
+(
+    [tage] => -126
+)
+
+[08-Jul-2016 14:09:09 Europe/Paris] row: Array
+(
+    [tage] => -114
+)
+
+[08-Jul-2016 14:09:09 Europe/Paris] row: Array
+(
+    [tage] => -111
+)
+
+[08-Jul-2016 14:09:09 Europe/Paris] row: Array
+(
+    [tage] => -111
+)
+
+[08-Jul-2016 14:09:09 Europe/Paris] row: Array
+(
+    [tage] => -92
+)
+
+[08-Jul-2016 14:09:09 Europe/Paris] row: Array
+(
+    [tage] => -84
+)
+
+[08-Jul-2016 14:09:09 Europe/Paris] row: Array
+(
+    [tage] => -72
+)
+
+[08-Jul-2016 14:09:09 Europe/Paris] row: Array
+(
+    [tage] => -35
+)
+
+[08-Jul-2016 14:09:09 Europe/Paris] row: Array
+(
+    [tage] => -2
+)
+
+[08-Jul-2016 14:09:09 Europe/Paris] row: Array
+(
+    [tage] => -83
+)
+
+[08-Jul-2016 14:09:09 Europe/Paris] row: Array
+(
+    [tage] => -58
+)
+
+[08-Jul-2016 14:09:09 Europe/Paris] row: Array
+(
+    [tage] => -81
+)
+
+[08-Jul-2016 14:11:46 Europe/Paris] Array
+(
+)
+
+[08-Jul-2016 14:11:46 Europe/Paris] row: Array
+(
+    [tage] => -123
+)
+
+[08-Jul-2016 14:11:46 Europe/Paris] row: Array
+(
+    [tage] => -111
+)
+
+[08-Jul-2016 14:11:46 Europe/Paris] row: Array
+(
+    [tage] => 95
+)
+
+[08-Jul-2016 14:11:46 Europe/Paris] row: Array
+(
+    [tage] => -95
+)
+
+[08-Jul-2016 14:11:46 Europe/Paris] row: Array
+(
+    [tage] => -93
+)
+
+[08-Jul-2016 14:11:46 Europe/Paris] row: Array
+(
+    [tage] => -88
+)
+
+[08-Jul-2016 14:11:46 Europe/Paris] row: Array
+(
+    [tage] => -86
+)
+
+[08-Jul-2016 14:11:46 Europe/Paris] row: Array
+(
+    [tage] => -39
+)
+
+[08-Jul-2016 14:11:46 Europe/Paris] row: Array
+(
+    [tage] => -2
+)
+
+[08-Jul-2016 14:11:46 Europe/Paris] row: Array
+(
+    [tage] => -122
+)
+
+[08-Jul-2016 14:11:46 Europe/Paris] row: Array
+(
+    [tage] => -111
+)
+
+[08-Jul-2016 14:11:46 Europe/Paris] row: Array
+(
+    [tage] => -111
+)
+
+[08-Jul-2016 14:11:46 Europe/Paris] row: Array
+(
+    [tage] => -16
+)
+
+[08-Jul-2016 14:11:46 Europe/Paris] row: Array
+(
+    [tage] => -80
+)
+
+[08-Jul-2016 14:11:46 Europe/Paris] row: Array
+(
+    [tage] => -79
+)
+
+[08-Jul-2016 14:11:46 Europe/Paris] row: Array
+(
+    [tage] => -58
+)
+
+[08-Jul-2016 14:11:46 Europe/Paris] row: Array
+(
+    [tage] => -3
+)
+
+[08-Jul-2016 14:11:46 Europe/Paris] row: Array
+(
+    [tage] => -111
+)
+
+[08-Jul-2016 14:11:46 Europe/Paris] row: Array
+(
+    [tage] => -77
+)
+
+[08-Jul-2016 14:11:46 Europe/Paris] row: Array
+(
+    [tage] => 94
+)
+
+[08-Jul-2016 14:11:46 Europe/Paris] row: Array
+(
+    [tage] => -34
+)
+
+[08-Jul-2016 14:11:46 Europe/Paris] row: Array
+(
+    [tage] => -32
+)
+
+[08-Jul-2016 14:11:46 Europe/Paris] row: Array
+(
+    [tage] => -13
+)
+
+[08-Jul-2016 14:11:46 Europe/Paris] row: Array
+(
+    [tage] => -130
+)
+
+[08-Jul-2016 14:11:46 Europe/Paris] row: Array
+(
+    [tage] => -126
+)
+
+[08-Jul-2016 14:11:46 Europe/Paris] row: Array
+(
+    [tage] => -114
+)
+
+[08-Jul-2016 14:11:46 Europe/Paris] row: Array
+(
+    [tage] => -111
+)
+
+[08-Jul-2016 14:11:46 Europe/Paris] row: Array
+(
+    [tage] => -111
+)
+
+[08-Jul-2016 14:11:46 Europe/Paris] row: Array
+(
+    [tage] => 97
+)
+
+[08-Jul-2016 14:11:46 Europe/Paris] row: Array
+(
+    [tage] => -84
+)
+
+[08-Jul-2016 14:11:46 Europe/Paris] row: Array
+(
+    [tage] => -72
+)
+
+[08-Jul-2016 14:11:46 Europe/Paris] row: Array
+(
+    [tage] => -35
+)
+
+[08-Jul-2016 14:11:46 Europe/Paris] row: Array
+(
+    [tage] => -2
+)
+
+[08-Jul-2016 14:11:46 Europe/Paris] row: Array
+(
+    [tage] => -83
+)
+
+[08-Jul-2016 14:11:46 Europe/Paris] row: Array
+(
+    [tage] => -58
+)
+
+[08-Jul-2016 14:11:46 Europe/Paris] row: Array
+(
+    [tage] => -81
+)
+
+[08-Jul-2016 16:13:23 Europe/Paris] Array
+(
+)
+
+[08-Jul-2016 16:13:23 Europe/Paris] row: Array
+(
+    [tage] => -123
+)
+
+[08-Jul-2016 16:13:23 Europe/Paris] row: Array
+(
+    [tage] => -111
+)
+
+[08-Jul-2016 16:13:23 Europe/Paris] row: Array
+(
+    [tage] => 95
+)
+
+[08-Jul-2016 16:13:23 Europe/Paris] row: Array
+(
+    [tage] => -95
+)
+
+[08-Jul-2016 16:13:23 Europe/Paris] row: Array
+(
+    [tage] => -93
+)
+
+[08-Jul-2016 16:13:23 Europe/Paris] row: Array
+(
+    [tage] => -88
+)
+
+[08-Jul-2016 16:13:23 Europe/Paris] row: Array
+(
+    [tage] => -86
+)
+
+[08-Jul-2016 16:13:23 Europe/Paris] row: Array
+(
+    [tage] => -39
+)
+
+[08-Jul-2016 16:13:23 Europe/Paris] row: Array
+(
+    [tage] => -2
+)
+
+[08-Jul-2016 16:13:23 Europe/Paris] row: Array
+(
+    [tage] => -122
+)
+
+[08-Jul-2016 16:13:23 Europe/Paris] row: Array
+(
+    [tage] => -111
+)
+
+[08-Jul-2016 16:13:23 Europe/Paris] row: Array
+(
+    [tage] => -111
+)
+
+[08-Jul-2016 16:13:23 Europe/Paris] row: Array
+(
+    [tage] => -16
+)
+
+[08-Jul-2016 16:13:23 Europe/Paris] row: Array
+(
+    [tage] => -80
+)
+
+[08-Jul-2016 16:13:23 Europe/Paris] row: Array
+(
+    [tage] => -79
+)
+
+[08-Jul-2016 16:13:23 Europe/Paris] row: Array
+(
+    [tage] => -58
+)
+
+[08-Jul-2016 16:13:23 Europe/Paris] row: Array
+(
+    [tage] => -3
+)
+
+[08-Jul-2016 16:13:23 Europe/Paris] row: Array
+(
+    [tage] => -111
+)
+
+[08-Jul-2016 16:13:23 Europe/Paris] row: Array
+(
+    [tage] => -77
+)
+
+[08-Jul-2016 16:13:23 Europe/Paris] row: Array
+(
+    [tage] => 94
+)
+
+[08-Jul-2016 16:13:23 Europe/Paris] row: Array
+(
+    [tage] => -34
+)
+
+[08-Jul-2016 16:13:23 Europe/Paris] row: Array
+(
+    [tage] => -32
+)
+
+[08-Jul-2016 16:13:23 Europe/Paris] row: Array
+(
+    [tage] => -13
+)
+
+[08-Jul-2016 16:13:23 Europe/Paris] row: Array
+(
+    [tage] => -130
+)
+
+[08-Jul-2016 16:13:23 Europe/Paris] row: Array
+(
+    [tage] => -126
+)
+
+[08-Jul-2016 16:13:23 Europe/Paris] row: Array
+(
+    [tage] => -114
+)
+
+[08-Jul-2016 16:13:23 Europe/Paris] row: Array
+(
+    [tage] => -111
+)
+
+[08-Jul-2016 16:13:23 Europe/Paris] row: Array
+(
+    [tage] => -111
+)
+
+[08-Jul-2016 16:13:23 Europe/Paris] row: Array
+(
+    [tage] => 97
+)
+
+[08-Jul-2016 16:13:23 Europe/Paris] row: Array
+(
+    [tage] => -84
+)
+
+[08-Jul-2016 16:13:23 Europe/Paris] row: Array
+(
+    [tage] => -72
+)
+
+[08-Jul-2016 16:13:23 Europe/Paris] row: Array
+(
+    [tage] => -35
+)
+
+[08-Jul-2016 16:13:23 Europe/Paris] row: Array
+(
+    [tage] => -2
+)
+
+[08-Jul-2016 16:13:23 Europe/Paris] row: Array
+(
+    [tage] => -83
+)
+
+[08-Jul-2016 16:13:23 Europe/Paris] row: Array
+(
+    [tage] => -58
+)
+
+[08-Jul-2016 16:13:23 Europe/Paris] row: Array
+(
+    [tage] => -81
+)
+
+[11-Jul-2016 14:07:30 Europe/Paris] New Fingerprint: Array
+(
+    [F1603] => binDabei
+    [F1620] => binDabei
+    [F1629] => binDabei
+    [Kenntnis] => Ja
+    [bilder] => Ja
+    [bootstrap] => true
+    [direkt_eingabe] => 0
+    [geprueft] => 0
+    [html] => false
+    [ideeFuerNeueAG] => Ag2
+    [klasse] => GFK
+    [mail] => michael.bauschert@googlemail.com
+    [mitglied] => ja
+    [mithilfeBeiAktuellerAG] => Ag1
+    [nachname] => Bauschert
+    [sendConfirmation] => Ja
+    [summe] => 17,50
+    [telefon] => 01791354023
+    [vorname] => Michael
+)
+
+[11-Jul-2016 14:07:30 Europe/Paris] Session: Array
+(
+    [AnmeldungsId] => AG1601_LVZQCU
+    [direkt_eingabe] => 0
+    [geprueft] => 0
+    [klasseFuerFilter] => GFK
+    [filterKlassen] => 
+    [fingerprint] => Array
+(
+    [F1603] => binDabei
+    [F1620] => binDabei
+    [F1629] => binDabei
+    [Kenntnis] => Ja
+    [bilder] => Ja
+    [bootstrap] => true
+    [direkt_eingabe] => 0
+    [geprueft] => 0
+    [html] => false
+    [ideeFuerNeueAG] => Ag2
+    [klasse] => GFK
+    [mail] => michael.bauschert@googlemail.com
+    [mitglied] => ja
+    [mithilfeBeiAktuellerAG] => Ag1
+    [nachname] => Bauschert
+    [sendConfirmation] => Ja
+    [summe] => 17,50
+    [telefon] => 01791354023
+    [vorname] => Michael
+)
+
+    [summe] => 17,50
+    [html] => false
+    [bootstrap] => true
+    [vorname] => Michael
+    [nachname] => Bauschert
+    [telefon] => 01791354023
+    [mail] => michael.bauschert@googlemail.com
+    [klasse] => GFK
+    [mitglied] => ja
+    [F1603] => binDabei
+    [F1620] => binDabei
+    [F1629] => binDabei
+    [bilder] => Ja
+    [sendConfirmation] => Ja
+    [mithilfeBeiAktuellerAG] => Ag1
+    [ideeFuerNeueAG] => Ag2
+    [Kenntnis] => Ja
+)
+
+[11-Jul-2016 14:07:49 Europe/Paris] New Fingerprint: Array
+(
+    [F1603] => binDabei
+    [F1620] => binDabei
+    [F1629] => binDabei
+    [Kenntnis] => Ja
+    [bilder] => Ja
+    [bootstrap] => true
+    [direkt_eingabe] => 0
+    [geprueft] => 0
+    [html] => false
+    [ideeFuerNeueAG] => Ag2
+    [klasse] => GFK
+    [mail] => michael.bauschert@googlemail.com
+    [mitglied] => ja
+    [mithilfeBeiAktuellerAG] => Ag1
+    [nachname] => Bauschert
+    [sendConfirmation] => Ja
+    [summe] => 17,50
+    [telefon] => 01791354023
+    [vorname] => Michael
+)
+
+[11-Jul-2016 14:07:49 Europe/Paris] Session: Array
+(
+    [AnmeldungsId] => AG1601_LVZQCU
+    [direkt_eingabe] => 0
+    [geprueft] => 0
+    [klasseFuerFilter] => GFK
+    [filterKlassen] => 
+    [fingerprint] => Array
+(
+    [F1603] => binDabei
+    [F1620] => binDabei
+    [F1629] => binDabei
+    [Kenntnis] => Ja
+    [bilder] => Ja
+    [bootstrap] => true
+    [direkt_eingabe] => 0
+    [geprueft] => 0
+    [html] => false
+    [ideeFuerNeueAG] => Ag2
+    [klasse] => GFK
+    [mail] => michael.bauschert@googlemail.com
+    [mitglied] => ja
+    [mithilfeBeiAktuellerAG] => Ag1
+    [nachname] => Bauschert
+    [sendConfirmation] => Ja
+    [summe] => 17,50
+    [telefon] => 01791354023
+    [vorname] => Michael
+)
+
+    [summe] => 17,50
+    [html] => false
+    [bootstrap] => true
+    [vorname] => Michael
+    [nachname] => Bauschert
+    [telefon] => 01791354023
+    [mail] => michael.bauschert@googlemail.com
+    [klasse] => GFK
+    [mitglied] => ja
+    [F1603] => binDabei
+    [F1620] => binDabei
+    [F1629] => binDabei
+    [bilder] => Ja
+    [sendConfirmation] => Ja
+    [mithilfeBeiAktuellerAG] => Ag1
+    [ideeFuerNeueAG] => Ag2
+    [Kenntnis] => Ja
+)
+
+[11-Jul-2016 14:07:56 Europe/Paris] New Fingerprint: Array
+(
+    [F1603] => binDabei
+    [F1620] => binDabei
+    [F1629] => binDabei
+    [Kenntnis] => Ja
+    [bilder] => Ja
+    [bootstrap] => true
+    [direkt_eingabe] => 0
+    [geprueft] => 0
+    [html] => false
+    [ideeFuerNeueAG] => Ag2
+    [klasse] => GFK
+    [mail] => michael.bauschert@googlemail.com
+    [mitglied] => ja
+    [mithilfeBeiAktuellerAG] => Ag1
+    [nachname] => Bauschert
+    [sendConfirmation] => Ja
+    [summe] => 17,50
+    [telefon] => 01791354023
+    [vorname] => Michael
+)
+
+[11-Jul-2016 14:07:56 Europe/Paris] Session: Array
+(
+    [AnmeldungsId] => AG1601_LVZQCU
+    [direkt_eingabe] => 0
+    [geprueft] => 0
+    [klasseFuerFilter] => GFK
+    [filterKlassen] => 
+    [fingerprint] => Array
+(
+    [F1603] => binDabei
+    [F1620] => binDabei
+    [F1629] => binDabei
+    [Kenntnis] => Ja
+    [bilder] => Ja
+    [bootstrap] => true
+    [direkt_eingabe] => 0
+    [geprueft] => 0
+    [html] => false
+    [ideeFuerNeueAG] => Ag2
+    [klasse] => GFK
+    [mail] => michael.bauschert@googlemail.com
+    [mitglied] => ja
+    [mithilfeBeiAktuellerAG] => Ag1
+    [nachname] => Bauschert
+    [sendConfirmation] => Ja
+    [summe] => 17,50
+    [telefon] => 01791354023
+    [vorname] => Michael
+)
+
+    [summe] => 17,50
+    [html] => false
+    [bootstrap] => true
+    [vorname] => Michael
+    [nachname] => Bauschert
+    [telefon] => 01791354023
+    [mail] => michael.bauschert@googlemail.com
+    [klasse] => GFK
+    [mitglied] => ja
+    [F1603] => binDabei
+    [F1620] => binDabei
+    [F1629] => binDabei
+    [bilder] => Ja
+    [sendConfirmation] => Ja
+    [mithilfeBeiAktuellerAG] => Ag1
+    [ideeFuerNeueAG] => Ag2
+    [Kenntnis] => Ja
+)
+
+[11-Jul-2016 14:08:24 Europe/Paris] New Fingerprint: Array
+(
+    [F1603] => binDabei
+    [F1620] => binDabei
+    [F1629] => binDabei
+    [Kenntnis] => Ja
+    [bilder] => Ja
+    [bootstrap] => true
+    [direkt_eingabe] => 0
+    [geprueft] => 0
+    [html] => false
+    [ideeFuerNeueAG] => Ag2
+    [klasse] => GFK
+    [mail] => michael.bauschert@googlemail.com
+    [mitglied] => ja
+    [mithilfeBeiAktuellerAG] => Ag1
+    [nachname] => Bauschert
+    [sendConfirmation] => Ja
+    [summe] => 17,50
+    [telefon] => 01791354023
+    [vorname] => Michael
+)
+
+[11-Jul-2016 14:08:24 Europe/Paris] Session: Array
+(
+    [AnmeldungsId] => AG1601_LVZQCU
+    [direkt_eingabe] => 0
+    [geprueft] => 0
+    [klasseFuerFilter] => GFK
+    [filterKlassen] => 
+    [fingerprint] => Array
+(
+    [F1603] => binDabei
+    [F1620] => binDabei
+    [F1629] => binDabei
+    [Kenntnis] => Ja
+    [bilder] => Ja
+    [bootstrap] => true
+    [direkt_eingabe] => 0
+    [geprueft] => 0
+    [html] => false
+    [ideeFuerNeueAG] => Ag2
+    [klasse] => GFK
+    [mail] => michael.bauschert@googlemail.com
+    [mitglied] => ja
+    [mithilfeBeiAktuellerAG] => Ag1
+    [nachname] => Bauschert
+    [sendConfirmation] => Ja
+    [summe] => 17,50
+    [telefon] => 01791354023
+    [vorname] => Michael
+)
+
+    [summe] => 17,50
+    [html] => false
+    [bootstrap] => true
+    [vorname] => Michael
+    [nachname] => Bauschert
+    [telefon] => 01791354023
+    [mail] => michael.bauschert@googlemail.com
+    [klasse] => GFK
+    [mitglied] => ja
+    [F1603] => binDabei
+    [F1620] => binDabei
+    [F1629] => binDabei
+    [bilder] => Ja
+    [sendConfirmation] => Ja
+    [mithilfeBeiAktuellerAG] => Ag1
+    [ideeFuerNeueAG] => Ag2
+    [Kenntnis] => Ja
+)
+
+[11-Jul-2016 14:09:54 Europe/Paris] New Fingerprint: Array
+(
+    [F1603] => binDabei
+    [F1620] => binDabei
+    [F1629] => binDabei
+    [Kenntnis] => Ja
+    [bilder] => Ja
+    [bootstrap] => true
+    [direkt_eingabe] => 0
+    [geprueft] => 0
+    [html] => false
+    [ideeFuerNeueAG] => Ag2
+    [klasse] => GFK
+    [mail] => michael.bauschert@googlemail.com
+    [mitglied] => ja
+    [mithilfeBeiAktuellerAG] => Ag1
+    [nachname] => Bauschert
+    [sendConfirmation] => Ja
+    [summe] => 17,50
+    [telefon] => 01791354023
+    [vorname] => Michael
+)
+
+[11-Jul-2016 14:09:54 Europe/Paris] Session: Array
+(
+    [AnmeldungsId] => AG1601_LVZQCU
+    [direkt_eingabe] => 0
+    [geprueft] => 0
+    [klasseFuerFilter] => GFK
+    [filterKlassen] => 
+    [fingerprint] => Array
+(
+    [F1603] => binDabei
+    [F1620] => binDabei
+    [F1629] => binDabei
+    [Kenntnis] => Ja
+    [bilder] => Ja
+    [bootstrap] => true
+    [direkt_eingabe] => 0
+    [geprueft] => 0
+    [html] => false
+    [ideeFuerNeueAG] => Ag2
+    [klasse] => GFK
+    [mail] => michael.bauschert@googlemail.com
+    [mitglied] => ja
+    [mithilfeBeiAktuellerAG] => Ag1
+    [nachname] => Bauschert
+    [sendConfirmation] => Ja
+    [summe] => 17,50
+    [telefon] => 01791354023
+    [vorname] => Michael
+)
+
+    [summe] => 17,50
+    [html] => false
+    [bootstrap] => true
+    [vorname] => Michael
+    [nachname] => Bauschert
+    [telefon] => 01791354023
+    [mail] => michael.bauschert@googlemail.com
+    [klasse] => GFK
+    [mitglied] => ja
+    [F1603] => binDabei
+    [F1620] => binDabei
+    [F1629] => binDabei
+    [bilder] => Ja
+    [sendConfirmation] => Ja
+    [mithilfeBeiAktuellerAG] => Ag1
+    [ideeFuerNeueAG] => Ag2
+    [Kenntnis] => Ja
+)
+
+[11-Jul-2016 14:10:05 Europe/Paris] New Fingerprint: Array
+(
+    [F1603] => binDabei
+    [F1620] => binDabei
+    [F1629] => binDabei
+    [Kenntnis] => Ja
+    [bilder] => Ja
+    [bootstrap] => true
+    [direkt_eingabe] => 0
+    [geprueft] => 0
+    [html] => false
+    [ideeFuerNeueAG] => Ag2
+    [klasse] => GFK
+    [mail] => michael.bauschert@googlemail.com
+    [mitglied] => ja
+    [mithilfeBeiAktuellerAG] => Ag1
+    [nachname] => Bauschert
+    [sendConfirmation] => Ja
+    [summe] => 17,50
+    [telefon] => 01791354023
+    [vorname] => Michael
+)
+
+[11-Jul-2016 14:10:05 Europe/Paris] Session: Array
+(
+    [AnmeldungsId] => AG1601_LVZQCU
+    [direkt_eingabe] => 0
+    [geprueft] => 0
+    [klasseFuerFilter] => GFK
+    [filterKlassen] => 
+    [fingerprint] => Array
+(
+    [F1603] => binDabei
+    [F1620] => binDabei
+    [F1629] => binDabei
+    [Kenntnis] => Ja
+    [bilder] => Ja
+    [bootstrap] => true
+    [direkt_eingabe] => 0
+    [geprueft] => 0
+    [html] => false
+    [ideeFuerNeueAG] => Ag2
+    [klasse] => GFK
+    [mail] => michael.bauschert@googlemail.com
+    [mitglied] => ja
+    [mithilfeBeiAktuellerAG] => Ag1
+    [nachname] => Bauschert
+    [sendConfirmation] => Ja
+    [summe] => 17,50
+    [telefon] => 01791354023
+    [vorname] => Michael
+)
+
+    [summe] => 17,50
+    [html] => false
+    [bootstrap] => true
+    [vorname] => Michael
+    [nachname] => Bauschert
+    [telefon] => 01791354023
+    [mail] => michael.bauschert@googlemail.com
+    [klasse] => GFK
+    [mitglied] => ja
+    [F1603] => binDabei
+    [F1620] => binDabei
+    [F1629] => binDabei
+    [bilder] => Ja
+    [sendConfirmation] => Ja
+    [mithilfeBeiAktuellerAG] => Ag1
+    [ideeFuerNeueAG] => Ag2
+    [Kenntnis] => Ja
+)
+
+[11-Jul-2016 14:10:07 Europe/Paris] New Fingerprint: Array
+(
+    [F1603] => binDabei
+    [F1620] => binDabei
+    [F1629] => binDabei
+    [Kenntnis] => Ja
+    [bilder] => Ja
+    [bootstrap] => true
+    [direkt_eingabe] => 0
+    [geprueft] => 0
+    [html] => false
+    [ideeFuerNeueAG] => Ag2
+    [klasse] => GFK
+    [mail] => michael.bauschert@googlemail.com
+    [mitglied] => ja
+    [mithilfeBeiAktuellerAG] => Ag1
+    [nachname] => Bauschert
+    [sendConfirmation] => Ja
+    [summe] => 17,50
+    [telefon] => 01791354023
+    [vorname] => Michael
+)
+
+[11-Jul-2016 14:10:07 Europe/Paris] Session: Array
+(
+    [AnmeldungsId] => AG1601_LVZQCU
+    [direkt_eingabe] => 0
+    [geprueft] => 0
+    [klasseFuerFilter] => GFK
+    [filterKlassen] => 
+    [fingerprint] => Array
+(
+    [F1603] => binDabei
+    [F1620] => binDabei
+    [F1629] => binDabei
+    [Kenntnis] => Ja
+    [bilder] => Ja
+    [bootstrap] => true
+    [direkt_eingabe] => 0
+    [geprueft] => 0
+    [html] => false
+    [ideeFuerNeueAG] => Ag2
+    [klasse] => GFK
+    [mail] => michael.bauschert@googlemail.com
+    [mitglied] => ja
+    [mithilfeBeiAktuellerAG] => Ag1
+    [nachname] => Bauschert
+    [sendConfirmation] => Ja
+    [summe] => 17,50
+    [telefon] => 01791354023
+    [vorname] => Michael
+)
+
+    [summe] => 17,50
+    [html] => false
+    [bootstrap] => true
+    [vorname] => Michael
+    [nachname] => Bauschert
+    [telefon] => 01791354023
+    [mail] => michael.bauschert@googlemail.com
+    [klasse] => GFK
+    [mitglied] => ja
+    [F1603] => binDabei
+    [F1620] => binDabei
+    [F1629] => binDabei
+    [bilder] => Ja
+    [sendConfirmation] => Ja
+    [mithilfeBeiAktuellerAG] => Ag1
+    [ideeFuerNeueAG] => Ag2
+    [Kenntnis] => Ja
+)
+
+[11-Jul-2016 14:10:21 Europe/Paris] New Fingerprint: Array
+(
+    [F1603] => binDabei
+    [F1620] => binDabei
+    [F1629] => binDabei
+    [Kenntnis] => Ja
+    [bilder] => Ja
+    [bootstrap] => true
+    [direkt_eingabe] => 0
+    [geprueft] => 0
+    [html] => false
+    [ideeFuerNeueAG] => Ag2
+    [klasse] => GFK
+    [mail] => michael.bauschert@googlemail.com
+    [mitglied] => ja
+    [mithilfeBeiAktuellerAG] => Ag1
+    [nachname] => Bauschert
+    [sendConfirmation] => Ja
+    [summe] => 17,50
+    [telefon] => 01791354023
+    [vorname] => Michael
+)
+
+[11-Jul-2016 14:10:21 Europe/Paris] Session: Array
+(
+    [AnmeldungsId] => AG1601_LVZQCU
+    [direkt_eingabe] => 0
+    [geprueft] => 0
+    [klasseFuerFilter] => GFK
+    [filterKlassen] => 
+    [fingerprint] => Array
+(
+    [F1603] => binDabei
+    [F1620] => binDabei
+    [F1629] => binDabei
+    [Kenntnis] => Ja
+    [bilder] => Ja
+    [bootstrap] => true
+    [direkt_eingabe] => 0
+    [geprueft] => 0
+    [html] => false
+    [ideeFuerNeueAG] => Ag2
+    [klasse] => GFK
+    [mail] => michael.bauschert@googlemail.com
+    [mitglied] => ja
+    [mithilfeBeiAktuellerAG] => Ag1
+    [nachname] => Bauschert
+    [sendConfirmation] => Ja
+    [summe] => 17,50
+    [telefon] => 01791354023
+    [vorname] => Michael
+)
+
+    [summe] => 17,50
+    [html] => false
+    [bootstrap] => true
+    [vorname] => Michael
+    [nachname] => Bauschert
+    [telefon] => 01791354023
+    [mail] => michael.bauschert@googlemail.com
+    [klasse] => GFK
+    [mitglied] => ja
+    [F1603] => binDabei
+    [F1620] => binDabei
+    [F1629] => binDabei
+    [bilder] => Ja
+    [sendConfirmation] => Ja
+    [mithilfeBeiAktuellerAG] => Ag1
+    [ideeFuerNeueAG] => Ag2
+    [Kenntnis] => Ja
+)
+
+[11-Jul-2016 14:10:22 Europe/Paris] New Fingerprint: Array
+(
+    [F1603] => binDabei
+    [F1620] => binDabei
+    [F1629] => binDabei
+    [Kenntnis] => Ja
+    [bilder] => Ja
+    [bootstrap] => true
+    [direkt_eingabe] => 0
+    [geprueft] => 0
+    [html] => false
+    [ideeFuerNeueAG] => Ag2
+    [klasse] => GFK
+    [mail] => michael.bauschert@googlemail.com
+    [mitglied] => ja
+    [mithilfeBeiAktuellerAG] => Ag1
+    [nachname] => Bauschert
+    [sendConfirmation] => Ja
+    [summe] => 17,50
+    [telefon] => 01791354023
+    [vorname] => Michael
+)
+
+[11-Jul-2016 14:10:22 Europe/Paris] Session: Array
+(
+    [AnmeldungsId] => AG1601_LVZQCU
+    [direkt_eingabe] => 0
+    [geprueft] => 0
+    [klasseFuerFilter] => GFK
+    [filterKlassen] => 
+    [fingerprint] => Array
+(
+    [F1603] => binDabei
+    [F1620] => binDabei
+    [F1629] => binDabei
+    [Kenntnis] => Ja
+    [bilder] => Ja
+    [bootstrap] => true
+    [direkt_eingabe] => 0
+    [geprueft] => 0
+    [html] => false
+    [ideeFuerNeueAG] => Ag2
+    [klasse] => GFK
+    [mail] => michael.bauschert@googlemail.com
+    [mitglied] => ja
+    [mithilfeBeiAktuellerAG] => Ag1
+    [nachname] => Bauschert
+    [sendConfirmation] => Ja
+    [summe] => 17,50
+    [telefon] => 01791354023
+    [vorname] => Michael
+)
+
+    [summe] => 17,50
+    [html] => false
+    [bootstrap] => true
+    [vorname] => Michael
+    [nachname] => Bauschert
+    [telefon] => 01791354023
+    [mail] => michael.bauschert@googlemail.com
+    [klasse] => GFK
+    [mitglied] => ja
+    [F1603] => binDabei
+    [F1620] => binDabei
+    [F1629] => binDabei
+    [bilder] => Ja
+    [sendConfirmation] => Ja
+    [mithilfeBeiAktuellerAG] => Ag1
+    [ideeFuerNeueAG] => Ag2
+    [Kenntnis] => Ja
+)
+
+[11-Jul-2016 14:17:47 Europe/Paris] New Fingerprint: Array
+(
+    [F1603] => binDabei
+    [F1620] => binDabei
+    [Kenntnis] => Ja
+    [bilder] => Ja
+    [bootstrap] => true
+    [direkt_eingabe] => 0
+    [geprueft] => 0
+    [html] => false
+    [ideeFuerNeueAG] => Ag2
+    [klasse] => 2a
+    [mail] => michael.bauschert@googlemail.com
+    [mitglied] => ja
+    [mithilfeBeiAktuellerAG] => Ag1
+    [nachname] => Bauschert
+    [sendConfirmation] => Ja
+    [summe] => 13,00
+    [telefon] => 01791354023
+    [vorname] => Michael
+)
+
+[11-Jul-2016 14:17:47 Europe/Paris] Session: Array
+(
+    [AnmeldungsId] => 
+    [direkt_eingabe] => 0
+    [geprueft] => 0
+    [klasseFuerFilter] => 2
+    [filterKlassen] => 
+    [fingerprint] => 
+    [summe] => 13,00
+    [html] => false
+    [bootstrap] => true
+    [vorname] => Michael
+    [nachname] => Bauschert
+    [telefon] => 01791354023
+    [mail] => michael.bauschert@googlemail.com
+    [klasse] => 2a
+    [mitglied] => ja
+    [F1603] => binDabei
+    [F1620] => binDabei
+    [bilder] => Ja
+    [sendConfirmation] => Ja
+    [mithilfeBeiAktuellerAG] => Ag1
+    [ideeFuerNeueAG] => Ag2
+    [Kenntnis] => Ja
+)
+
+[11-Jul-2016 14:18:25 Europe/Paris] New Fingerprint: Array
+(
+    [F1603] => binDabei
+    [F1620] => binDabei
+    [Kenntnis] => Ja
+    [bilder] => Ja
+    [bootstrap] => true
+    [direkt_eingabe] => 0
+    [geprueft] => 0
+    [html] => false
+    [ideeFuerNeueAG] => Ag2
+    [insert_result] => AgInsertResult Object
+        (
+            [created] => 1
+            [name] => Michael Bauschert
+            [klasse] => 2a
+            [mail] => michael.bauschert@googlemail.com
+            [anmeldeNummer] => AG1601_KMLERX
+        )
+
+    [klasse] => 2a
+    [mail] => michael.bauschert@googlemail.com
+    [mitglied] => ja
+    [mithilfeBeiAktuellerAG] => Ag1
+    [nachname] => Bauschert
+    [sendConfirmation] => Ja
+    [summe] => 13,00
+    [telefon] => 01791354023
+    [vorname] => Michael
+)
+
+[11-Jul-2016 14:18:25 Europe/Paris] Session: Array
+(
+    [AnmeldungsId] => AG1601_KMLERX
+    [direkt_eingabe] => 0
+    [geprueft] => 0
+    [klasseFuerFilter] => 2
+    [filterKlassen] => 
+    [fingerprint] => Array
+(
+    [F1603] => binDabei
+    [F1620] => binDabei
+    [Kenntnis] => Ja
+    [bilder] => Ja
+    [bootstrap] => true
+    [direkt_eingabe] => 0
+    [geprueft] => 0
+    [html] => false
+    [ideeFuerNeueAG] => Ag2
+    [klasse] => 2a
+    [mail] => michael.bauschert@googlemail.com
+    [mitglied] => ja
+    [mithilfeBeiAktuellerAG] => Ag1
+    [nachname] => Bauschert
+    [sendConfirmation] => Ja
+    [summe] => 13,00
+    [telefon] => 01791354023
+    [vorname] => Michael
+)
+
+    [summe] => 13,00
+    [html] => false
+    [bootstrap] => true
+    [vorname] => Michael
+    [nachname] => Bauschert
+    [telefon] => 01791354023
+    [mail] => michael.bauschert@googlemail.com
+    [klasse] => 2a
+    [mitglied] => ja
+    [F1603] => binDabei
+    [F1620] => binDabei
+    [bilder] => Ja
+    [sendConfirmation] => Ja
+    [mithilfeBeiAktuellerAG] => Ag1
+    [ideeFuerNeueAG] => Ag2
+    [Kenntnis] => Ja
+    [insert_result] => AgInsertResult Object
+        (
+            [created] => 1
+            [name] => Michael Bauschert
+            [klasse] => 2a
+            [mail] => michael.bauschert@googlemail.com
+            [anmeldeNummer] => AG1601_KMLERX
+        )
+
+)
+
+[11-Jul-2016 14:20:18 Europe/Paris] New Fingerprint: Array
+(
+    [F1603] => binDabei
+    [F1620] => binDabei
+    [Kenntnis] => Ja
+    [bilder] => Ja
+    [bootstrap] => 1
+    [direkt_eingabe] => 0
+    [geprueft] => 0
+    [html] => 
+    [ideeFuerNeueAG] => Ag2
+    [klasse] => 2a
+    [mail] => michael.bauschert@googlemail.com
+    [mitglied] => ja
+    [mithilfeBeiAktuellerAG] => Ag1
+    [nachname] => Bauschert
+    [sendConfirmation] => Ja
+    [summe] => 13,00
+    [telefon] => 01791354023
+    [vorname] => Michael
+)
+
+[11-Jul-2016 14:20:18 Europe/Paris] Session: Array
+(
+    [AnmeldungsId] => AG1601_MPOGYU
+    [direkt_eingabe] => 0
+    [geprueft] => 0
+    [klasseFuerFilter] => 2
+    [filterKlassen] => 
+    [fingerprint] => Array
+(
+    [F1603] => binDabei
+    [F1620] => binDabei
+    [Kenntnis] => Ja
+    [bilder] => Ja
+    [bootstrap] => true
+    [direkt_eingabe] => 0
+    [geprueft] => 0
+    [html] => false
+    [ideeFuerNeueAG] => Ag2
+    [insert_result] => AgInsertResult Object
+        (
+            [created] => 1
+            [name] => Michael Bauschert
+            [klasse] => 2a
+            [mail] => michael.bauschert@googlemail.com
+            [anmeldeNummer] => AG1601_KMLERX
+        )
+
+    [klasse] => 2a
+    [mail] => michael.bauschert@googlemail.com
+    [mitglied] => ja
+    [mithilfeBeiAktuellerAG] => Ag1
+    [nachname] => Bauschert
+    [sendConfirmation] => Ja
+    [summe] => 13,00
+    [telefon] => 01791354023
+    [vorname] => Michael
+)
+
+    [summe] => 13,00
+    [html] => 
+    [bootstrap] => 1
+    [vorname] => Michael
+    [nachname] => Bauschert
+    [telefon] => 01791354023
+    [mail] => michael.bauschert@googlemail.com
+    [klasse] => 2a
+    [mitglied] => ja
+    [F1603] => binDabei
+    [F1620] => binDabei
+    [bilder] => Ja
+    [sendConfirmation] => Ja
+    [mithilfeBeiAktuellerAG] => Ag1
+    [ideeFuerNeueAG] => Ag2
+    [Kenntnis] => Ja
+)
+
+[11-Jul-2016 14:21:05 Europe/Paris] New Fingerprint: Array
+(
+    [F1603] => binDabei
+    [F1620] => binDabei
+    [Kenntnis] => Ja
+    [bilder] => Ja
+    [bootstrap] => 1
+    [direkt_eingabe] => 0
+    [geprueft] => 0
+    [html] => 
+    [ideeFuerNeueAG] => Ag2
+    [insert_result] => AgInsertResult Object
+        (
+            [created] => 1
+            [name] => Michael Bauschert
+            [klasse] => 2a
+            [mail] => michael.bauschert@googlemail.com
+            [anmeldeNummer] => AG1601_CSHDBA
+        )
+
+    [klasse] => 2a
+    [mail] => michael.bauschert@googlemail.com
+    [mitglied] => ja
+    [mithilfeBeiAktuellerAG] => Ag1
+    [nachname] => Bauschert
+    [sendConfirmation] => Ja
+    [summe] => 13,00
+    [telefon] => 01791354023
+    [vorname] => Michael
+)
+
+[11-Jul-2016 14:21:05 Europe/Paris] Session: Array
+(
+    [AnmeldungsId] => AG1601_CSHDBA
+    [direkt_eingabe] => 0
+    [geprueft] => 0
+    [klasseFuerFilter] => 2
+    [filterKlassen] => 
+    [fingerprint] => Array
+(
+    [F1603] => binDabei
+    [F1620] => binDabei
+    [Kenntnis] => Ja
+    [bilder] => Ja
+    [bootstrap] => 1
+    [direkt_eingabe] => 0
+    [geprueft] => 0
+    [html] => 
+    [ideeFuerNeueAG] => Ag2
+    [klasse] => 2a
+    [mail] => michael.bauschert@googlemail.com
+    [mitglied] => ja
+    [mithilfeBeiAktuellerAG] => Ag1
+    [nachname] => Bauschert
+    [sendConfirmation] => Ja
+    [summe] => 13,00
+    [telefon] => 01791354023
+    [vorname] => Michael
+)
+
+    [summe] => 13,00
+    [html] => 
+    [bootstrap] => 1
+    [vorname] => Michael
+    [nachname] => Bauschert
+    [telefon] => 01791354023
+    [mail] => michael.bauschert@googlemail.com
+    [klasse] => 2a
+    [mitglied] => ja
+    [F1603] => binDabei
+    [F1620] => binDabei
+    [bilder] => Ja
+    [sendConfirmation] => Ja
+    [mithilfeBeiAktuellerAG] => Ag1
+    [ideeFuerNeueAG] => Ag2
+    [Kenntnis] => Ja
+    [insert_result] => AgInsertResult Object
+        (
+            [created] => 1
+            [name] => Michael Bauschert
+            [klasse] => 2a
+            [mail] => michael.bauschert@googlemail.com
+            [anmeldeNummer] => AG1601_CSHDBA
+        )
+
+)
+
+[14-Jul-2016 11:01:20 Europe/Paris] Array
+(
+)
+
+[14-Jul-2016 11:01:20 Europe/Paris] row: Array
+(
+    [tage] => 82
+)
+
+[14-Jul-2016 11:01:20 Europe/Paris] row: Array
+(
+    [tage] => 83
+)
+
+[14-Jul-2016 11:01:20 Europe/Paris] row: Array
+(
+    [tage] => 84
+)
+
+[14-Jul-2016 11:01:20 Europe/Paris] row: Array
+(
+    [tage] => 88
+)
+
+[14-Jul-2016 11:01:20 Europe/Paris] row: Array
+(
+    [tage] => 90
+)
+
+[14-Jul-2016 11:01:20 Europe/Paris] row: Array
+(
+    [tage] => 90
+)
+
+[14-Jul-2016 11:01:20 Europe/Paris] row: Array
+(
+    [tage] => 91
+)
+
+[14-Jul-2016 11:01:20 Europe/Paris] row: Array
+(
+    [tage] => 94
+)
+
+[14-Jul-2016 11:01:20 Europe/Paris] row: Array
+(
+    [tage] => 96
+)
+
+[14-Jul-2016 11:01:32 Europe/Paris] SESSION: Array
+(
+    [direkt_eingabe] => 0
+    [geprueft] => 0
+)
+
+[14-Jul-2016 11:02:06 Europe/Paris] Array
+(
+)
+
+[14-Jul-2016 11:02:06 Europe/Paris] row: Array
+(
+    [tage] => 82
+)
+
+[14-Jul-2016 11:02:06 Europe/Paris] row: Array
+(
+    [tage] => 83
+)
+
+[14-Jul-2016 11:02:06 Europe/Paris] row: Array
+(
+    [tage] => 84
+)
+
+[14-Jul-2016 11:02:06 Europe/Paris] row: Array
+(
+    [tage] => 88
+)
+
+[14-Jul-2016 11:02:06 Europe/Paris] row: Array
+(
+    [tage] => 90
+)
+
+[14-Jul-2016 11:02:06 Europe/Paris] row: Array
+(
+    [tage] => 90
+)
+
+[14-Jul-2016 11:02:06 Europe/Paris] row: Array
+(
+    [tage] => 91
+)
+
+[14-Jul-2016 11:02:06 Europe/Paris] row: Array
+(
+    [tage] => 94
+)
+
+[14-Jul-2016 11:02:06 Europe/Paris] row: Array
+(
+    [tage] => 96
+)
+
+[24-Jul-2016 07:26:21 Europe/Paris] SESSION: Array
+(
+    [SPRACHE] => deutsch
+    [Sess_Rechte] => |SP|B|CE|CP|EL|LO|SP|SW|SYM|SYMTEST|V|DEV|U|SE|CE|U|SYMADM|SYM|SYMTEST|SYM|EL|EL_TeleLogs|SYM|SYMADM|SYMREPORT|SYMTEST|TELEMATIK_TOOLS_MT_SYNC|TELEMATIK_TOOLS_SYNC_SOFU_PW|
+    [Sess_UserID] => BAUSCMI
+    [Usergruppen] => |AMG_User|Diagnoseautor|DiagPass_Developers|MainAdmin|SymEd_Admin|SymEd_TestUser|SymEd_User|TelematikLogs|
+    [download] => C:\download
+    [Sess_PW] => 47b0b20a60bf6935f2ad8b0fa6099cd1
+    [Email] => actia.bauschert@extaccount.com
+    [Handy] => 
+    [Sess_Time] => 1469006829
+)
+
+[24-Jul-2016 07:26:55 Europe/Paris] FILES: Array
+(
+    [bild] => Array
+        (
+            [name] => 
+            [type] => 
+            [tmp_name] => 
+            [error] => 4
+            [size] => 0
+        )
+
+)
+
+[24-Jul-2016 07:26:55 Europe/Paris] Send Mail to info@grundschule-aktiv.de Subject: H16: Neue AG TEST von Michael Bauschert
+[24-Jul-2016 07:26:58 Europe/Paris] Message sent!
+[24-Jul-2016 07:27:20 Europe/Paris] FILES: Array
+(
+    [bild] => Array
+        (
+            [name] => 
+            [type] => 
+            [tmp_name] => 
+            [error] => 4
+            [size] => 0
+        )
+
+)
+
+[24-Jul-2016 07:27:32 Europe/Paris] FILES: Array
+(
+    [bild] => Array
+        (
+            [name] => 
+            [type] => 
+            [tmp_name] => 
+            [error] => 4
+            [size] => 0
+        )
+
+)
+
+[12-Sep-2016 10:28:24 Europe/Paris] SESSION: Array
+(
+    [direkt_eingabe] => 0
+    [geprueft] => 0
+)
+
+[12-Sep-2016 14:24:36 Europe/Paris] Array
+(
+)
+
+[12-Sep-2016 14:24:36 Europe/Paris] row: Array
+(
+    [tage] => 22
+)
+
+[12-Sep-2016 14:24:36 Europe/Paris] row: Array
+(
+    [tage] => 23
+)
+
+[12-Sep-2016 14:24:36 Europe/Paris] row: Array
+(
+    [tage] => 24
+)
+
+[12-Sep-2016 14:24:36 Europe/Paris] row: Array
+(
+    [tage] => 28
+)
+
+[12-Sep-2016 14:24:36 Europe/Paris] row: Array
+(
+    [tage] => 30
+)
+
+[12-Sep-2016 14:24:36 Europe/Paris] row: Array
+(
+    [tage] => 30
+)
+
+[12-Sep-2016 14:24:36 Europe/Paris] row: Array
+(
+    [tage] => 31
+)
+
+[12-Sep-2016 14:24:36 Europe/Paris] row: Array
+(
+    [tage] => 34
+)
+
+[12-Sep-2016 14:24:37 Europe/Paris] row: Array
+(
+    [tage] => 36
+)
+
+[12-Sep-2016 14:25:50 Europe/Paris] Array
+(
+)
+
+[12-Sep-2016 14:25:50 Europe/Paris] row: Array
+(
+    [tage] => 22
+)
+
+[12-Sep-2016 14:25:50 Europe/Paris] row: Array
+(
+    [tage] => 23
+)
+
+[12-Sep-2016 14:25:50 Europe/Paris] row: Array
+(
+    [tage] => 24
+)
+
+[12-Sep-2016 14:25:50 Europe/Paris] row: Array
+(
+    [tage] => 28
+)
+
+[12-Sep-2016 14:25:50 Europe/Paris] row: Array
+(
+    [tage] => 30
+)
+
+[12-Sep-2016 14:25:50 Europe/Paris] row: Array
+(
+    [tage] => 30
+)
+
+[12-Sep-2016 14:25:50 Europe/Paris] row: Array
+(
+    [tage] => 31
+)
+
+[12-Sep-2016 14:25:50 Europe/Paris] row: Array
+(
+    [tage] => 34
+)
+
+[12-Sep-2016 14:25:50 Europe/Paris] row: Array
+(
+    [tage] => 36
+)
+
+[12-Sep-2016 14:26:00 Europe/Paris] Array
+(
+)
+
+[12-Sep-2016 14:26:00 Europe/Paris] row: Array
+(
+    [tage] => 22
+)
+
+[12-Sep-2016 14:26:00 Europe/Paris] row: Array
+(
+    [tage] => 23
+)
+
+[12-Sep-2016 14:26:00 Europe/Paris] row: Array
+(
+    [tage] => 24
+)
+
+[12-Sep-2016 14:26:00 Europe/Paris] row: Array
+(
+    [tage] => 28
+)
+
+[12-Sep-2016 14:26:00 Europe/Paris] row: Array
+(
+    [tage] => 30
+)
+
+[12-Sep-2016 14:26:00 Europe/Paris] row: Array
+(
+    [tage] => 30
+)
+
+[12-Sep-2016 14:26:00 Europe/Paris] row: Array
+(
+    [tage] => 31
+)
+
+[12-Sep-2016 14:26:00 Europe/Paris] row: Array
+(
+    [tage] => 34
+)
+
+[12-Sep-2016 14:26:00 Europe/Paris] row: Array
+(
+    [tage] => 36
+)
+
+[12-Sep-2016 14:27:41 Europe/Paris] Array
+(
+)
+
+[12-Sep-2016 14:27:41 Europe/Paris] row: Array
+(
+    [tage] => 22
+)
+
+[12-Sep-2016 14:27:41 Europe/Paris] row: Array
+(
+    [tage] => 23
+)
+
+[12-Sep-2016 14:27:41 Europe/Paris] row: Array
+(
+    [tage] => 24
+)
+
+[12-Sep-2016 14:27:41 Europe/Paris] row: Array
+(
+    [tage] => 28
+)
+
+[12-Sep-2016 14:27:41 Europe/Paris] row: Array
+(
+    [tage] => 30
+)
+
+[12-Sep-2016 14:27:41 Europe/Paris] row: Array
+(
+    [tage] => 30
+)
+
+[12-Sep-2016 14:27:41 Europe/Paris] row: Array
+(
+    [tage] => 31
+)
+
+[12-Sep-2016 14:27:41 Europe/Paris] row: Array
+(
+    [tage] => 34
+)
+
+[12-Sep-2016 14:27:41 Europe/Paris] row: Array
+(
+    [tage] => 36
+)
+
+[12-Sep-2016 14:28:06 Europe/Paris] Array
+(
+)
+
+[12-Sep-2016 14:28:06 Europe/Paris] row: Array
+(
+    [tage] => 22
+)
+
+[12-Sep-2016 14:28:06 Europe/Paris] row: Array
+(
+    [tage] => 23
+)
+
+[12-Sep-2016 14:28:06 Europe/Paris] row: Array
+(
+    [tage] => 24
+)
+
+[12-Sep-2016 14:28:06 Europe/Paris] row: Array
+(
+    [tage] => 28
+)
+
+[12-Sep-2016 14:28:06 Europe/Paris] row: Array
+(
+    [tage] => 30
+)
+
+[12-Sep-2016 14:28:06 Europe/Paris] row: Array
+(
+    [tage] => 30
+)
+
+[12-Sep-2016 14:28:06 Europe/Paris] row: Array
+(
+    [tage] => 31
+)
+
+[12-Sep-2016 14:28:06 Europe/Paris] row: Array
+(
+    [tage] => 34
+)
+
+[12-Sep-2016 14:28:06 Europe/Paris] row: Array
+(
+    [tage] => 36
+)
+
+[12-Sep-2016 14:29:33 Europe/Paris] New Fingerprint: Array
+(
+    [H1608] => binDabei
+    [Kenntnis] => on
+    [bootstrap] => 
+    [direkt_eingabe] => 1
+    [geprueft] => 0
+    [html] => 1
+    [ideeFuerNeueAG] => 
+    [keineBilder] => Ja
+    [klasse] => 4a
+    [mail] => michael.bauschert@googlemail.com
+    [mitglied] => ja
+    [mithilfeBeiAktuellerAG] => 
+    [nachname] => Bauschert
+    [sendConfirmation] => Ja
+    [summe] => 3,00
+    [telefon] => 01791354023
+    [vorname] => Marla
+    [wirWollenMitgliedWerden] => Ja
+)
+
+[12-Sep-2016 14:29:33 Europe/Paris] Session: Array
+(
+    [AnmeldungsId] => 
+    [direkt_eingabe] => 1
+    [geprueft] => 0
+    [klasseFuerFilter] => 4
+    [filterKlassen] => 
+    [fingerprint] => 
+    [vorname] => Marla
+    [nachname] => Bauschert
+    [klasse] => 4a
+    [telefon] => 01791354023
+    [mail] => michael.bauschert@googlemail.com
+    [mitglied] => ja
+    [H1608] => binDabei
+    [summe] => 3,00
+    [bootstrap] => 
+    [wirWollenMitgliedWerden] => Ja
+    [keineBilder] => Ja
+    [sendConfirmation] => Ja
+    [mithilfeBeiAktuellerAG] => 
+    [ideeFuerNeueAG] => 
+    [Kenntnis] => on
+    [html] => 1
+)
+
+[12-Sep-2016 14:32:19 Europe/Paris] New Fingerprint: Array
+(
+    [H1608] => binDabei
+    [Kenntnis] => on
+    [bootstrap] => 
+    [direkt_eingabe] => 1
+    [geprueft] => 0
+    [html] => 1
+    [ideeFuerNeueAG] => 
+    [keineBilder] => Ja
+    [klasse] => 4a
+    [mail] => michael.bauschert@googlemail.com
+    [mitglied] => ja
+    [mithilfeBeiAktuellerAG] => 
+    [nachname] => Bauschert
+    [sendConfirmation] => Ja
+    [summe] => 3,00
+    [telefon] => 01791354023
+    [vorname] => Marla
+    [wirWollenMitgliedWerden] => Ja
+)
+
+[12-Sep-2016 14:32:19 Europe/Paris] Session: Array
+(
+    [AnmeldungsId] => AG1601_ZCLQHC
+    [direkt_eingabe] => 1
+    [geprueft] => 0
+    [klasseFuerFilter] => 4
+    [filterKlassen] => 
+    [fingerprint] => Array
+(
+    [H1608] => binDabei
+    [Kenntnis] => on
+    [bootstrap] => 
+    [direkt_eingabe] => 1
+    [geprueft] => 0
+    [html] => 1
+    [ideeFuerNeueAG] => 
+    [keineBilder] => Ja
+    [klasse] => 4a
+    [mail] => michael.bauschert@googlemail.com
+    [mitglied] => ja
+    [mithilfeBeiAktuellerAG] => 
+    [nachname] => Bauschert
+    [sendConfirmation] => Ja
+    [summe] => 3,00
+    [telefon] => 01791354023
+    [vorname] => Marla
+    [wirWollenMitgliedWerden] => Ja
+)
+
+    [vorname] => Marla
+    [nachname] => Bauschert
+    [klasse] => 4a
+    [telefon] => 01791354023
+    [mail] => michael.bauschert@googlemail.com
+    [mitglied] => ja
+    [H1608] => binDabei
+    [summe] => 3,00
+    [bootstrap] => 
+    [wirWollenMitgliedWerden] => Ja
+    [keineBilder] => Ja
+    [sendConfirmation] => Ja
+    [mithilfeBeiAktuellerAG] => 
+    [ideeFuerNeueAG] => 
+    [Kenntnis] => on
+    [html] => 1
+    [insert_result_created] => 1
+    [insert_result_name] => Marla Bauschert
+    [insert_result_id] => AG1601_ZCLQHC
+    [insert_result_klasse] => 4a
+    [insert_result_mail] => michael.bauschert@googlemail.com
+)
+
+[12-Sep-2016 14:32:40 Europe/Paris] New Fingerprint: Array
+(
+    [H1608] => binDabei
+    [Kenntnis] => on
+    [bootstrap] => 
+    [direkt_eingabe] => 1
+    [geprueft] => 0
+    [html] => 1
+    [ideeFuerNeueAG] => 
+    [keineBilder] => Ja
+    [klasse] => 4a
+    [mail] => michael.bauschert@googlemail.com
+    [mitglied] => ja
+    [mithilfeBeiAktuellerAG] => 
+    [nachname] => Bauschert
+    [sendConfirmation] => Ja
+    [summe] => 3,00
+    [telefon] => 01791354023
+    [vorname] => Marla
+    [wirWollenMitgliedWerden] => Ja
+)
+
+[12-Sep-2016 14:32:40 Europe/Paris] Session: Array
+(
+    [AnmeldungsId] => AG1601_ZCLQHC
+    [direkt_eingabe] => 1
+    [geprueft] => 0
+    [klasseFuerFilter] => 4
+    [filterKlassen] => 
+    [fingerprint] => Array
+(
+    [H1608] => binDabei
+    [Kenntnis] => on
+    [bootstrap] => 
+    [direkt_eingabe] => 1
+    [geprueft] => 0
+    [html] => 1
+    [ideeFuerNeueAG] => 
+    [keineBilder] => Ja
+    [klasse] => 4a
+    [mail] => michael.bauschert@googlemail.com
+    [mitglied] => ja
+    [mithilfeBeiAktuellerAG] => 
+    [nachname] => Bauschert
+    [sendConfirmation] => Ja
+    [summe] => 3,00
+    [telefon] => 01791354023
+    [vorname] => Marla
+    [wirWollenMitgliedWerden] => Ja
+)
+
+    [vorname] => Marla
+    [nachname] => Bauschert
+    [klasse] => 4a
+    [telefon] => 01791354023
+    [mail] => michael.bauschert@googlemail.com
+    [mitglied] => ja
+    [H1608] => binDabei
+    [summe] => 3,00
+    [bootstrap] => 
+    [wirWollenMitgliedWerden] => Ja
+    [keineBilder] => Ja
+    [sendConfirmation] => Ja
+    [mithilfeBeiAktuellerAG] => 
+    [ideeFuerNeueAG] => 
+    [Kenntnis] => on
+    [html] => 1
+    [insert_result_created] => 
+    [insert_result_name] => Marla Bauschert
+    [insert_result_id] => AG1601_ZCLQHC
+    [insert_result_klasse] => 4a
+    [insert_result_mail] => michael.bauschert@googlemail.com
+)
+
+[12-Sep-2016 14:32:44 Europe/Paris] New Fingerprint: Array
+(
+    [H1608] => binDabei
+    [Kenntnis] => on
+    [bootstrap] => 
+    [direkt_eingabe] => 1
+    [geprueft] => 0
+    [html] => 1
+    [ideeFuerNeueAG] => 
+    [keineBilder] => Ja
+    [klasse] => 4a
+    [mail] => michael.bauschert@googlemail.com
+    [mitglied] => ja
+    [mithilfeBeiAktuellerAG] => 
+    [nachname] => Bauschert
+    [sendConfirmation] => Ja
+    [summe] => 3,00
+    [telefon] => 01791354023
+    [vorname] => Marla
+    [wirWollenMitgliedWerden] => Ja
+)
+
+[12-Sep-2016 14:32:44 Europe/Paris] Session: Array
+(
+    [AnmeldungsId] => AG1601_ZCLQHC
+    [direkt_eingabe] => 1
+    [geprueft] => 0
+    [klasseFuerFilter] => 4
+    [filterKlassen] => 
+    [fingerprint] => Array
+(
+    [H1608] => binDabei
+    [Kenntnis] => on
+    [bootstrap] => 
+    [direkt_eingabe] => 1
+    [geprueft] => 0
+    [html] => 1
+    [ideeFuerNeueAG] => 
+    [keineBilder] => Ja
+    [klasse] => 4a
+    [mail] => michael.bauschert@googlemail.com
+    [mitglied] => ja
+    [mithilfeBeiAktuellerAG] => 
+    [nachname] => Bauschert
+    [sendConfirmation] => Ja
+    [summe] => 3,00
+    [telefon] => 01791354023
+    [vorname] => Marla
+    [wirWollenMitgliedWerden] => Ja
+)
+
+    [vorname] => Marla
+    [nachname] => Bauschert
+    [klasse] => 4a
+    [telefon] => 01791354023
+    [mail] => michael.bauschert@googlemail.com
+    [mitglied] => ja
+    [H1608] => binDabei
+    [summe] => 3,00
+    [bootstrap] => 
+    [wirWollenMitgliedWerden] => Ja
+    [keineBilder] => Ja
+    [sendConfirmation] => Ja
+    [mithilfeBeiAktuellerAG] => 
+    [ideeFuerNeueAG] => 
+    [Kenntnis] => on
+    [html] => 1
+    [insert_result_created] => 
+    [insert_result_name] => Marla Bauschert
+    [insert_result_id] => AG1601_ZCLQHC
+    [insert_result_klasse] => 4a
+    [insert_result_mail] => michael.bauschert@googlemail.com
+)
+
+[16-Sep-2016 15:16:01 Europe/Paris] Array
+(
+)
+
+[16-Sep-2016 15:16:01 Europe/Paris] row: Array
+(
+    [tage] => 18
+)
+
+[16-Sep-2016 15:16:01 Europe/Paris] row: Array
+(
+    [tage] => 19
+)
+
+[16-Sep-2016 15:16:01 Europe/Paris] row: Array
+(
+    [tage] => 20
+)
+
+[16-Sep-2016 15:16:01 Europe/Paris] row: Array
+(
+    [tage] => 24
+)
+
+[16-Sep-2016 15:16:01 Europe/Paris] row: Array
+(
+    [tage] => 26
+)
+
+[16-Sep-2016 15:16:01 Europe/Paris] row: Array
+(
+    [tage] => 26
+)
+
+[16-Sep-2016 15:16:01 Europe/Paris] row: Array
+(
+    [tage] => 27
+)
+
+[16-Sep-2016 15:16:01 Europe/Paris] row: Array
+(
+    [tage] => 30
+)
+
+[16-Sep-2016 15:16:01 Europe/Paris] row: Array
+(
+    [tage] => 32
+)
+
+[16-Sep-2016 15:16:27 Europe/Paris] Array
+(
+    [AnmeldungsId] => 
+    [direkt_eingabe] => 1
+    [geprueft] => 0
+    [klasseFuerFilter] => 1
+    [filterKlassen] => 
+    [fingerprint] => 
+    [vorname] => Karl
+    [nachname] => Tester
+    [klasse] => 1a
+    [telefon] => 0700
+    [mail] => michael.bauschert@googlemail.com
+    [mitglied] => nein
+    [H1603] => binDabei
+    [summe] => 4,00
+    [bootstrap] => 
+    [mithilfeBeiAktuellerAG] => 
+    [ideeFuerNeueAG] => 
+    [Kenntnis] => on
+    [html] => 1
+)
+
+[16-Sep-2016 15:16:27 Europe/Paris] row: Array
+(
+    [tage] => 18
+)
+
+[16-Sep-2016 15:16:27 Europe/Paris] row: Array
+(
+    [tage] => 19
+)
+
+[16-Sep-2016 15:16:27 Europe/Paris] row: Array
+(
+    [tage] => 20
+)
+
+[16-Sep-2016 15:16:27 Europe/Paris] row: Array
+(
+    [tage] => 24
+)
+
+[16-Sep-2016 15:16:27 Europe/Paris] row: Array
+(
+    [tage] => 26
+)
+
+[16-Sep-2016 15:16:27 Europe/Paris] row: Array
+(
+    [tage] => 26
+)
+
+[16-Sep-2016 15:16:27 Europe/Paris] row: Array
+(
+    [tage] => 27
+)
+
+[16-Sep-2016 15:16:27 Europe/Paris] row: Array
+(
+    [tage] => 30
+)
+
+[16-Sep-2016 15:16:27 Europe/Paris] row: Array
+(
+    [tage] => 32
+)
+
+[16-Sep-2016 15:17:50 Europe/Paris] Array
+(
+    [AnmeldungsId] => 
+    [direkt_eingabe] => 0
+    [geprueft] => 0
+    [klasseFuerFilter] => 1
+    [filterKlassen] => 
+    [fingerprint] => 
+    [vorname] => Karl
+    [nachname] => Tester
+    [klasse] => 1a
+    [telefon] => 0700
+    [mail] => michael.bauschert@googlemail.com
+    [mitglied] => nein
+    [H1603] => binDabei
+    [summe] => 4,00
+    [bootstrap] => 
+    [mithilfeBeiAktuellerAG] => 
+    [ideeFuerNeueAG] => 
+    [Kenntnis] => on
+    [html] => 1
+)
+
+[16-Sep-2016 15:17:50 Europe/Paris] row: Array
+(
+    [tage] => 18
+)
+
+[16-Sep-2016 15:17:50 Europe/Paris] row: Array
+(
+    [tage] => 19
+)
+
+[16-Sep-2016 15:17:50 Europe/Paris] row: Array
+(
+    [tage] => 20
+)
+
+[16-Sep-2016 15:17:50 Europe/Paris] row: Array
+(
+    [tage] => 24
+)
+
+[16-Sep-2016 15:17:50 Europe/Paris] row: Array
+(
+    [tage] => 26
+)
+
+[16-Sep-2016 15:17:50 Europe/Paris] row: Array
+(
+    [tage] => 26
+)
+
+[16-Sep-2016 15:17:50 Europe/Paris] row: Array
+(
+    [tage] => 27
+)
+
+[16-Sep-2016 15:17:50 Europe/Paris] row: Array
+(
+    [tage] => 30
+)
+
+[16-Sep-2016 15:17:50 Europe/Paris] row: Array
+(
+    [tage] => 32
+)
+
+[16-Sep-2016 15:17:57 Europe/Paris] New Fingerprint: Array
+(
+    [H1603] => binDabei
+    [Kenntnis] => on
+    [bootstrap] => 
+    [direkt_eingabe] => 0
+    [geprueft] => 0
+    [html] => 1
+    [ideeFuerNeueAG] => 
+    [klasse] => 1a
+    [mail] => michael.bauschert@googlemail.com
+    [mitglied] => nein
+    [mithilfeBeiAktuellerAG] => 
+    [nachname] => Tester
+    [summe] => 4,00
+    [telefon] => 0700
+    [vorname] => Karl
+    [zahlart] => schule
+)
+
+[16-Sep-2016 15:17:57 Europe/Paris] Session: Array
+(
+    [AnmeldungsId] => 
+    [direkt_eingabe] => 0
+    [geprueft] => 0
+    [klasseFuerFilter] => 1
+    [filterKlassen] => 
+    [fingerprint] => 
+    [vorname] => Karl
+    [nachname] => Tester
+    [klasse] => 1a
+    [telefon] => 0700
+    [mail] => michael.bauschert@googlemail.com
+    [mitglied] => nein
+    [H1603] => binDabei
+    [summe] => 4,00
+    [bootstrap] => 
+    [mithilfeBeiAktuellerAG] => 
+    [ideeFuerNeueAG] => 
+    [Kenntnis] => on
+    [html] => 1
+    [zahlart] => schule
+)
+
+[16-Sep-2016 15:22:48 Europe/Paris] Array
+(
+)
+
+[16-Sep-2016 15:22:53 Europe/Paris] row: Array
+(
+    [tage] => 18
+)
+
+[16-Sep-2016 15:22:53 Europe/Paris] row: Array
+(
+    [tage] => 19
+)
+
+[16-Sep-2016 15:22:53 Europe/Paris] row: Array
+(
+    [tage] => 20
+)
+
+[16-Sep-2016 15:22:53 Europe/Paris] row: Array
+(
+    [tage] => 24
+)
+
+[16-Sep-2016 15:22:53 Europe/Paris] row: Array
+(
+    [tage] => 26
+)
+
+[16-Sep-2016 15:22:53 Europe/Paris] row: Array
+(
+    [tage] => 26
+)
+
+[16-Sep-2016 15:22:53 Europe/Paris] row: Array
+(
+    [tage] => 27
+)
+
+[16-Sep-2016 15:22:53 Europe/Paris] row: Array
+(
+    [tage] => 30
+)
+
+[16-Sep-2016 15:22:53 Europe/Paris] row: Array
+(
+    [tage] => 32
+)
+
+[16-Sep-2016 15:24:40 Europe/Paris] New Fingerprint: Array
+(
+    [H1603] => binDabei
+    [Kenntnis] => on
+    [bootstrap] => 
+    [direkt_eingabe] => 1
+    [geprueft] => 0
+    [html] => 1
+    [ideeFuerNeueAG] => 
+    [klasse] => 1a
+    [mail] => auch keine
+    [mitglied] => nein
+    [mithilfeBeiAktuellerAG] => 
+    [nachname] => Tester1
+    [summe] => 4,00
+    [telefon] => keines 
+    [vorname] => Karl
+    [zahlart] => schule
+)
+
+[16-Sep-2016 15:24:40 Europe/Paris] Session: Array
+(
+    [AnmeldungsId] => 
+    [direkt_eingabe] => 1
+    [geprueft] => 0
+    [klasseFuerFilter] => 1
+    [filterKlassen] => 
+    [fingerprint] => 
+    [vorname] => Karl
+    [nachname] => Tester1
+    [klasse] => 1a
+    [telefon] => keines 
+    [mail] => auch keine
+    [mitglied] => nein
+    [H1603] => binDabei
+    [summe] => 4,00
+    [bootstrap] => 
+    [mithilfeBeiAktuellerAG] => 
+    [ideeFuerNeueAG] => 
+    [Kenntnis] => on
+    [html] => 1
+    [zahlart] => schule
+)
+
+[16-Sep-2016 15:27:32 Europe/Paris] Array
+(
+)
+
+[16-Sep-2016 15:27:32 Europe/Paris] row: Array
+(
+    [tage] => 18
+)
+
+[16-Sep-2016 15:27:32 Europe/Paris] row: Array
+(
+    [tage] => 19
+)
+
+[16-Sep-2016 15:27:32 Europe/Paris] row: Array
+(
+    [tage] => 20
+)
+
+[16-Sep-2016 15:27:32 Europe/Paris] row: Array
+(
+    [tage] => 24
+)
+
+[16-Sep-2016 15:27:32 Europe/Paris] row: Array
+(
+    [tage] => 26
+)
+
+[16-Sep-2016 15:27:32 Europe/Paris] row: Array
+(
+    [tage] => 26
+)
+
+[16-Sep-2016 15:27:32 Europe/Paris] row: Array
+(
+    [tage] => 27
+)
+
+[16-Sep-2016 15:27:32 Europe/Paris] row: Array
+(
+    [tage] => 30
+)
+
+[16-Sep-2016 15:27:32 Europe/Paris] row: Array
+(
+    [tage] => 32
+)
+
+[16-Sep-2016 15:28:05 Europe/Paris] New Fingerprint: Array
+(
+    [H1603] => binDabei
+    [Kenntnis] => on
+    [bootstrap] => 
+    [direkt_eingabe] => 1
+    [geprueft] => 0
+    [html] => 1
+    [ideeFuerNeueAG] => 
+    [klasse] => 1a
+    [mail] => michael.bauschert@googlemail.com
+    [mitglied] => nein
+    [mithilfeBeiAktuellerAG] => 
+    [nachname] => Bauschert123
+    [summe] => 4,00
+    [telefon] => 01791354023
+    [vorname] => Michael
+    [zahlart] => schule
+)
+
+[16-Sep-2016 15:28:05 Europe/Paris] Session: Array
+(
+    [AnmeldungsId] => 
+    [direkt_eingabe] => 1
+    [geprueft] => 0
+    [klasseFuerFilter] => 1
+    [filterKlassen] => 
+    [fingerprint] => 
+    [vorname] => Michael
+    [nachname] => Bauschert123
+    [klasse] => 1a
+    [telefon] => 01791354023
+    [mail] => michael.bauschert@googlemail.com
+    [mitglied] => nein
+    [H1603] => binDabei
+    [summe] => 4,00
+    [bootstrap] => 
+    [mithilfeBeiAktuellerAG] => 
+    [ideeFuerNeueAG] => 
+    [Kenntnis] => on
+    [html] => 1
+    [zahlart] => schule
+)
+
+[11-Oct-2016 12:26:44 Europe/Paris] PHP Fatal error:  Uncaught [42] - SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name' in 'where clause'
+trace: #0 C:\wamp\www\ag\redbean_orm\rb.php(854): RedBeanPHP\Driver\RPDO->runQuery('SELECT `anmeldu...', Array)
+#1 C:\wamp\www\ag\redbean_orm\rb.php(3339): RedBeanPHP\Driver\RPDO->GetAll('SELECT `anmeldu...', Array)
+#2 C:\wamp\www\ag\redbean_orm\rb.php(5049): RedBeanPHP\Adapter\DBAdapter->get('SELECT `anmeldu...', Array)
+#3 C:\wamp\www\ag\redbean_orm\rb.php(7039): RedBeanPHP\QueryWriter\AQueryWriter->queryRecord('anmeldungen_gep...', Array, ' ag_nummer = ? ...', Array)
+#4 C:\wamp\www\ag\redbean_orm\rb.php(8088): RedBeanPHP\Repository->find('anmeldungen_gep...', Array, ' ag_nummer = ? ...', Array)
+#5 C:\wamp\www\ag\redbean_orm\rb.php(8499): RedBeanPHP\OODB->find('anmeldungen_gep...', Array, ' ag_nummer = ? ...', Array)
+#6 C:\wamp\www\ag\redbean_orm\rb.php(10553): RedBeanPHP\Finder->find('anmeldungen_gep...', ' ag_nummer = ? ...', Array)
+#7 C:\wamp\www\ag\model\agModel.php(445): RedBeanPHP\Facade::findAll('anmeldunge in C:\wamp\www\ag\redbean_orm\rb.php on line 692
+[25-Oct-2016 11:38:40 Europe/Paris] Send Mail to michael.bauschert@googlemail.com Subject: Anmeldenummern
+[25-Oct-2016 11:39:01 Europe/Paris] Cannot send Mail. Reason: Mailer Error: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+[25-Oct-2016 11:39:01 Europe/Paris] Retry
+[25-Oct-2016 11:39:25 Europe/Paris] Cannot send Mail. Reason: Mailer Error: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+[25-Oct-2016 11:39:25 Europe/Paris] Retry
+[25-Oct-2016 11:39:48 Europe/Paris] Cannot send Mail. Reason: Mailer Error: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+[25-Oct-2016 11:39:48 Europe/Paris] Giving up
+[25-Oct-2016 11:45:48 Europe/Paris] Send Mail to michael.bauschert@googlemail.com Subject: Anmeldenummern
+[25-Oct-2016 11:45:54 Europe/Paris] Cannot send Mail. Reason: Mailer Error: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+[25-Oct-2016 11:45:54 Europe/Paris] Retry
+[25-Oct-2016 11:45:58 Europe/Paris] Message sent!
+[25-Oct-2016 11:47:38 Europe/Paris] Send Mail to michael.bauschert@googlemail.commm Subject: Anmeldenummern
+[25-Oct-2016 11:47:39 Europe/Paris] Cannot send Mail. Reason: Mailer Error: SMTP Error: The following recipients failed: michael.bauschert@googlemail.commm: Domain does not exist: googlemail.commm
+
+[25-Oct-2016 11:47:39 Europe/Paris] Retry
+[25-Oct-2016 11:47:41 Europe/Paris] Cannot send Mail. Reason: Mailer Error: SMTP Error: The following recipients failed: michael.bauschert@googlemail.commm: Domain does not exist: googlemail.commm
+
+[25-Oct-2016 11:47:41 Europe/Paris] Retry
+[25-Oct-2016 11:47:43 Europe/Paris] Cannot send Mail. Reason: Mailer Error: SMTP Error: The following recipients failed: michael.bauschert@googlemail.commm: Domain does not exist: googlemail.commm
+
+[25-Oct-2016 11:47:43 Europe/Paris] Giving up
+[25-Oct-2016 11:49:25 Europe/Paris] Send Mail to me@web.de Subject: Anmeldenummern
+[25-Oct-2016 11:49:25 Europe/Paris] Message sent!
+[25-Oct-2016 11:49:43 Europe/Paris] Send Mail to me@web.de Subject: Anmeldenummern
+[25-Oct-2016 11:49:44 Europe/Paris] Message sent!
+[25-Oct-2016 11:50:14 Europe/Paris] Send Mail to me@web.de Subject: Anmeldenummern
+[25-Oct-2016 11:50:14 Europe/Paris] Message sent!
+[25-Oct-2016 11:50:29 Europe/Paris] Send Mail to me@web.de Subject: Anmeldenummern
+[25-Oct-2016 11:50:30 Europe/Paris] Message sent!
+[25-Oct-2016 11:56:02 Europe/Paris] Send Mail to michael.bauschert@googlemail.com Subject: Anmeldenummern
+[25-Oct-2016 11:56:03 Europe/Paris] Message sent!
+[25-Oct-2016 12:11:36 Europe/Paris] Send Mail to michael.bauschert@googlemail.com Subject: Anmeldenummern
+[25-Oct-2016 12:11:37 Europe/Paris] Message sent!
+[25-Oct-2016 12:11:43 Europe/Paris] Send Mail to michael.bauschert@googlemail.com Subject: Anmeldenummern
+[25-Oct-2016 12:11:44 Europe/Paris] Message sent!
+[25-Oct-2016 12:12:14 Europe/Paris] Send Mail to michael.bauschert@googlemail.com Subject: Anmeldenummern
+[25-Oct-2016 12:12:15 Europe/Paris] Message sent!

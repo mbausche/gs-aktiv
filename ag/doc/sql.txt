@@ -1,0 +1,24 @@
+drop VIEW anmeldungen_geprueft;
+
+	CREATE VIEW anmeldungen_geprueft AS select 
+	anmeldungfuerag.id,anmeldungfuerag.id_anmeldung, anmeldungfuerag.id_ag, anmeldungfuerag.status_anmeldung ,anmeldung.datum_eingang ,anmeldung.datum_geprueft,anmeldungfuerag.status_mail,
+	ag_nummer, ag.name AS ag_name,verantwortlicher_name,verantwortlicher_mail,verantwortlicher_telefon,max_kinder,ort,betrag_mitglied, betrag_nicht_mitglied,
+	
+	
+	ag.termin,ag.termin_ersatz,ag.termin_ueberbuchung,
+	ag.termin_von,ag.termin_ersatz_von,ag.termin_ueberbuchung_von,
+	ag.termin_bis,ag.termin_ersatz_bis,ag.termin_ueberbuchung_bis,
+	
+	anmeldung.anmelde_nummer, anmeldung.name AS schueler_name,anmeldung.klasse,anmeldung.fotos_ok,anmeldung.mail,anmeldung.telefon,
+	anmeldung.moechte_mitglied_werden,anmeldung.idee_fuer_neue_ag, anmeldung.mithilfe_bei_aktueller_ag ,anmeldung.ist_mitglied ,anmeldung.send_confirmation,anmeldung.direkt_eingabe, 
+	anmeldung.zahlart, anmeldung.iban, anmeldung.kontoinhaber
+	
+	from (anmeldungfuerag join (ag join anmeldung) on(((ag.id = anmeldungfuerag.id_ag) and (anmeldung.id = anmeldungfuerag.id_anmeldung))))
+	where anmeldung.geprueft = 1;
+
+
+update `anmeldungfuerag` set status_anmeldung = 'nicht_geprueft';
+update `anmeldungfuerag` set status_mail = 'nicht_geprueft';
+
+
+ALTER TABLE `ag` ADD `kommentar` TEXT NULL ;
