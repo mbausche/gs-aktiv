@@ -1,7 +1,7 @@
 <?php
 	include '../db.php';
 	require_once("../funktionen.php");
-	require_once('../html2pdf/html2pdf.class.php');
+	require_once('../ext/html2pdf/html2pdf.class.php');
 
 	
 	$preview = $_REQUEST['preview'] == 'true';

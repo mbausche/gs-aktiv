@@ -2,7 +2,7 @@
 	include '../db.php';
 	include '../conf.php';
 	require_once("../funktionen.php");
-	require_once('../html2pdf/html2pdf.class.php');
+	require_once('../ext/html2pdf/html2pdf.class.php');
 		
 	$ags = AgModel::getAnmeldungenForSchulleitung();
 	$preview = $_REQUEST['preview'] == 'true';

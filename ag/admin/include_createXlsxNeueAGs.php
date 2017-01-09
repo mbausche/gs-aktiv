@@ -1,5 +1,5 @@
 <?PHP
-include_once("../scripts/xlsx/xlsxwriter.class.php");
+include_once("../ext/xlsx/xlsxwriter.class.php");
 
 $ags = NeueAgModel::getAgs();
 

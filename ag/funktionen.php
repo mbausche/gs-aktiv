@@ -1,5 +1,5 @@
 <?php
-	require_once("phpMailer/PHPMailerAutoload.php");
+	require_once("ext/phpMailer/PHPMailerAutoload.php");
 
 	define("TEXT_NACH_HAUSE_WEG", "Der Hin- und Rückweg zu einer AG liegt in der Verantwortung der Eltern! Falls mein Kind nicht selbstständig nach Hause gehen darf, teile ich das dem/der Kursleiter/in mit!");
 	define("TEXT_1_EURO","Wir haben die 1&euro;-Zusatzversicherung für unser Kind abgeschlossen!");

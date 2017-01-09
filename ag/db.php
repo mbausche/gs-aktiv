@@ -1,5 +1,5 @@
 <?php 
-	require 'redbean_orm/rb.php';
+	require 'ext/redbean_orm/rb.php';
 	require 'model/agModel.php';
 	require 'model/statusModel.php';
 	require 'model/templateModel.php';

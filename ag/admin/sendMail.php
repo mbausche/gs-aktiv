@@ -1,7 +1,7 @@
 <?php
 	include '../db.php';
 	require_once("../funktionen.php");
-	require_once('../html2pdf/html2pdf.class.php');
+	require_once('../ext/html2pdf/html2pdf.class.php');
 
 	ini_set("log_errors", 1);     /* Logging "an" schalten */
 	ini_set("error_log", "errorlog.txt");     /* Log-Datei angeben */

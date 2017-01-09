@@ -50,7 +50,7 @@ ob_start();
 include('readOnly.php');
 $content = ob_get_clean();
 
-require_once('html2pdf/html2pdf.class.php');
+require_once('ext/html2pdf/html2pdf.class.php');
 // seitenränder (in mm)
 $oben=30;    //mT
 $unten=10;   //mB

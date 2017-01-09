@@ -24,7 +24,7 @@
 				ob_start();
 				include "doc_absage.php";
 				$content = ob_get_clean();
-				require_once('html2pdf/html2pdf.class.php');
+				require_once('ext/html2pdf/html2pdf.class.php');
 				error_log("Content: "  .$content);
 // 				echo $content;
 // 				die();
