@@ -1,0 +1,7 @@
+Neue AG - Bestätigungsmails:
+
+-> Termin in Template abändern (template_check_neue_ag)
+-> Neue AGs einzeln selektieren oder alle mit Button links
+-> Button "Mail an Verantwortliche"
+
+ 
