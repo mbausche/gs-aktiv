@@ -1,3 +1,4 @@
+//Speichert Key/Value in der Session
 function storeSessionData(prefix, key, value) {
 	$.ajax({
     	  url: prefix + "storeSessionData.php?key=" + key + "&value=" + value,

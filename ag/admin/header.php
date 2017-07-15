@@ -159,7 +159,7 @@ if (isset($_REQUEST['msg'])) {
 <a type="button" id="btn_info_pdf_verantwortliche" href="printInfosSchulleitung.php?preview=true" target="_blank">Schulleitung informieren (Preview)</a><br><br>
 <a type="button" id="btn_info_verantwortliche" href="printInfosSchulleitung.php">Schulleitung informieren</a><br><br>
 <a type="button" id="mailingList" href="mailingList.php?typ=Teilnehmer">Mail-Verteiler Teilnehmer</a><br><br>
-<a type="button" id="mailingList" href="mailingList.php?typ=Veranstalter">Mail-Verteiler AG-Veranstalter</a><br><br>
+<a type="button" id="mailingList" href="mailingList.php?typ=Veranstalter">Mail-Verteiler AG-Veranstalter</a> <a type="button" id="mailingList" href="mailingList.php?typ=Veranstalter&alleJahre=true">Mail-Verteiler AG-Veranstalter (alle Jahre)</a> <br><br>
 <a type="button" id="mailingList" href="mailingList.php?typ=Alle">Mail-Verteiler Alle</a><br><br>
 <a type="button" id="btn_summen" href="printInfosSummen.php">Übersicht mit Summen (Excel)</a><br><br>
 <a type="button" id="btn_statistic" href="statistic.php">Statistik Vorjahre</a><br><br>

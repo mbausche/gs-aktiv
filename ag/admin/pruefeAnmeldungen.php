@@ -9,12 +9,13 @@
 	$checkForMailNeuesMitglied = array();
 	$iban = $_REQUEST["iban"];
 	$kontoinhaber = $_REQUEST["kontoinhaber"];
+	$mailPaypal = $_REQUEST["mailpaypal"];
 	
 	if (!empty($id) && !empty($aktion)) {
 		if ($aktion == "pruefe") {
 			$anmeldung = AgModel::getAnmeldungById($id);
 			if ($anmeldung['geprueft'] == 0) {
-				AgModel::setGeprueft($id, $iban, $kontoinhaber);
+				AgModel::setGeprueft($id, $iban, $kontoinhaber,$mailPaypal);
 				$anmeldung = AgModel::getAnmeldungById($id);
 				StatusModel::updateStatus($anmeldung['name'], $anmeldung["ist_mitglied"] );
 				array_push($checkForMailNeuesMitglied, $id);
@@ -36,18 +37,18 @@
 		} else if ($aktion == "asMitglied") {
 			$anmeldung = AgModel::getAnmeldungById($id);
 			if ($anmeldung["ist_mitglied"] == 0) {
-				$anmeldung = AgModel::updateAnmeldungById($id, 1, 1, $iban, $kontoinhaber);
+				$anmeldung = AgModel::updateAnmeldungById($id, 1, 1, $iban, $kontoinhaber,$mailPaypal);
 			} else {
-				AgModel::setGeprueft($id, $iban, $kontoinhaber);
+				AgModel::setGeprueft($id, $iban, $kontoinhaber,$mailPaypal);
 			}
 			StatusModel::updateStatus($anmeldung['name'], 1 );
 			array_push($checkForMailNeuesMitglied, $id);
 		} else if ($aktion == "asNichtMitglied") {
 			$anmeldung = AgModel::getAnmeldungById($id);
 			if ($anmeldung["ist_mitglied"] == 1) {
-				$anmeldung = AgModel::updateAnmeldungById($id, 0, 1, $iban, $kontoinhaber);
+				$anmeldung = AgModel::updateAnmeldungById($id, 0, 1, $iban, $kontoinhaber,$mailPaypal);
 			} else {
-				AgModel::setGeprueft($id, $iban, $kontoinhaber);
+				AgModel::setGeprueft($id, $iban, $kontoinhaber,$mailPaypal);
 			}
 			StatusModel::updateStatus($anmeldung['name'], 0 );
 		}
@@ -82,7 +83,6 @@
 	} else {
 	
 ?>
-
 <script>
 
 var dataTable;
@@ -133,11 +133,14 @@ $(document).ready(function() {
 			$("#iban_dlg_id").val($(this).attr("iban_dlg_id"));
 			$("#iban_dlg_iban").val($(this).attr("iban_dlg_iban"));
 			$("#iban_dlg_kontoinhaber").val($(this).attr("iban_dlg_kontoinhaber"));
+			$("#iban_dlg_paypal").val($(this).attr("iban_dlg_paypal"));
 			$("#iban_dlg_aktion").val($(this).attr("iban_dlg_aktion"));
 			
 			$( "#dialog-iban" ).dialog( {
 		        modal: true,
 		        width: 750,
+		        height: 320,
+		        dialogClass: "centered-important",
 		        buttons: {
 		          Ok: function() {
 		            $( "#ibanForm" ).submit();
@@ -205,7 +208,7 @@ $(document).ready(function() {
 });
 </script>
 
-<div id="dialog-iban" title="IBAN und Kontoinhaber eingeben">
+<div id="dialog-iban" title="IBAN und Kontoinhaber bzw. Paypal-Adresse eingeben">
 <form action="pruefeAnmeldungen.php" method="post" id="ibanForm">
 <table id="editIban" class="display" style="width:100%; text-align: left; margin-right:auto;margin-left:0px">
 <thead style="display: none;">
@@ -214,8 +217,11 @@ $(document).ready(function() {
 </tr>
 </thead>
 <tbody>
+<tr><td><b>Falls das Geld überwiesen wurde:</b></td><td></td></tr>
 <tr><td valign="middle">IBAN</td><td valign="middle"><input size="30" maxlength="30" type="text" id="iban_dlg_iban" name="iban" value=""></td></tr>
 <tr><td valign="middle">Kontoinhaber</td><td valign="middle"><input size="30" maxlength="50" type="text" id="iban_dlg_kontoinhaber" name="kontoinhaber" value=""></td></tr>
+<tr><td><b>Falls das Geld per Paypal bezahlt wurde:</b></td><td></td></tr>
+<tr><td valign="middle">Paypal-Mailadresse</td><td valign="middle"><input size="30" maxlength="50" type="text" id="iban_dlg_paypal" name="mailpaypal" value=""></td></tr>
 </tbody>
 </table>
 <input type="hidden" id="iban_dlg_id" name="id" value="">
@@ -324,6 +330,7 @@ Suchen nach: <input type="text" id="searchField" value="<?= $_SESSION["pruefeAnm
 			$zahlart = $anmeldung['zahlart'];
 			$iban = $anmeldung['iban'];
 			$kontoinhaber = $anmeldung['kontoinhaber'];
+			$mailPaypal = $anmeldung['mail_paypal'];
 			
 			if ($addButtonOK == false) {
 				$betragMG = AgModel::getBetragOfAnmeldung($anmeldung['id'], true);
@@ -357,7 +364,7 @@ Suchen nach: <input type="text" id="searchField" value="<?= $_SESSION["pruefeAnm
         	<td><?php echo formatAsAbfragenLink("../",$nr)?></td>
         	<td><b><?php echo $name?></b><br><?php echo formatAsMailto($mail)?>, <?php echo $telefon?></td>
         	<td><?php echo $klasse?></td>
-        	<td><?php echo formatZahlart($anmeldung['zahlart'])?></td>
+        	<td><?php echo formatZahlart($anmeldung['zahlart'], $anmeldung['mail_paypal'],$anmeldung['iban'])?></td>
         	<td class="<?php echo $css?>"><?php echo $mitgliedAlt?></td>
         	<td class="<?php echo $css?>"><?php echo $mitgliedAnmeldung?></td>
         	<td>
@@ -373,7 +380,7 @@ Suchen nach: <input type="text" id="searchField" value="<?= $_SESSION["pruefeAnm
         		<?php if ($zahlart == 'schule') { ?>
 	        		<a type="button" title="Past so!" href="<?php echo $_SERVER['PHP_SELF']?>?aktion=pruefe&id=<?php echo $id?>">OK</a>
         		<?php } else { ?>
-        			<a type="button" ibanButton='true' title="Past so! - Noch IBAN und Kontoinhaber hinterlegen" iban_dlg_id="<?php echo $id?>" iban_dlg_kontoinhaber="<?php echo $kontoinhaber?>" iban_dlg_aktion='pruefe' iban_dlg_iban="<?php echo $iban?>" href="#!">OK</a>
+        			<a type="button" ibanButton='true' title="Past so! - Noch IBAN und Kontoinhaber hinterlegen" iban_dlg_paypal="<?php echo $mailPaypal?>" iban_dlg_id="<?php echo $id?>" iban_dlg_kontoinhaber="<?php echo $kontoinhaber?>" iban_dlg_aktion='pruefe' iban_dlg_iban="<?php echo $iban?>" href="#!">OK</a>
         		<?php } ?>
         	<?php } else { 
         		if ($zahlart == 'schule') {
@@ -383,9 +390,9 @@ Suchen nach: <input type="text" id="searchField" value="<?= $_SESSION["pruefeAnm
 					$attribsMG="";
 				} else {
 					$hrefNMG = "#!";
-					$attribsNMG=" ibanButton='true' iban_dlg_id='$id' iban_dlg_kontoinhaber='$kontoinhaber' iban_dlg_aktion='asNichtMitglied' iban_dlg_iban='$iban' ";
+					$attribsNMG=" ibanButton='true' iban_dlg_id='$id' iban_dlg_kontoinhaber='$kontoinhaber' iban_dlg_aktion='asNichtMitglied' iban_dlg_iban='$iban' iban_dlg_paypal='$mailPaypal' ";
 					$hrefMG = "#!";
-					$attribsMG=" ibanButton='true' iban_dlg_id='$id' iban_dlg_kontoinhaber='$kontoinhaber' iban_dlg_aktion='asMitglied' iban_dlg_iban='$iban' ";
+					$attribsMG=" ibanButton='true' iban_dlg_id='$id' iban_dlg_kontoinhaber='$kontoinhaber' iban_dlg_aktion='asMitglied' iban_dlg_iban='$iban'  iban_dlg_paypal='$mailPaypal' ";
 				}
         			
         	?>

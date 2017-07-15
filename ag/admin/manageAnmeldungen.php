@@ -9,7 +9,8 @@
 		AgModel::saveAnmeldung($_REQUEST["id"], $_REQUEST["name"],$_REQUEST["klasse"],$_REQUEST["mail"],$_REQUEST["telefon"], !empty($_REQUEST["mitglied"]), !empty($_REQUEST["fotos_ok"]) ,
 			$_REQUEST["zahlart"],
 			$_REQUEST["iban"],
-			$_REQUEST["kontoinhaber"]
+			$_REQUEST["kontoinhaber"],
+			$_REQUEST["mail_paypal"]
 		);
 		StatusModel::updateStatus($_REQUEST["name"], empty($_REQUEST["mitglied"]) ? 0 : 1);
 	} 
@@ -74,9 +75,9 @@ $(document).ready(function() {
         	<th>Mitglied</th>
         	<th>Fotos OK</th>
         	<th>Betrag</th>
-        	<th>Zahlart</th>
-        	<th>IBAN</th>
-        	<th>Kontoinhaber</th>
+        	<!-- <th>Zahlart</th>  -->
+        	<th>Bank (IBAN/Kontoinhaber)</th>
+        	<th>Paypal</th>
         	<th>Aktionen</th>
         </tr>
     </thead>
@@ -89,7 +90,7 @@ $(document).ready(function() {
 		?>    
 		
         <tr>
-        	<td><form action="manageAnmeldungen.php" method="post"><?php echo formatAsAbfragenLink("../", $anmeldung['anmelde_nummer'])?></td>
+        	<td><form action="manageAnmeldungen.php" method="post"><?php echo formatAsAbfragenLink("../", $anmeldung['anmelde_nummer'])?><input type="hidden" name="zahlart" value="bank"></td>
         	<td><input type="text" name="name" value="<?php echo $anmeldung['name']?>"><span style="font-size: 0pt; visibility: hidden;"><?php echo $anmeldung['name']?></span></td>
         	<td><input type="text" name="klasse" size="3" value="<?php echo $anmeldung['klasse']?>"><span style="font-size: 0pt; visibility: hidden;"><?php echo $anmeldung['klasse']?></span></td>
         	<td><input type="text" name="mail"  size="30" value="<?php echo $anmeldung['mail']?>"><span style="font-size: 0pt; visibility: hidden;"><?php echo $anmeldung['mail']?></span></td>
@@ -97,6 +98,7 @@ $(document).ready(function() {
         	<td><input type="checkbox" name="mitglied" <?php if ($anmeldung['ist_mitglied'] == 1) {echo "checked='checked'";}?>></td>
         	<td><input type="checkbox" name="fotos_ok" <?php if ($anmeldung['fotos_ok'] == 1) {echo "checked='checked'";}?>></td>
         	<td><?= formatAsCurrency($anmeldung["betrag"])?></td>
+        	<!-- 
         	<td>
 	        	<?php $text = $anmeldung['zahlart'] == 'bank' ? "Überweisung" : "Schule"; ?>
 	        	
@@ -107,8 +109,12 @@ $(document).ready(function() {
 	        	</select>
 	        	<span style='display:none'><?php echo $text?></span>
         	</td>
-        	<td><nobr><input type="text" name="iban" value="<?php echo $anmeldung['iban']?>"><img style="display:none; vertical-align: sub; padding-left: 2px" type="iban_error" src="../images/warning.png"></nobr><span style="font-size: 0pt; visibility: hidden;"><?php echo $anmeldung['iban']?></span></td>
-        	<td><input type="text" name="kontoinhaber" value="<?php echo $anmeldung['kontoinhaber']?>"><span style="font-size: 0pt; visibility: hidden;"><?php echo $anmeldung['kontoinhaber']?></span></td>
+        	 -->
+        	<td>
+        		<nobr><input type="text" name="iban" value="<?php echo $anmeldung['iban']?>"><img style="display:none; vertical-align: sub; padding-left: 2px" type="iban_error" src="../images/warning.png"></nobr><span style="font-size: 0pt; visibility: hidden;"><?php echo $anmeldung['iban']?></span>
+        		<br><br>
+        		<input type="text" name="kontoinhaber" value="<?php echo $anmeldung['kontoinhaber']?>"><span style="font-size: 0pt; visibility: hidden;"><?php echo $anmeldung['kontoinhaber']?></span></td>
+        	<td><input type="text" name="mail_paypal" value="<?php echo $anmeldung['mail_paypal']?>"><span style="font-size: 0pt; visibility: hidden;"><?php echo $anmeldung['mail_paypal']?></span></td>
         	<td><input type="submit" name="speichern" value="Speichern"><input type="submit" name="loeschen" value="Löschen"><input type="hidden" name="id" value="<?php echo $anmeldung['id']?>"> </form></td>
         </tr>
        

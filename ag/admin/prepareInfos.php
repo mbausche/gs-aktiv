@@ -176,7 +176,7 @@ function updatePrintButtonState() {
             <th>Info an Schule</th>
             <th>Info per Mail</th>
             <th>Info per Telefon</th>
-            <th>Überweisung</th>
+            <th>Überweisung/Paypal</th>
             <th>Passt so</th>
             <th class="action">Aktion</th>
             <th>Schüler</th>
@@ -251,7 +251,7 @@ function updatePrintButtonState() {
         	<td><?php echo $telefon?></td>
         	<td><?php echo $klasse?></td>
         	<td><?php echo formatSQLDate($datum)?></td>
-        	<td><?php echo formatZahlart($ag['zahlart'])?></td>
+        	<td><?php echo formatZahlart($ag['zahlart'], $ag['mail_paypal'],$ag['iban'])?></td>
         </tr>
         <?php } } ?>
     </tbody>
@@ -261,7 +261,7 @@ Alle an/aus:
 <input type="checkbox" cbType="selectAllSchule">Schule
 <input type="checkbox" cbType="selectAllMail">Mail
 <input type="checkbox" cbType="selectAllTelefon">Telefon
-<input type="checkbox" cbType="selectAllBank">Überweisung
+<input type="checkbox" cbType="selectAllBank">Überweisung/Paypal
 <input type="checkbox" cbType="selectAllPasst">Passt
 <br>
 <br>

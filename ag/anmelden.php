@@ -46,6 +46,7 @@ if ($_REQUEST['geprueft'] == "1") {
 var ags = new Array ();
 var ags1 = new Array ();
 var betrag = 0;
+var checkedAgCount = 0;
 
 /*
  * filterKlassen in Session
@@ -198,7 +199,7 @@ function applyFilter(klasse) {
 }
 
 function submit() {
-	if (betrag == 0) {
+	if (checkedAgCount == 0) {
 		showAlert("Hinweis","Bitte zuerst die AGs ausgewählen!");
 		return;
 	}
@@ -253,8 +254,10 @@ function calcSum() {
 	var isMitglied = $('input[name=mitglied]:checked').val() == 'ja';
 	
 	betrag = 0;
+	checkedAgCount = 0;
 	$( "[content='ag_checkbox']" ).each(function () {
         if (this.checked) {
+        	checkedAgCount++;
             if (isMitglied)
             	betrag = betrag  + ags[$(this).attr("name")];
             else
@@ -409,6 +412,7 @@ foreach ($ags as $ag) {
 </tbody>
 </table>
 <input type="hidden" name="summe" value="0">
+<input type="hidden" name="zahlart" value="bank">
 <input type="hidden" name="bootstrap" value="false">
 <h2>Sonstiges:</h2>
 <table>

@@ -457,7 +457,7 @@ if (isset($ag[$typ])) {
         	<td class="<?php echo $css?>"><?php echo $klasse?></td>
         	<td class="<?php echo $css?>"><?php echo $telefon?>, <?php echo formatAsMailto($mail)?></td>
         	<td class="<?php echo $css?>"><?php echo formatAsAbfragenLink("../",$anmeldeNummer)?></td>
-        	<td class="<?php echo $css?>"><?php echo formatZahlart($ag['zahlart'])?></td>
+        	<td class="<?php echo $css?>"><?php echo formatZahlart($ag['zahlart'], $ag['mail_paypal'],$ag['iban'])?></td>
         	<td class="<?php echo $css?>"><?php echo $datum?></td>
         	<td class="<?php echo $css?>"><?php echo $datumPruefung?></td>
         	<td class="<?php echo $css?>"><?php echo $countAll?></td>

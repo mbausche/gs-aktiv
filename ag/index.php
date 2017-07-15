@@ -33,15 +33,16 @@ $( document ).ready(function() {
 
 $anmeldung = CfgModel::load("aktiv.anmeldung") == "true";
 $neueAG = CfgModel::load("aktiv.neueag.anmelden") == "true";
+$noActions = CfgModel::load("homepage.no.actions");
+if (empty($noActions)) {
+	$noActions = "Derzeit ist keine Anmeldung zu einer AG möglich und es können auch derzeit keine AG-Vorschläge mehr eingereicht werden!<br><br>Bei Fragen erreichen Sie uns per Mail unter info@grundschule-aktiv.de";
+}
 ?>
 
 <?php if (!$anmeldung && !$neueAG) { ?>
-
-<br>
-Derzeit ist keine Anmeldung zu einer AG möglich und es können auch derzeit keine AG-Vorschläge mehr eingereicht werden!<br>
-<br>
-Bei Fragen erreichen Sie uns per Mail unter info@grundschule-aktiv.de
-
+	<div class="panel-heading">
+		<h3 class="panel-title"><?= $noActions ?></h3>
+	</div>
 <?php } ?>
 
 <?php if ($anmeldung ) { ?>
@@ -58,18 +59,20 @@ Bei Fragen erreichen Sie uns per Mail unter info@grundschule-aktiv.de
 	  	</div>
 	  	<div class="col-md-6">
 	  		<h4>Hilfe:</h4>
-			<a  type="button" class="btn btn-link" id="sogehts" href="#">Zahlart 1: Geld mit in die Schule geben - So geht's</a><br>
-			<a  type="button" class="btn btn-link" id="sogehtsBank" href="#">Zahlart 2: So geht's per Überweisung</a><br>
-			<a  type="button" href="anmelden_infos_bank.php" target="_blank" type="button" class="btn btn-link">Mehr Infos zum Bezahlen per Überweisung</a><br>
+			<!-- <a  type="button" class="btn btn-link" id="sogehts" href="#">Zahlart 1: Geld mit in die Schule geben - So geht's</a><br>  -->
+			<a  type="button" class="btn btn-link" id="sogehtsBank" href="#">Die AGs bezahlen per Überweisung oder <img src='images/paypal.png' height='30'> - So geht's!</a><br>
+			<a  type="button" href="anmelden_infos_bank.php" target="_blank" type="button" class="btn btn-link">Mehr Infos zum Bezahlen per Überweisung oder <img src='images/paypal.png' height='30'></a><br>
 	  	</div>
 	</div>
 </div>
 	
+<!-- 	
 <div id="bilder" style="display:none">
 <br>
 <?php renderImageTableBootstrap("./images/",array(1,2,3,4,5,6),true)?>
 </div>
-
+ -->
+ 
 <div id="bilderBank" style="display:none">
 <br>
 <?php renderImageTableBootstrapBank("./images/",array(1,2,3,4),true)?>

@@ -8,7 +8,7 @@
 	$tableId = "";
 	
 	$title =  "Mailing-Liste " . $_REQUEST['typ'];
-	$mails = AgModel::getMailAdresses($_REQUEST['typ']);
+	$mails = AgModel::getMailAdresses($_REQUEST['typ'], $_REQUEST['alleJahre'] == "true");
 	
 	include 'header.php';
 	

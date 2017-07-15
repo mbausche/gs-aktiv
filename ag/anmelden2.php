@@ -40,10 +40,11 @@ if ($_REQUEST['geprueft'] == "1") {
 	<script type="text/javascript">
 	var ags = new Array ();
 	var ags1 = new Array ();
+	var agNamen = new Array ();
 	var betrag = 0;
 	var agsSelected = 0;
 	var formatted = 0;
-
+	var checkingJoined = false;
 	/*
 	 * filterKlassen in Session
 	 * 0 = nachfragen
@@ -61,9 +62,11 @@ if ($_REQUEST['geprueft'] == "1") {
     			foreach ($ags as $ag) {
     				$betrag = number_format($ag["betrag_mitglied"],2,".","");
     				$betrag1 = number_format($ag["betrag_nicht_mitglied"],2,".","");
+    				$name = $ag["name"];
     				$nr = $ag['ag_nummer'];
     				echo "ags['$nr'] = $betrag;\n";
     				echo "ags1['$nr'] = $betrag1;\n";
+    				echo "agNamen['$nr'] = \"$name\";\n";
     			}
     	?>
     			        
@@ -76,8 +79,14 @@ if ($_REQUEST['geprueft'] == "1") {
 		});
 
 		$("input[agcheckbox='true']").change(function() {
-			calcSum();
-			showSum(true);
+			if (!checkingJoined) {
+				toastr.clear();
+				checkingJoined = true;
+				checkJoined(this.name, this.checked);
+				checkingJoined = false;
+				calcSum();
+				showSum(true);
+			}
 		});
 
 		 $("[pflicht='true']").each(function() {
@@ -182,8 +191,48 @@ if ($_REQUEST['geprueft'] == "1") {
 		
     });
 
+	function checkJoined(checkboxName, checkBoxSelected) {
+		<?php   
+			$parts = explode("|", CfgModel::load("joined.ags"));
+			foreach ($parts as $part) {
+				$tmp = explode(",",$part);
+				//Javascript-Array erzeugen
+				$part = "[\"" . implode("\",\"", $tmp) . "\"]";
+				?> 
+				checkJoinedImpl(checkboxName, checkBoxSelected,<?=$part?>);
+				<?php
+			}
+		?>
+	}
+	
+
+	function checkJoinedImpl(checkboxName, checkBoxSelected, joinedAgs) {
+
+		var idx=-1;
+		
+		for (var i = 0; i < joinedAgs.length; i++) {
+		    if (joinedAgs[i] == checkboxName) {
+				idx = i;
+		    }
+		}
+
+		if (idx > -1) {
+			for (var i = 0; i < joinedAgs.length; i++) {
+				if (i != idx) {
+					if ($("input[name='"+ joinedAgs[i] +"']").prop('checked') != checkBoxSelected) {
+						$("input[name='"+ joinedAgs[i] +"']").prop('checked', checkBoxSelected);
+						if (checkBoxSelected) {
+							toastr.info("Die AG " + joinedAgs[i] + " " + agNamen[joinedAgs[i]] + " wurde ebenfalls ausgewählt!");	
+						} else {
+							toastr.info("Die AG " + joinedAgs[i] + " " + agNamen[joinedAgs[i]] + " wurde ebenfalls abgewählt!");
+						}
+					}
+				}
+			}	
+		}
+	}
+    
 	function showSum(showAll) {
-		toastr.clear();
 		if (showAll || formatted != "0,00") {
 			toastr.info("Betrag: " + formatted + "€");		
 		}
@@ -291,6 +340,8 @@ if ($_REQUEST['geprueft'] == "1") {
 
     	formatted = betrag.formatMoney(2, ',', '.'); 
     	$("[content='betrag']").html(formatted);
+    	$("[paypallink='true']").attr("href","<?php echo CfgModel::load("paypallink")?>/" + formatted);
+    	
     	$("[name='summe']").val(formatted);
     	
     }
@@ -335,7 +386,8 @@ if ($_REQUEST['geprueft'] == "1") {
 	  	</div>
 		<div class="row">
 			<div class="col-md-6">
-				<div align="center"><img src="images/fehlerteufel.jpg"></div>
+				<br>
+				<div align="center"><img src="images/<?php echo CfgModel::load("hint.anmeldung.image")?>"></div>
 		  	</div>
 		  	<div class="col-md-6">
 		  		<br>
@@ -352,6 +404,9 @@ if ($_REQUEST['geprueft'] == "1") {
     <input type="hidden" name="summe" value="0">
     <input type="hidden" name="html" value="false">
     <input type="hidden" name="bootstrap" value="true">
+    <input type="hidden" name="zahlart" value="bank">
+    <input type="hidden" name="sendConfirmation" value="Ja">
+    
     
 	<div class="panel panel-default">
 	  <div class="panel-heading">
@@ -396,8 +451,8 @@ if ($_REQUEST['geprueft'] == "1") {
 	  		Mitglied Ja/Nein?
 	  		</label>
 	  		<div>
-	  		Wenn Sie Mitglied werden möchten, können Sie den Antrag einfach ausdrucken, ausfüllen und ihrem Kind direkt mit in die Schule geben. In diesem Fall können Sie hier schon den Haken bei 'Ja' machen!<br>
-	  		<a href="/wp-content/uploads/2014/10/antrag-auf-mitgliedschaft.pdf" target="_blank">Download Antragsformular</a>
+	  		Wenn Sie Mitglied werden möchten, können Sie den <a href="/wp-content/uploads/2014/10/antrag-auf-mitgliedschaft.pdf" target="_blank"><b>Antrag</b></a> einfach ausdrucken, ausfüllen und ihrem Kind direkt mit in die Schule geben. In diesem Fall können Sie hier schon den Haken bei 'Ja' machen!<br>
+	  		<a href="/wp-content/uploads/2014/10/antrag-auf-mitgliedschaft.pdf" target="_blank"><b>Download Antragsformular</b></a>
 	  		
 	  		</div>
 		  	<div class="funkyradio">
@@ -412,6 +467,7 @@ if ($_REQUEST['geprueft'] == "1") {
 	        </div>
 	  		
 	  	</div>
+	    <!-- 	
 		<div class="form-group">
 			<br>
 		  	<label for="zahlart">Zahlart:</label>
@@ -431,7 +487,6 @@ if ($_REQUEST['geprueft'] == "1") {
 	        	</div>	
 	        </div>
 	    </div>
-	    <!-- 	
 	    <div class="form-group" id='div_iban'>
 		  	<label for="iban" pflicht="true">IBAN (Für Rückerstattungen):</label>
 		  	<input type="text" name="iban" size="50" value="<?php echo $_SESSION['iban']?>" class="form-control" id="iban">
@@ -531,6 +586,7 @@ foreach ($ags as $ag) {
   	</div>
   	 -->
   	
+  	<!-- 
   	<div class="form-group">
 		<label>
   		Sollen wir Ihnen für die AGs bei denen Ihr Kind angemeldet ist auch eine E-Mail zukommen lassen?
@@ -538,7 +594,7 @@ foreach ($ags as $ag) {
   		<div>
   		<input id="sendConfirmation" name="sendConfirmation" value="Ja" type="checkbox" data-reverse <?php addChecked("sendConfirmation","Ja") ?>>
   		</div>
-  	</div>
+  	</div> -->
   	  	
     <div class="form-group">
 	  	<label for="mithilfe">Ich kann mir vorstellen, bei folgender AG dieses Heftes zu helfen:</label>
@@ -555,10 +611,13 @@ foreach ($ags as $ag) {
 	  </div>
 	  <div class="panel-body">
 	  <ul>
+	  <!--  
 	  <li id="hinweis_betrag_bar">Ich lege die Teilnahmegebühr/en in Höhe von <span style="font-weight: bold;" content='betrag'>0,00</span><span style="font-weight: bold;">&euro;</span> meiner Anmeldung bei.</li>
-	  <li id="hinweis_betrag_bank">Ich überweise die Teilnahmegebühr/en in Höhe von <span style="font-weight: bold;" content='betrag'>0,00</span><span style="font-weight: bold;">&euro;</span> auf das Konto des Fördervereins: <?php echo str_replace("<br>", " ", CfgModel::load("bankverbindung"))?></li>
-	  <li>Der Hin- und Rückweg zu einer AG liegt in der Verantwortung der Eltern! Falls mein Kind nicht selbstständig nach Hause gehen darf, teile ich das dem/der Kursleiter/in mit!</li>
-	  <li>Wir haben die 1€-Zusatzversicherung für unser Kind abgeschlossen!</li>
+	  -->
+	  <li id="hinweis_betrag_bank">- Ich überweise die Teilnahmegebühr/en in Höhe von <span style="font-weight: bold;" content='betrag'>0,00</span><span style="font-weight: bold;">&euro;</span> auf das Konto des Fördervereins bzw ich versende das Geld per <img src="images/paypal.png" height="20px"></li>
+	  <li>- Als Verwendungszweck gebe ich an: Die Anmeldenummer, Name und Klasse meines Kindes</li>
+	  <li>- Der Hin- und Rückweg zu einer AG liegt in der Verantwortung der Eltern! Falls mein Kind nicht selbstständig nach Hause gehen darf, teile ich das dem/der Kursleiter/in mit!</li>
+	  <li>- Wir haben die 1€-Zusatzversicherung für unser Kind abgeschlossen!</li>
 	  </ul>
 		<label  pflicht="true">
   		Ich habe die Hinweise zur Kenntnis genommen

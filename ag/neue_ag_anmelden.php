@@ -58,7 +58,6 @@
 <tr><td pflicht="true"><input type="checkbox" sonstigeCheckbox="true" name="check3" value="Ja" <?php if ($data['check3'] == "Ja") echo "checked='checked'";?> ></td><td>Den Schulschlüssel fordere ich zwei Tage vor der AG bei <?php echo CfgModel::load("name.schluessel") ?> (Tel. <?php echo CfgModel::load("tel.schluessel") ?>, <?php echo formatAsMailto(CfgModel::load("mail.schluessel")) ?>) an</td></tr>
 <tr><td pflicht="true"><input type="checkbox" sonstigeCheckbox="true" name="check4" value="Ja" <?php if ($data['check4'] == "Ja") echo "checked='checked'";?> ></td><td>Der Verein hat für alle Mitglieder und HelferInnen eine Haftpflicht- und Unfallversicherung abgeschlossen. Somit sind auch die VeranstalterInnen der Eltern-AGs abgesichert.</td></tr>
 <tr><td pflicht="true"><input type="checkbox" sonstigeCheckbox="true" name="check5" value="Ja" <?php if ($data['check5'] == "Ja") echo "checked='checked'";?> ></td><td>Sollten eigene Kinder an dem Kurs teilnehmen, sind diese von der Kursgebühr befreit.</td></tr>
-<tr><td pflicht="true"><input type="checkbox" sonstigeCheckbox="true" name="check5" value="Ja" <?php if ($data['check5'] == "Ja") echo "checked='checked'";?> ></td><td>Sollten eigene Kinder an dem Kurs teilnehmen, sind diese von der Kursgebühr befreit.</td></tr>
 </tbody>
 </table>
 <?php } ?>

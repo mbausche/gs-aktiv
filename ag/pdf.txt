@@ -4518,3 +4518,403 @@ dürft!
 &nbsp;
 
 [24-Jul-2016 07:27:33 Europe/Paris] 0
+[18-Jan-2017 14:14:00 Europe/Paris] readOnly.php
+[18-Jan-2017 14:14:00 Europe/Paris] <table class='ags'><tr><td style='width:60mm'><b>AG-Nummer</b></td><td style='width:100mm'>332343242</td></tr>
+<tr><td style='width:60mm'><b>Namen</b></td><td style='width:100mm'>Michael Bauschert</td></tr>
+<tr><td style='width:60mm'><b>Kontaktperson</b></td><td style='width:100mm'>Michael Bauschert</td></tr>
+<tr><td style='width:60mm'><b>Mail</b></td><td style='width:100mm'><a href='mailto:michael.bauschert@googlemail.com'>michael.bauschert@googlemail.com</a></td></tr>
+<tr><td style='width:60mm'><b>Telefon</b></td><td style='width:100mm'>01791354023 oder 24</td></tr>
+<tr><td style='width:60mm'><b>Text</b></td><td style='width:100mm'>test</td></tr>
+<tr><td style='width:60mm'><b>Wichtige Infos</b></td><td style='width:100mm'>test</td></tr>
+<tr><td style='width:60mm'><b>1. Termin</b></td><td style='width:100mm'>04.10.2016</td></tr>
+<tr><td style='width:60mm'><b>2. Termin</b></td><td style='width:100mm'>-</td></tr>
+<tr><td style='width:60mm'><b>Ersatztermin</b></td><td style='width:100mm'>-</td></tr>
+<tr><td style='width:60mm'><b>Uhrzeit</b></td><td style='width:100mm'>15:00-17:00 Uhr</td></tr>
+<tr><td style='width:60mm'><b>Max. Anzahl Teilnehmer</b></td><td style='width:100mm'>-</td></tr>
+<tr><td style='width:60mm'><b>Benötigte Helfer</b></td><td style='width:100mm'>-</td></tr>
+<tr><td style='width:60mm'><b>Klasse 1</b></td><td style='width:100mm'>Nein</td></tr>
+<tr><td style='width:60mm'><b>Klasse 2</b></td><td style='width:100mm'>Ja</td></tr>
+<tr><td style='width:60mm'><b>Klasse 3</b></td><td style='width:100mm'>Ja</td></tr>
+<tr><td style='width:60mm'><b>Klasse 4</b></td><td style='width:100mm'>Nein</td></tr>
+<tr><td style='width:60mm'><b>Teilnahmebetrag Mitglieder / NichtMitglied</b></td><td style='width:100mm'>3,00 € / 4,00 €</td></tr>
+<tr><td style='width:60mm'><b>Ort</b></td><td style='width:100mm'>Calw</td></tr>
+<tr><td style='width:60mm'><b>Das möchte ich euch noch mitteilen</b></td><td style='width:100mm'>01791354023 oder 24:ok</td></tr>
+</table>
+&nbsp;
+
+[18-Jan-2017 14:14:00 Europe/Paris] 0
+[18-Jan-2017 14:14:17 Europe/Paris] readOnly.php
+[18-Jan-2017 14:14:17 Europe/Paris] <table class='ags'><tr><td style='width:60mm'><b>AG-Nummer</b></td><td style='width:100mm'>332343242</td></tr>
+<tr><td style='width:60mm'><b>Namen</b></td><td style='width:100mm'>Michael Bauschert</td></tr>
+<tr><td style='width:60mm'><b>Kontaktperson</b></td><td style='width:100mm'>Michael Bauschert</td></tr>
+<tr><td style='width:60mm'><b>Mail</b></td><td style='width:100mm'><a href='mailto:michael.bauschert@googlemail.com'>michael.bauschert@googlemail.com</a></td></tr>
+<tr><td style='width:60mm'><b>Telefon</b></td><td style='width:100mm'>01791354023 oder 24</td></tr>
+<tr><td style='width:60mm'><b>Text</b></td><td style='width:100mm'>test</td></tr>
+<tr><td style='width:60mm'><b>Wichtige Infos</b></td><td style='width:100mm'>test</td></tr>
+<tr><td style='width:60mm'><b>1. Termin</b></td><td style='width:100mm'>04.10.2016</td></tr>
+<tr><td style='width:60mm'><b>2. Termin</b></td><td style='width:100mm'>-</td></tr>
+<tr><td style='width:60mm'><b>Ersatztermin</b></td><td style='width:100mm'>-</td></tr>
+<tr><td style='width:60mm'><b>Uhrzeit</b></td><td style='width:100mm'>15:00-17:00 Uhr</td></tr>
+<tr><td style='width:60mm'><b>Max. Anzahl Teilnehmer</b></td><td style='width:100mm'>-</td></tr>
+<tr><td style='width:60mm'><b>Benötigte Helfer</b></td><td style='width:100mm'>-</td></tr>
+<tr><td style='width:60mm'><b>Klasse 1</b></td><td style='width:100mm'>Nein</td></tr>
+<tr><td style='width:60mm'><b>Klasse 2</b></td><td style='width:100mm'>Ja</td></tr>
+<tr><td style='width:60mm'><b>Klasse 3</b></td><td style='width:100mm'>Ja</td></tr>
+<tr><td style='width:60mm'><b>Klasse 4</b></td><td style='width:100mm'>Nein</td></tr>
+<tr><td style='width:60mm'><b>Teilnahmebetrag Mitglieder / NichtMitglied</b></td><td style='width:100mm'>3,00 € / 4,00 €</td></tr>
+<tr><td style='width:60mm'><b>Ort</b></td><td style='width:100mm'>Calw</td></tr>
+<tr><td style='width:60mm'><b>Das möchte ich euch noch mitteilen</b></td><td style='width:100mm'>01791354023 oder 24:o</td></tr>
+</table>
+&nbsp;
+
+[18-Jan-2017 14:14:17 Europe/Paris] 0
+[18-Jan-2017 14:14:23 Europe/Paris] readOnly.php
+[18-Jan-2017 14:14:23 Europe/Paris] <table class='ags'><tr><td style='width:60mm'><b>AG-Nummer</b></td><td style='width:100mm'>332343242</td></tr>
+<tr><td style='width:60mm'><b>Namen</b></td><td style='width:100mm'>Michael Bauschert</td></tr>
+<tr><td style='width:60mm'><b>Kontaktperson</b></td><td style='width:100mm'>Michael Bauschert</td></tr>
+<tr><td style='width:60mm'><b>Mail</b></td><td style='width:100mm'><a href='mailto:michael.bauschert@googlemail.com'>michael.bauschert@googlemail.com</a></td></tr>
+<tr><td style='width:60mm'><b>Telefon</b></td><td style='width:100mm'>01791354023 oder 24</td></tr>
+<tr><td style='width:60mm'><b>Text</b></td><td style='width:100mm'>test</td></tr>
+<tr><td style='width:60mm'><b>Wichtige Infos</b></td><td style='width:100mm'>test</td></tr>
+<tr><td style='width:60mm'><b>1. Termin</b></td><td style='width:100mm'>04.10.2016</td></tr>
+<tr><td style='width:60mm'><b>2. Termin</b></td><td style='width:100mm'>-</td></tr>
+<tr><td style='width:60mm'><b>Ersatztermin</b></td><td style='width:100mm'>-</td></tr>
+<tr><td style='width:60mm'><b>Uhrzeit</b></td><td style='width:100mm'>15:00-17:00 Uhr</td></tr>
+<tr><td style='width:60mm'><b>Max. Anzahl Teilnehmer</b></td><td style='width:100mm'>-</td></tr>
+<tr><td style='width:60mm'><b>Benötigte Helfer</b></td><td style='width:100mm'>-</td></tr>
+<tr><td style='width:60mm'><b>Klasse 1</b></td><td style='width:100mm'>Nein</td></tr>
+<tr><td style='width:60mm'><b>Klasse 2</b></td><td style='width:100mm'>Ja</td></tr>
+<tr><td style='width:60mm'><b>Klasse 3</b></td><td style='width:100mm'>Ja</td></tr>
+<tr><td style='width:60mm'><b>Klasse 4</b></td><td style='width:100mm'>Nein</td></tr>
+<tr><td style='width:60mm'><b>Teilnahmebetrag Mitglieder / NichtMitglied</b></td><td style='width:100mm'>3,00 € / 4,00 €</td></tr>
+<tr><td style='width:60mm'><b>Ort</b></td><td style='width:100mm'>Calw</td></tr>
+<tr><td style='width:60mm'><b>Das möchte ich euch noch mitteilen</b></td><td style='width:100mm'>01791354023 oder 24:ok</td></tr>
+</table>
+&nbsp;
+
+[18-Jan-2017 14:14:23 Europe/Paris] 0
+[18-Jan-2017 14:16:08 Europe/Paris] readOnly.php
+[18-Jan-2017 14:16:08 Europe/Paris] <table class='ags'><tr><td style='width:60mm'><b>AG-Nummer</b></td><td style='width:100mm'>332343242</td></tr>
+<tr><td style='width:60mm'><b>Namen</b></td><td style='width:100mm'>Michael Bauschert</td></tr>
+<tr><td style='width:60mm'><b>Kontaktperson</b></td><td style='width:100mm'>Michael Bauschert</td></tr>
+<tr><td style='width:60mm'><b>Mail</b></td><td style='width:100mm'><a href='mailto:michael.bauschert@googlemail.com'>michael.bauschert@googlemail.com</a></td></tr>
+<tr><td style='width:60mm'><b>Telefon</b></td><td style='width:100mm'>938584 oder 8061073</td></tr>
+<tr><td style='width:60mm'><b>Text</b></td><td style='width:100mm'>test</td></tr>
+<tr><td style='width:60mm'><b>Wichtige Infos</b></td><td style='width:100mm'>test</td></tr>
+<tr><td style='width:60mm'><b>1. Termin</b></td><td style='width:100mm'>04.10.2016</td></tr>
+<tr><td style='width:60mm'><b>2. Termin</b></td><td style='width:100mm'>-</td></tr>
+<tr><td style='width:60mm'><b>Ersatztermin</b></td><td style='width:100mm'>-</td></tr>
+<tr><td style='width:60mm'><b>Uhrzeit</b></td><td style='width:100mm'>15:00-17:00 Uhr</td></tr>
+<tr><td style='width:60mm'><b>Max. Anzahl Teilnehmer</b></td><td style='width:100mm'>-</td></tr>
+<tr><td style='width:60mm'><b>Benötigte Helfer</b></td><td style='width:100mm'>-</td></tr>
+<tr><td style='width:60mm'><b>Klasse 1</b></td><td style='width:100mm'>Nein</td></tr>
+<tr><td style='width:60mm'><b>Klasse 2</b></td><td style='width:100mm'>Ja</td></tr>
+<tr><td style='width:60mm'><b>Klasse 3</b></td><td style='width:100mm'>Ja</td></tr>
+<tr><td style='width:60mm'><b>Klasse 4</b></td><td style='width:100mm'>Nein</td></tr>
+<tr><td style='width:60mm'><b>Teilnahmebetrag Mitglieder / NichtMitglied</b></td><td style='width:100mm'>3,00 € / 4,00 €</td></tr>
+<tr><td style='width:60mm'><b>Ort</b></td><td style='width:100mm'>Calw</td></tr>
+<tr><td style='width:60mm'><b>Das möchte ich euch noch mitteilen</b></td><td style='width:100mm'>938584 oder 8061073:ok</td></tr>
+</table>
+&nbsp;
+
+[18-Jan-2017 14:16:08 Europe/Paris] 0
+[14-Jul-2017 11:56:00 Europe/Paris] readOnly.php
+[14-Jul-2017 11:56:00 Europe/Paris] <table class='ags'><tr><td style='width:60mm'><b>AG-Nummer</b></td><td style='width:100mm'>noch nicht bekannt</td></tr>
+<tr><td style='width:60mm'><b>Namen</b></td><td style='width:100mm'>Michael Bauschert</td></tr>
+<tr><td style='width:60mm'><b>Kontaktperson</b></td><td style='width:100mm'>Michael Bauschert</td></tr>
+<tr><td style='width:60mm'><b>Mail</b></td><td style='width:100mm'><a href='mailto:michael.bauschert@googlemail.com'>michael.bauschert@googlemail.com</a></td></tr>
+<tr><td style='width:60mm'><b>Telefon</b></td><td style='width:100mm'>01791354023</td></tr>
+<tr><td style='width:60mm'><b>Text</b></td><td style='width:100mm'>SHZ</td></tr>
+<tr><td style='width:60mm'><b>Wichtige Infos</b></td><td style='width:100mm'>Alte Kleidung</td></tr>
+<tr><td style='width:60mm'><b>1. Termin</b></td><td style='width:100mm'>12.10.2016</td></tr>
+<tr><td style='width:60mm'><b>2. Termin</b></td><td style='width:100mm'>-</td></tr>
+<tr><td style='width:60mm'><b>Ersatztermin</b></td><td style='width:100mm'>-</td></tr>
+<tr><td style='width:60mm'><b>Uhrzeit</b></td><td style='width:100mm'>16:00-17:00 Uhr</td></tr>
+<tr><td style='width:60mm'><b>Max. Anzahl Teilnehmer</b></td><td style='width:100mm'>20</td></tr>
+<tr><td style='width:60mm'><b>Benötigte Helfer</b></td><td style='width:100mm'>-</td></tr>
+<tr><td style='width:60mm'><b>Klasse 1</b></td><td style='width:100mm'>Nein</td></tr>
+<tr><td style='width:60mm'><b>Klasse 2</b></td><td style='width:100mm'>Nein</td></tr>
+<tr><td style='width:60mm'><b>Klasse 3</b></td><td style='width:100mm'>Ja</td></tr>
+<tr><td style='width:60mm'><b>Klasse 4</b></td><td style='width:100mm'>Nein</td></tr>
+<tr><td style='width:60mm'><b>Teilnahmebetrag Mitglieder / NichtMitglied</b></td><td style='width:100mm'>3,00 € / 4,00 €</td></tr>
+<tr><td style='width:60mm'><b>Ort</b></td><td style='width:100mm'>SHZ Töpferkeller</td></tr>
+<tr><td style='width:60mm'><b>Das möchte ich euch noch mitteilen</b></td><td style='width:100mm'>Macht Spaß!</td></tr>
+</table>
+<br><img src='./images_tmp/ag10_20121123_181454.jpg' style='width:100mm'/>
+
+[14-Jul-2017 11:56:00 Europe/Paris] 0
+[14-Jul-2017 11:56:42 Europe/Paris] readOnly.php
+[14-Jul-2017 11:56:42 Europe/Paris] <table class='ags'><tr><td style='width:60mm'><b>AG-Nummer</b></td><td style='width:100mm'>noch nicht bekannt</td></tr>
+<tr><td style='width:60mm'><b>Namen</b></td><td style='width:100mm'>Michael Bauschert</td></tr>
+<tr><td style='width:60mm'><b>Kontaktperson</b></td><td style='width:100mm'>Michael Bauschert</td></tr>
+<tr><td style='width:60mm'><b>Mail</b></td><td style='width:100mm'><a href='mailto:michael.bauschert@googlemail.com'>michael.bauschert@googlemail.com</a></td></tr>
+<tr><td style='width:60mm'><b>Telefon</b></td><td style='width:100mm'>01791354023</td></tr>
+<tr><td style='width:60mm'><b>Text</b></td><td style='width:100mm'>SHZ</td></tr>
+<tr><td style='width:60mm'><b>Wichtige Infos</b></td><td style='width:100mm'>Alte Kleidung</td></tr>
+<tr><td style='width:60mm'><b>1. Termin</b></td><td style='width:100mm'>12.10.2016</td></tr>
+<tr><td style='width:60mm'><b>2. Termin</b></td><td style='width:100mm'>-</td></tr>
+<tr><td style='width:60mm'><b>Ersatztermin</b></td><td style='width:100mm'>-</td></tr>
+<tr><td style='width:60mm'><b>Uhrzeit</b></td><td style='width:100mm'>16:00-17:00 Uhr</td></tr>
+<tr><td style='width:60mm'><b>Max. Anzahl Teilnehmer</b></td><td style='width:100mm'>20</td></tr>
+<tr><td style='width:60mm'><b>Benötigte Helfer</b></td><td style='width:100mm'>-</td></tr>
+<tr><td style='width:60mm'><b>Klasse 1</b></td><td style='width:100mm'>Nein</td></tr>
+<tr><td style='width:60mm'><b>Klasse 2</b></td><td style='width:100mm'>Nein</td></tr>
+<tr><td style='width:60mm'><b>Klasse 3</b></td><td style='width:100mm'>Ja</td></tr>
+<tr><td style='width:60mm'><b>Klasse 4</b></td><td style='width:100mm'>Nein</td></tr>
+<tr><td style='width:60mm'><b>Teilnahmebetrag Mitglieder / NichtMitglied</b></td><td style='width:100mm'>3,00 € / 4,00 €</td></tr>
+<tr><td style='width:60mm'><b>Ort</b></td><td style='width:100mm'>SHZ Töpferkellerrrr</td></tr>
+<tr><td style='width:60mm'><b>Das möchte ich euch noch mitteilen</b></td><td style='width:100mm'>Macht Spaß!</td></tr>
+</table>
+<br><img src='./images_tmp/ag10_20121123_181454.jpg' style='width:100mm'/>
+
+[14-Jul-2017 11:56:42 Europe/Paris] 0
+[14-Jul-2017 11:57:05 Europe/Paris] readOnly.php
+[14-Jul-2017 11:57:05 Europe/Paris] <table class='ags'><tr><td style='width:60mm'><b>AG-Nummer</b></td><td style='width:100mm'>noch nicht bekannt</td></tr>
+<tr><td style='width:60mm'><b>Namen</b></td><td style='width:100mm'>Michael Bauschert</td></tr>
+<tr><td style='width:60mm'><b>Kontaktperson</b></td><td style='width:100mm'>Michael Bauschert</td></tr>
+<tr><td style='width:60mm'><b>Mail</b></td><td style='width:100mm'><a href='mailto:michael.bauschert@googlemail.com'>michael.bauschert@googlemail.com</a></td></tr>
+<tr><td style='width:60mm'><b>Telefon</b></td><td style='width:100mm'>01791354023</td></tr>
+<tr><td style='width:60mm'><b>Text</b></td><td style='width:100mm'>SHZ</td></tr>
+<tr><td style='width:60mm'><b>Wichtige Infos</b></td><td style='width:100mm'>Alte Kleidung</td></tr>
+<tr><td style='width:60mm'><b>1. Termin</b></td><td style='width:100mm'>12.10.2016</td></tr>
+<tr><td style='width:60mm'><b>2. Termin</b></td><td style='width:100mm'>-</td></tr>
+<tr><td style='width:60mm'><b>Ersatztermin</b></td><td style='width:100mm'>-</td></tr>
+<tr><td style='width:60mm'><b>Uhrzeit</b></td><td style='width:100mm'>16:00-17:00 Uhr</td></tr>
+<tr><td style='width:60mm'><b>Max. Anzahl Teilnehmer</b></td><td style='width:100mm'>20</td></tr>
+<tr><td style='width:60mm'><b>Benötigte Helfer</b></td><td style='width:100mm'>-</td></tr>
+<tr><td style='width:60mm'><b>Klasse 1</b></td><td style='width:100mm'>Nein</td></tr>
+<tr><td style='width:60mm'><b>Klasse 2</b></td><td style='width:100mm'>Nein</td></tr>
+<tr><td style='width:60mm'><b>Klasse 3</b></td><td style='width:100mm'>Ja</td></tr>
+<tr><td style='width:60mm'><b>Klasse 4</b></td><td style='width:100mm'>Nein</td></tr>
+<tr><td style='width:60mm'><b>Teilnahmebetrag Mitglieder / NichtMitglied</b></td><td style='width:100mm'>3,00 € / 4,00 €</td></tr>
+<tr><td style='width:60mm'><b>Ort</b></td><td style='width:100mm'>SHZ Töpferkeller</td></tr>
+<tr><td style='width:60mm'><b>Das möchte ich euch noch mitteilen</b></td><td style='width:100mm'>Macht Spaß!</td></tr>
+</table>
+<br><img src='./images_tmp/ag10_20121123_181454.jpg' style='width:100mm'/>
+
+[14-Jul-2017 11:57:05 Europe/Paris] 0
+[15-Jul-2017 10:08:00 Europe/Paris] readOnly.php
+[15-Jul-2017 10:08:00 Europe/Paris] <table class='ags'><tr><td style='width:60mm'><b>AG-Nummer</b></td><td style='width:100mm'>noch nicht bekannt</td></tr>
+<tr><td style='width:60mm'><b>Namen</b></td><td style='width:100mm'>Michael Bauschert</td></tr>
+<tr><td style='width:60mm'><b>Kontaktperson</b></td><td style='width:100mm'>Michael Bauschert</td></tr>
+<tr><td style='width:60mm'><b>Mail</b></td><td style='width:100mm'><a href='mailto:michael.bauschert@googlemail.com'>michael.bauschert@googlemail.com</a></td></tr>
+<tr><td style='width:60mm'><b>Telefon</b></td><td style='width:100mm'>01791354023</td></tr>
+<tr><td style='width:60mm'><b>Text</b></td><td style='width:100mm'>SHZ</td></tr>
+<tr><td style='width:60mm'><b>Wichtige Infos</b></td><td style='width:100mm'>Alte Kleidung</td></tr>
+<tr><td style='width:60mm'><b>1. Termin</b></td><td style='width:100mm'>12.10.2016</td></tr>
+<tr><td style='width:60mm'><b>2. Termin</b></td><td style='width:100mm'>-</td></tr>
+<tr><td style='width:60mm'><b>Ersatztermin</b></td><td style='width:100mm'>-</td></tr>
+<tr><td style='width:60mm'><b>Uhrzeit</b></td><td style='width:100mm'>16:00-17:00 Uhr</td></tr>
+<tr><td style='width:60mm'><b>Max. Anzahl Teilnehmer</b></td><td style='width:100mm'>20</td></tr>
+<tr><td style='width:60mm'><b>Benötigte Helfer</b></td><td style='width:100mm'>-</td></tr>
+<tr><td style='width:60mm'><b>Klasse 1</b></td><td style='width:100mm'>Nein</td></tr>
+<tr><td style='width:60mm'><b>Klasse 2</b></td><td style='width:100mm'>Nein</td></tr>
+<tr><td style='width:60mm'><b>Klasse 3</b></td><td style='width:100mm'>Ja</td></tr>
+<tr><td style='width:60mm'><b>Klasse 4</b></td><td style='width:100mm'>Nein</td></tr>
+<tr><td style='width:60mm'><b>Teilnahmebetrag Mitglieder / NichtMitglied</b></td><td style='width:100mm'>3,00 € / 4,00 €</td></tr>
+<tr><td style='width:60mm'><b>Ort</b></td><td style='width:100mm'>SHZ Töpferkeller</td></tr>
+<tr><td style='width:60mm'><b>Das möchte ich euch noch mitteilen</b></td><td style='width:100mm'>Macht Spaß!</td></tr>
+</table>
+<br><img src='./images_tmp/ag10_chemist-309922.png' style='width:100mm'/>
+
+[15-Jul-2017 10:08:00 Europe/Paris] 0
+[15-Jul-2017 10:08:38 Europe/Paris] readOnly.php
+[15-Jul-2017 10:08:38 Europe/Paris] <table class='ags'><tr><td style='width:60mm'><b>AG-Nummer</b></td><td style='width:100mm'>noch nicht bekannt</td></tr>
+<tr><td style='width:60mm'><b>Namen</b></td><td style='width:100mm'>Michael Bauschert</td></tr>
+<tr><td style='width:60mm'><b>Kontaktperson</b></td><td style='width:100mm'>Michael Bauschert</td></tr>
+<tr><td style='width:60mm'><b>Mail</b></td><td style='width:100mm'><a href='mailto:michael.bauschert@googlemail.com'>michael.bauschert@googlemail.com</a></td></tr>
+<tr><td style='width:60mm'><b>Telefon</b></td><td style='width:100mm'>01791354023</td></tr>
+<tr><td style='width:60mm'><b>Text</b></td><td style='width:100mm'>SHZ</td></tr>
+<tr><td style='width:60mm'><b>Wichtige Infos</b></td><td style='width:100mm'>Alte Kleidung</td></tr>
+<tr><td style='width:60mm'><b>1. Termin</b></td><td style='width:100mm'>12.10.2016</td></tr>
+<tr><td style='width:60mm'><b>2. Termin</b></td><td style='width:100mm'>-</td></tr>
+<tr><td style='width:60mm'><b>Ersatztermin</b></td><td style='width:100mm'>-</td></tr>
+<tr><td style='width:60mm'><b>Uhrzeit</b></td><td style='width:100mm'>16:00-17:00 Uhr</td></tr>
+<tr><td style='width:60mm'><b>Max. Anzahl Teilnehmer</b></td><td style='width:100mm'>20</td></tr>
+<tr><td style='width:60mm'><b>Benötigte Helfer</b></td><td style='width:100mm'>-</td></tr>
+<tr><td style='width:60mm'><b>Klasse 1</b></td><td style='width:100mm'>Nein</td></tr>
+<tr><td style='width:60mm'><b>Klasse 2</b></td><td style='width:100mm'>Nein</td></tr>
+<tr><td style='width:60mm'><b>Klasse 3</b></td><td style='width:100mm'>Ja</td></tr>
+<tr><td style='width:60mm'><b>Klasse 4</b></td><td style='width:100mm'>Nein</td></tr>
+<tr><td style='width:60mm'><b>Teilnahmebetrag Mitglieder / NichtMitglied</b></td><td style='width:100mm'>3,00 € / 4,00 €</td></tr>
+<tr><td style='width:60mm'><b>Ort</b></td><td style='width:100mm'>SHZ Töpferkeller</td></tr>
+<tr><td style='width:60mm'><b>Das möchte ich euch noch mitteilen</b></td><td style='width:100mm'>Macht Spaß!</td></tr>
+</table>
+<br><img src='./images_tmp/ag10_chemist-309922.png' style='width:100mm'/>
+
+[15-Jul-2017 10:08:38 Europe/Paris] 0
+[15-Jul-2017 10:10:22 Europe/Paris] readOnly.php
+[15-Jul-2017 10:10:22 Europe/Paris] <table class='ags'><tr><td style='width:60mm'><b>AG-Nummer</b></td><td style='width:100mm'>noch nicht bekannt</td></tr>
+<tr><td style='width:60mm'><b>Namen</b></td><td style='width:100mm'>Michael Bauschert</td></tr>
+<tr><td style='width:60mm'><b>Kontaktperson</b></td><td style='width:100mm'>Michael Bauschert</td></tr>
+<tr><td style='width:60mm'><b>Mail</b></td><td style='width:100mm'><a href='mailto:michael.bauschert@googlemail.com'>michael.bauschert@googlemail.com</a></td></tr>
+<tr><td style='width:60mm'><b>Telefon</b></td><td style='width:100mm'>01791354023</td></tr>
+<tr><td style='width:60mm'><b>Text</b></td><td style='width:100mm'>SHZ</td></tr>
+<tr><td style='width:60mm'><b>Wichtige Infos</b></td><td style='width:100mm'>Alte Kleidung</td></tr>
+<tr><td style='width:60mm'><b>1. Termin</b></td><td style='width:100mm'>12.10.2016</td></tr>
+<tr><td style='width:60mm'><b>2. Termin</b></td><td style='width:100mm'>-</td></tr>
+<tr><td style='width:60mm'><b>Ersatztermin</b></td><td style='width:100mm'>-</td></tr>
+<tr><td style='width:60mm'><b>Uhrzeit</b></td><td style='width:100mm'>16:00-17:00 Uhr</td></tr>
+<tr><td style='width:60mm'><b>Max. Anzahl Teilnehmer</b></td><td style='width:100mm'>20</td></tr>
+<tr><td style='width:60mm'><b>Benötigte Helfer</b></td><td style='width:100mm'>-</td></tr>
+<tr><td style='width:60mm'><b>Klasse 1</b></td><td style='width:100mm'>Nein</td></tr>
+<tr><td style='width:60mm'><b>Klasse 2</b></td><td style='width:100mm'>Nein</td></tr>
+<tr><td style='width:60mm'><b>Klasse 3</b></td><td style='width:100mm'>Ja</td></tr>
+<tr><td style='width:60mm'><b>Klasse 4</b></td><td style='width:100mm'>Nein</td></tr>
+<tr><td style='width:60mm'><b>Teilnahmebetrag Mitglieder / NichtMitglied</b></td><td style='width:100mm'>3,00 € / 4,00 €</td></tr>
+<tr><td style='width:60mm'><b>Ort</b></td><td style='width:100mm'>SHZ Töpferkeller</td></tr>
+<tr><td style='width:60mm'><b>Das möchte ich euch noch mitteilen</b></td><td style='width:100mm'>Macht Spaß!</td></tr>
+</table>
+<br><img src='./images_tmp/ag10_toddler-1326097_1920.jpg' style='width:100mm'/>
+
+[15-Jul-2017 10:10:22 Europe/Paris] 0
+[15-Jul-2017 10:11:31 Europe/Paris] readOnly.php
+[15-Jul-2017 10:11:31 Europe/Paris] <table class='ags'><tr><td style='width:60mm'><b>AG-Nummer</b></td><td style='width:100mm'>noch nicht bekannt</td></tr>
+<tr><td style='width:60mm'><b>Namen</b></td><td style='width:100mm'>Michael Bauschert</td></tr>
+<tr><td style='width:60mm'><b>Kontaktperson</b></td><td style='width:100mm'>Michael Bauschert</td></tr>
+<tr><td style='width:60mm'><b>Mail</b></td><td style='width:100mm'><a href='mailto:michael.bauschert@googlemail.com'>michael.bauschert@googlemail.com</a></td></tr>
+<tr><td style='width:60mm'><b>Telefon</b></td><td style='width:100mm'>01791354023</td></tr>
+<tr><td style='width:60mm'><b>Text</b></td><td style='width:100mm'>SHZ</td></tr>
+<tr><td style='width:60mm'><b>Wichtige Infos</b></td><td style='width:100mm'>Alte Kleidung</td></tr>
+<tr><td style='width:60mm'><b>1. Termin</b></td><td style='width:100mm'>12.10.2016</td></tr>
+<tr><td style='width:60mm'><b>2. Termin</b></td><td style='width:100mm'>-</td></tr>
+<tr><td style='width:60mm'><b>Ersatztermin</b></td><td style='width:100mm'>-</td></tr>
+<tr><td style='width:60mm'><b>Uhrzeit</b></td><td style='width:100mm'>16:00-17:00 Uhr</td></tr>
+<tr><td style='width:60mm'><b>Max. Anzahl Teilnehmer</b></td><td style='width:100mm'>20</td></tr>
+<tr><td style='width:60mm'><b>Benötigte Helfer</b></td><td style='width:100mm'>-</td></tr>
+<tr><td style='width:60mm'><b>Klasse 1</b></td><td style='width:100mm'>Nein</td></tr>
+<tr><td style='width:60mm'><b>Klasse 2</b></td><td style='width:100mm'>Nein</td></tr>
+<tr><td style='width:60mm'><b>Klasse 3</b></td><td style='width:100mm'>Ja</td></tr>
+<tr><td style='width:60mm'><b>Klasse 4</b></td><td style='width:100mm'>Nein</td></tr>
+<tr><td style='width:60mm'><b>Teilnahmebetrag Mitglieder / NichtMitglied</b></td><td style='width:100mm'>3,00 € / 4,00 €</td></tr>
+<tr><td style='width:60mm'><b>Ort</b></td><td style='width:100mm'>SHZ Töpferkeller</td></tr>
+<tr><td style='width:60mm'><b>Das möchte ich euch noch mitteilen</b></td><td style='width:100mm'>Macht Spaß!</td></tr>
+</table>
+<br><img src='./images_tmp/ag10_chemist-309922.png' style='width:100mm'/>
+
+[15-Jul-2017 10:11:31 Europe/Paris] 0
+[15-Jul-2017 10:13:32 Europe/Paris] readOnly.php
+[15-Jul-2017 10:13:32 Europe/Paris] <table class='ags'><tr><td style='width:60mm'><b>AG-Nummer</b></td><td style='width:100mm'>noch nicht bekannt</td></tr>
+<tr><td style='width:60mm'><b>Namen</b></td><td style='width:100mm'>Michael Bauschert</td></tr>
+<tr><td style='width:60mm'><b>Kontaktperson</b></td><td style='width:100mm'>Michael Bauschert</td></tr>
+<tr><td style='width:60mm'><b>Mail</b></td><td style='width:100mm'><a href='mailto:michael.bauschert@googlemail.com'>michael.bauschert@googlemail.com</a></td></tr>
+<tr><td style='width:60mm'><b>Telefon</b></td><td style='width:100mm'>01791354023</td></tr>
+<tr><td style='width:60mm'><b>Text</b></td><td style='width:100mm'>SHZ</td></tr>
+<tr><td style='width:60mm'><b>Wichtige Infos</b></td><td style='width:100mm'>Alte Kleidung</td></tr>
+<tr><td style='width:60mm'><b>1. Termin</b></td><td style='width:100mm'>12.10.2016</td></tr>
+<tr><td style='width:60mm'><b>2. Termin</b></td><td style='width:100mm'>-</td></tr>
+<tr><td style='width:60mm'><b>Ersatztermin</b></td><td style='width:100mm'>-</td></tr>
+<tr><td style='width:60mm'><b>Uhrzeit</b></td><td style='width:100mm'>16:00-17:00 Uhr</td></tr>
+<tr><td style='width:60mm'><b>Max. Anzahl Teilnehmer</b></td><td style='width:100mm'>20</td></tr>
+<tr><td style='width:60mm'><b>Benötigte Helfer</b></td><td style='width:100mm'>-</td></tr>
+<tr><td style='width:60mm'><b>Klasse 1</b></td><td style='width:100mm'>Nein</td></tr>
+<tr><td style='width:60mm'><b>Klasse 2</b></td><td style='width:100mm'>Nein</td></tr>
+<tr><td style='width:60mm'><b>Klasse 3</b></td><td style='width:100mm'>Ja</td></tr>
+<tr><td style='width:60mm'><b>Klasse 4</b></td><td style='width:100mm'>Nein</td></tr>
+<tr><td style='width:60mm'><b>Teilnahmebetrag Mitglieder / NichtMitglied</b></td><td style='width:100mm'>3,00 € / 4,00 €</td></tr>
+<tr><td style='width:60mm'><b>Ort</b></td><td style='width:100mm'>SHZ Töpferkeller</td></tr>
+<tr><td style='width:60mm'><b>Das möchte ich euch noch mitteilen</b></td><td style='width:100mm'>Macht Spaß!</td></tr>
+</table>
+<br><img src='./images_tmp/ag10_toddler-1326097_1920.jpg' style='width:100mm'/>
+
+[15-Jul-2017 10:13:32 Europe/Paris] 0
+[15-Jul-2017 10:14:14 Europe/Paris] readOnly.php
+[15-Jul-2017 10:14:14 Europe/Paris] <table class='ags'><tr><td style='width:60mm'><b>AG-Nummer</b></td><td style='width:100mm'>noch nicht bekannt</td></tr>
+<tr><td style='width:60mm'><b>Namen</b></td><td style='width:100mm'>Michael Bauschert</td></tr>
+<tr><td style='width:60mm'><b>Kontaktperson</b></td><td style='width:100mm'>Michael Bauschert</td></tr>
+<tr><td style='width:60mm'><b>Mail</b></td><td style='width:100mm'><a href='mailto:michael.bauschert@googlemail.com'>michael.bauschert@googlemail.com</a></td></tr>
+<tr><td style='width:60mm'><b>Telefon</b></td><td style='width:100mm'>01791354023</td></tr>
+<tr><td style='width:60mm'><b>Text</b></td><td style='width:100mm'>SHZ</td></tr>
+<tr><td style='width:60mm'><b>Wichtige Infos</b></td><td style='width:100mm'>Alte Kleidung</td></tr>
+<tr><td style='width:60mm'><b>1. Termin</b></td><td style='width:100mm'>12.10.2016</td></tr>
+<tr><td style='width:60mm'><b>2. Termin</b></td><td style='width:100mm'>-</td></tr>
+<tr><td style='width:60mm'><b>Ersatztermin</b></td><td style='width:100mm'>-</td></tr>
+<tr><td style='width:60mm'><b>Uhrzeit</b></td><td style='width:100mm'>16:00-17:00 Uhr</td></tr>
+<tr><td style='width:60mm'><b>Max. Anzahl Teilnehmer</b></td><td style='width:100mm'>20</td></tr>
+<tr><td style='width:60mm'><b>Benötigte Helfer</b></td><td style='width:100mm'>-</td></tr>
+<tr><td style='width:60mm'><b>Klasse 1</b></td><td style='width:100mm'>Nein</td></tr>
+<tr><td style='width:60mm'><b>Klasse 2</b></td><td style='width:100mm'>Nein</td></tr>
+<tr><td style='width:60mm'><b>Klasse 3</b></td><td style='width:100mm'>Ja</td></tr>
+<tr><td style='width:60mm'><b>Klasse 4</b></td><td style='width:100mm'>Nein</td></tr>
+<tr><td style='width:60mm'><b>Teilnahmebetrag Mitglieder / NichtMitglied</b></td><td style='width:100mm'>3,00 € / 4,00 €</td></tr>
+<tr><td style='width:60mm'><b>Ort</b></td><td style='width:100mm'>SHZ Töpferkeller</td></tr>
+<tr><td style='width:60mm'><b>Das möchte ich euch noch mitteilen</b></td><td style='width:100mm'>Macht Spaß!</td></tr>
+</table>
+<br><img src='./images_tmp/ag10_chemist-309922.png' style='width:100mm'/>
+
+[15-Jul-2017 10:14:14 Europe/Paris] 0
+[15-Jul-2017 10:30:53 Europe/Paris] readOnly.php
+[15-Jul-2017 10:30:53 Europe/Paris] <table class='ags'><tr><td style='width:60mm'><b>AG-Nummer</b></td><td style='width:100mm'>noch nicht bekannt</td></tr>
+<tr><td style='width:60mm'><b>Namen</b></td><td style='width:100mm'>Michael Bauschert</td></tr>
+<tr><td style='width:60mm'><b>Kontaktperson</b></td><td style='width:100mm'>Michael Bauschert</td></tr>
+<tr><td style='width:60mm'><b>Mail</b></td><td style='width:100mm'><a href='mailto:michael.bauschert@googlemail.com'>michael.bauschert@googlemail.com</a></td></tr>
+<tr><td style='width:60mm'><b>Telefon</b></td><td style='width:100mm'>01791354023</td></tr>
+<tr><td style='width:60mm'><b>Text</b></td><td style='width:100mm'>SHZ</td></tr>
+<tr><td style='width:60mm'><b>Wichtige Infos</b></td><td style='width:100mm'>Alte Kleidung</td></tr>
+<tr><td style='width:60mm'><b>1. Termin</b></td><td style='width:100mm'>12.10.2016</td></tr>
+<tr><td style='width:60mm'><b>2. Termin</b></td><td style='width:100mm'>-</td></tr>
+<tr><td style='width:60mm'><b>Ersatztermin</b></td><td style='width:100mm'>-</td></tr>
+<tr><td style='width:60mm'><b>Uhrzeit</b></td><td style='width:100mm'>16:00-17:00 Uhr</td></tr>
+<tr><td style='width:60mm'><b>Max. Anzahl Teilnehmer</b></td><td style='width:100mm'>20</td></tr>
+<tr><td style='width:60mm'><b>Benötigte Helfer</b></td><td style='width:100mm'>-</td></tr>
+<tr><td style='width:60mm'><b>Klasse 1</b></td><td style='width:100mm'>Nein</td></tr>
+<tr><td style='width:60mm'><b>Klasse 2</b></td><td style='width:100mm'>Nein</td></tr>
+<tr><td style='width:60mm'><b>Klasse 3</b></td><td style='width:100mm'>Ja</td></tr>
+<tr><td style='width:60mm'><b>Klasse 4</b></td><td style='width:100mm'>Nein</td></tr>
+<tr><td style='width:60mm'><b>Teilnahmebetrag Mitglieder / NichtMitglied</b></td><td style='width:100mm'>3,00 € / 4,00 €</td></tr>
+<tr><td style='width:60mm'><b>Ort</b></td><td style='width:100mm'>SHZ Töpferkeller</td></tr>
+<tr><td style='width:60mm'><b>Das möchte ich euch noch mitteilen</b></td><td style='width:100mm'>Macht Spaß!</td></tr>
+</table>
+<br><img src='./images_tmp/ag10_chemist-309922.png' style='width:100mm'/>
+
+[15-Jul-2017 10:30:53 Europe/Paris] 0
+[15-Jul-2017 10:32:05 Europe/Paris] readOnly.php
+[15-Jul-2017 10:32:05 Europe/Paris] <table class='ags'><tr><td style='width:60mm'><b>AG-Nummer</b></td><td style='width:100mm'>noch nicht bekannt</td></tr>
+<tr><td style='width:60mm'><b>Namen</b></td><td style='width:100mm'>Michael Bauschert</td></tr>
+<tr><td style='width:60mm'><b>Kontaktperson</b></td><td style='width:100mm'>Michael Bauschert</td></tr>
+<tr><td style='width:60mm'><b>Mail</b></td><td style='width:100mm'><a href='mailto:michael.bauschert@googlemail.com'>michael.bauschert@googlemail.com</a></td></tr>
+<tr><td style='width:60mm'><b>Telefon</b></td><td style='width:100mm'>01791354023</td></tr>
+<tr><td style='width:60mm'><b>Text</b></td><td style='width:100mm'>SHZ</td></tr>
+<tr><td style='width:60mm'><b>Wichtige Infos</b></td><td style='width:100mm'>Alte Kleidung</td></tr>
+<tr><td style='width:60mm'><b>1. Termin</b></td><td style='width:100mm'>12.10.2016</td></tr>
+<tr><td style='width:60mm'><b>2. Termin</b></td><td style='width:100mm'>-</td></tr>
+<tr><td style='width:60mm'><b>Ersatztermin</b></td><td style='width:100mm'>-</td></tr>
+<tr><td style='width:60mm'><b>Uhrzeit</b></td><td style='width:100mm'>16:00-17:00 Uhr</td></tr>
+<tr><td style='width:60mm'><b>Max. Anzahl Teilnehmer</b></td><td style='width:100mm'>20</td></tr>
+<tr><td style='width:60mm'><b>Benötigte Helfer</b></td><td style='width:100mm'>-</td></tr>
+<tr><td style='width:60mm'><b>Klasse 1</b></td><td style='width:100mm'>Nein</td></tr>
+<tr><td style='width:60mm'><b>Klasse 2</b></td><td style='width:100mm'>Nein</td></tr>
+<tr><td style='width:60mm'><b>Klasse 3</b></td><td style='width:100mm'>Ja</td></tr>
+<tr><td style='width:60mm'><b>Klasse 4</b></td><td style='width:100mm'>Nein</td></tr>
+<tr><td style='width:60mm'><b>Teilnahmebetrag Mitglieder / NichtMitglied</b></td><td style='width:100mm'>3,00 € / 4,00 €</td></tr>
+<tr><td style='width:60mm'><b>Ort</b></td><td style='width:100mm'>SHZ Töpferkeller</td></tr>
+<tr><td style='width:60mm'><b>Das möchte ich euch noch mitteilen</b></td><td style='width:100mm'>Macht Spaß!</td></tr>
+</table>
+<br><img src='./images_tmp/ag10_toddler-1326097_1920.jpg' style='width:100mm'/>
+
+[15-Jul-2017 10:32:05 Europe/Paris] 0
+[15-Jul-2017 10:32:31 Europe/Paris] readOnly.php
+[15-Jul-2017 10:32:31 Europe/Paris] <table class='ags'><tr><td style='width:60mm'><b>AG-Nummer</b></td><td style='width:100mm'>noch nicht bekannt</td></tr>
+<tr><td style='width:60mm'><b>Namen</b></td><td style='width:100mm'>Michael Bauschert</td></tr>
+<tr><td style='width:60mm'><b>Kontaktperson</b></td><td style='width:100mm'>Michael Bauschert</td></tr>
+<tr><td style='width:60mm'><b>Mail</b></td><td style='width:100mm'><a href='mailto:michael.bauschert@googlemail.com'>michael.bauschert@googlemail.com</a></td></tr>
+<tr><td style='width:60mm'><b>Telefon</b></td><td style='width:100mm'>01791354023</td></tr>
+<tr><td style='width:60mm'><b>Text</b></td><td style='width:100mm'>SHZ</td></tr>
+<tr><td style='width:60mm'><b>Wichtige Infos</b></td><td style='width:100mm'>Alte Kleidung</td></tr>
+<tr><td style='width:60mm'><b>1. Termin</b></td><td style='width:100mm'>12.10.2016</td></tr>
+<tr><td style='width:60mm'><b>2. Termin</b></td><td style='width:100mm'>-</td></tr>
+<tr><td style='width:60mm'><b>Ersatztermin</b></td><td style='width:100mm'>-</td></tr>
+<tr><td style='width:60mm'><b>Uhrzeit</b></td><td style='width:100mm'>16:00-17:00 Uhr</td></tr>
+<tr><td style='width:60mm'><b>Max. Anzahl Teilnehmer</b></td><td style='width:100mm'>20</td></tr>
+<tr><td style='width:60mm'><b>Benötigte Helfer</b></td><td style='width:100mm'>-</td></tr>
+<tr><td style='width:60mm'><b>Klasse 1</b></td><td style='width:100mm'>Nein</td></tr>
+<tr><td style='width:60mm'><b>Klasse 2</b></td><td style='width:100mm'>Nein</td></tr>
+<tr><td style='width:60mm'><b>Klasse 3</b></td><td style='width:100mm'>Ja</td></tr>
+<tr><td style='width:60mm'><b>Klasse 4</b></td><td style='width:100mm'>Nein</td></tr>
+<tr><td style='width:60mm'><b>Teilnahmebetrag Mitglieder / NichtMitglied</b></td><td style='width:100mm'>3,00 € / 4,00 €</td></tr>
+<tr><td style='width:60mm'><b>Ort</b></td><td style='width:100mm'>SHZ Töpferkeller</td></tr>
+<tr><td style='width:60mm'><b>Das möchte ich euch noch mitteilen</b></td><td style='width:100mm'>Macht Spaß!</td></tr>
+</table>
+<br><img src='./images_tmp/ag10_toddler-1326097_1920.jpg' style='width:100mm'/>
+
+[15-Jul-2017 10:32:31 Europe/Paris] 0

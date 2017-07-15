@@ -115,11 +115,14 @@ if ($neueAnmeldung) {
 </head>
 <body>
 <img src="images/heading.jpg" class="img-responsive img-rounded" alt="Header">
-<h1><?php echo $title?></h1>
-
+<br>
 <div class="panel panel-default">
 	<div class="panel-heading">
-		<h3 class="panel-title">Die Anmeldung wurde gespeichert</h3>
+		<h3 class="panel-title ok">Die Anmeldung wurde erfolgreich durchgeführt!</h3>
+		<br>
+		Bitte überweisen Sie jetzt den Betrag auf das Konto des Fördervereins (<?php echo str_replace("<br>", " ", CfgModel::load("bankverbindung")) ?>)<br>
+		oder senden sie uns den Betrag per Paypal (<a href="<?php echo CfgModel::load("paypallink")?>/<?php echo $_SESSION['summe']?>" target="_blank"><img src="images/paypal.png" height="20px"> Paypal aufrufen</a>)<br>
+		Sie bekommen von uns auch noch eine Mail mit der Anmeldebestätigung und der Bankverbindung bzw. dem Paypal-Link
 	</div>
 	<div class="panel-body">
 	    <table class="table table-striped table-bordered">

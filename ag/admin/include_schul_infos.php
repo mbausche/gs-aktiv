@@ -26,7 +26,11 @@
 	if ($ag['zahlart'] == 'schule') {
 		$wieWirdErstattet = CfgModel::load("text.erstattung.schule");
 	} else {
-		$wieWirdErstattet = CfgModel::load("text.erstattung.bank");
+		if (strlen($ag['mail_paypal']) > 0) {
+			$wieWirdErstattet = CfgModel::load("text.erstattung.paypal");
+		} else {
+			$wieWirdErstattet = CfgModel::load("text.erstattung.bank");
+		}
 	}
 	
 	ob_start();

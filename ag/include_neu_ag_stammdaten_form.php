@@ -158,7 +158,7 @@ addHiddenField($editToken,"edit_token");
 </thead>
 <tbody>
 <?php if ($includeAGNummer) { ?>
-<tr><td pflicht="true"><nobr>AG-Nummer</nobr></td><td><input type="text" name="ag_nummer" size="50" maxlength="75" value="<?php echo $data['ag_nummer']?>"></td><td>Aufpassen: Jede AG-Nummer darf nur einmal existieren!</td></tr>
+<tr><td><nobr>AG-Nummer</nobr></td><td><?php echo $data['ag_nummer']?></td><td></td></tr>
 <?php } ?>
 
 <tr><td pflicht="true"><nobr>Namen</nobr></td><td><input type="text" name="namen" size="50" maxlength="75" value="<?php echo $data['namen']?>"></td><td><?php echo $info?>Hier angeben, welche Personen die AG veranstalten</td></tr>

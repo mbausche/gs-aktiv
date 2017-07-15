@@ -1,4 +1,3 @@
-
 <?php
 	ini_set("log_errors", 1);     /* Logging "an" schalten */
  	ini_set("error_log", "errorlog.txt");     /* Log-Datei angeben */
@@ -76,6 +75,7 @@
 
 	if (!empty($_REQUEST["redirectAfterSave"])) {
 		$url = $_REQUEST["redirectAfterSave"];
+		$url = appendToUrl($url, "result=" . $result);
 		header("Location: " . $url);
 		return;
 	}

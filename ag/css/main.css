@@ -1,5 +1,4 @@
 
-
 body {
 	font-family: 'Roboto', sans-serif;
 	font-size: 9pt;
@@ -77,6 +76,13 @@ body {
 	color: orange;
 }
   
+.attention
+{
+	color: red;
+	font-size: +1;
+  	font-weight: bold;
+	
+}
 
 .ok
 {
@@ -91,6 +97,13 @@ body {
 .center
 {
 	text-align: center;
+}
+
+.centered-important {
+  position: fixed !important;
+  top: 50% !important;
+  left: 50% !important;
+  transform: translate(-50%, -50%) !important;
 }
 
 .rowIcon

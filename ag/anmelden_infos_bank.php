@@ -20,7 +20,7 @@ $( document ).ready(function() {
 	</div>
 </div>
 <br>
-<h2>Eine AG per Überweisung bezahlen... Warum und Wieso?!</h2>
+<h2>Eine AG per Überweisung oder <img src='images/paypal.png' height='30'> bezahlen... Warum und Wieso?!</h2>
 <br>
 <div class="panel panel-default">
 	<div class="panel-heading">

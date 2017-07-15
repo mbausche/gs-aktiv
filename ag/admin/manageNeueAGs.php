@@ -41,6 +41,11 @@
 	$title =  "NEUE Eltern-AGs verwalten";
 	
 	include 'header.php';
+
+	if (!empty($_REQUEST['result'])) {
+		echo $_REQUEST['result'] . "<br><br>";
+	}
+		
 	
 	if (!empty($_REQUEST['sendEditMail'])) {
 		$id = $_REQUEST["id"];
@@ -57,7 +62,6 @@
 		$status = sendMail($ag["verantwortlicher_mail"], $ag["verantwortlicher_name"], $subject, $content ,array($pdf));
 		echo "Ändern der AG " . $ag["ag_name"] . " von " . $ag["verantwortlicher_name"] . ": " . $status . "<br>";
 		echo "Link: " . $editLink . "<br><br>";
-	
 	}
 	
 
@@ -78,7 +82,10 @@
 					$yesLink = getBaseUrl() . 'neue_ag_feedback.php?id='.$idForMail . '&response=yes';
 					$editLink = getBaseUrl() . 'neue_ag_anmelden.php?edit_token=' . $ag["edit_token"] . "&response=yes";
 					
+					//
 					//$noLink = getBaseUrl() . 'neue_ag_feedback.php?id='.$idForMail . '&response=no';
+					//
+					
 					ob_start();
 					include "template_check_neue_ag.php";
 					$content = ob_get_clean();								

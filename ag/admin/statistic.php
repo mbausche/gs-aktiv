@@ -65,9 +65,11 @@ $(document).ready(function() {
 			
 			foreach ($prefixe as $prefixAndYear) {
 			
-			$prefix = explode("=", $prefixAndYear)[0];
+			$prefixZeitraumArray = explode("=", $prefixAndYear);
+			$prefix = $prefixZeitraumArray[0];
+			$zeitraum = $prefixZeitraumArray[1];
 			
-			$jahr = $prefix;
+			$jahr = $zeitraum;
 			if ($jahr == "") {
 				$jahr = "Aktuell (" . CfgModel::load("prefixAgNummer") . ")";
 			}

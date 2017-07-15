@@ -15,6 +15,15 @@
 
 	define("MAIL_RESULT","Message sent!");
 	
+	function appendToUrl($url, $text) {
+		if (!strpos($url, "?")) {
+			$url = $url . "?" . $text;
+		} else {
+			$url = $url . "&" . $text;
+		}
+		return $url;
+	}
+	
 	function copyRequestValuesToSession($backupArray) {
 		
 		$backup = array();
@@ -296,12 +305,17 @@
 		}
 	}
 	
-	function formatZahlart($zahlart) {
+	function formatZahlart($zahlart, $payPalMail="", $iban="") {
 		if ($zahlart == 'schule') {
 			return "Schule";
 		} 
 		if ($zahlart == 'bank') {
-			return "Überweisung";
+			if (!empty($payPalMail))
+				return "PayPal";
+			else if (!empty($iban))
+				return "Überweisung";
+			else
+				return "Überweisung/Paypal";
 		} 
 		return $zahlart;
 	}
@@ -718,7 +732,7 @@
 	
 		$desc = array();
 		if ($createAnmeldenLink) {
-			$desc[1] = '<a class="btn btn-info" role="button" id="pdfLink" href="anmelden.php2">Formular ausfüllen</a>';
+			$desc[1] = '<a class="btn btn-info" role="button" id="pdfLink" href="anmelden2.php">Formular ausfüllen</a>';
 		} else {
 			$desc[1] = "Formular ausfüllen";
 		}
@@ -770,7 +784,7 @@
 	
 		$desc = array();
 		if ($createAnmeldenLink) {
-			$desc[1] = '<a class="btn btn-info" role="button" id="pdfLink" href="anmelden.php2">Formular ausfüllen</a>';
+			$desc[1] = '<a class="btn btn-info" role="button" id="pdfLink" href="anmelden2.php">Formular ausfüllen</a>';
 		} else {
 			$desc[1] = "Formular ausfüllen";
 		}
@@ -788,7 +802,10 @@
 			$desc[3] = "PDF erzeugen<br>(Nur erforderlich, wenn Sie die Anmeldung ausdrucken oder speichern wollen)";
 		}
 	
-		$desc[4] = "Das Geld überweisen an:<br>Föderverein Grundschule<br>".CfgModel::load("bankverbindung")."<br><b>Verwendungszweck:</b><br> $verwendungszweck <br><br>Sobald das Geld bei uns angekommen ist, wird die Anmeldung geprüft und ihr Kind ist angemeldet!";
+		$desc[4] = "Das Geld überweisen an das Konto des Födervereins<br>
+		Alternativ könen sie uns das Geld auch per <img src='images/paypal.png' height='30'> zusenden.<br><br>
+		Sobald das Geld bei uns angekommen ist, wird die Anmeldung geprüft und ihr Kind ist angemeldet!<br><br>
+		Die Bankverbindung, den Paypal-Link und den Verwendungszweck finden sie in der Übersicht wenn die Anmeldung gespeichert wurde und in der Anmeldebestätigung die Sie per Mail erhalten.";
 	
 		echo "	<script type='text/javascript'>
 				$(document).ready(function() {

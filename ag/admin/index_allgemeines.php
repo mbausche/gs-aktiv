@@ -124,7 +124,8 @@ $(document).ready(function() {
 		$offline = AgModel::countAnmeldungenOnline(false);
 		
 		$schule = AgModel::countAnmeldungenZahlart("schule");
-		$bank = AgModel::countAnmeldungenZahlart("bank");
+		$paypal = AgModel::countAnmeldungenPaypal();
+		$bank = AgModel::countAnmeldungenZahlart("bank") - $paypal;
 		
 		if ($schueler > 0)
 			$durchschnitt = number_format ( $anmeldungen / $schueler , 2 , "," , ".");
@@ -154,7 +155,7 @@ $(document).ready(function() {
         }
         ?>     
         <tr><td>Online/Offline</td><td class="nobr"><?php echo $online ?> / <?php echo $offline ?></td></tr>
-        <tr><td>Bez. per Schule/Überweisung</td><td class="nobr"><?php echo $schule ?> / <?php echo $bank ?></td></tr>
+        <tr><td>Bez. per Schule/Überweisung/Paypal</td><td class="nobr"><?php echo $schule ?> / <?php echo $bank ?> / <?php echo $paypal ?></td></tr>
         <tr><td><a class="<?php echo $css?>" href="manageAGs.php">Anmeldungen</a><br><br><canvas id="myChart" width="200" height="200"></canvas></td><td>
 		<span id="legend"></span>
         </td></tr>

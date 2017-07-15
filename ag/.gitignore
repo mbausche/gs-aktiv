@@ -2,3 +2,8 @@
 /phpMailer
 /redbean_orm
 /ext
+/ftp.properties
+/.classpath
+/uploads/
+/images_tmp/
+/pdf/

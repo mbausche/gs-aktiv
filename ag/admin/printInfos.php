@@ -21,14 +21,18 @@
 	$types = array("telefon","passt","schule","mail","bank");
 	
 	$anmeldungByCommType = array();
-	
+	$anmeldungByCommType["paypal"] = array();
 	
 	foreach ($types as $type) {
 		$anmeldungByCommType[$type] = array();
 		foreach ($ags as $ag) {
 			$id_anmeldung = $ag['id'];
 			if (isset($_REQUEST[$type . '_' . $id_anmeldung])) {
-				array_push($anmeldungByCommType[$type], $ag);
+				if ($type == "bank" && strlen($ag["mail_paypal"]) > 0) {
+					array_push($anmeldungByCommType["paypal"], $ag);
+				} else {
+					array_push($anmeldungByCommType[$type], $ag);
+				}
 			}
 		}
 	}
@@ -71,6 +75,10 @@
 	echo "<h2>Folgende Überweisungen sollten noch durchgeführt werden</h2> <br>";
 	$arr = $anmeldungByCommType["bank"];
 	include 'include_bank_infos.php';
+	
+	echo "<h2>Folgende Beträge sollten noch per Paypal zurück gesendet werden</h2> <br>";
+	$arr = $anmeldungByCommType["paypal"];
+	include 'include_paypal_infos.php';
 	
 	$arr = $anmeldungByCommType["schule"];
 	if (count($arr) == 0) {

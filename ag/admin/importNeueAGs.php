@@ -18,9 +18,9 @@
 	
 	if (!empty($_POST['import'])) {
 		foreach ($_REQUEST as $name => $value) {
-			if (startsWith($name, "select_")) {
-				$tmp = explode("_", $value);
-				array_push($messages, NeueAgModel::insertFromArchive($tmp[0] . "neueag", $tmp[1]));
+			if (startsWith($name, "select|")) {
+				$tmp = explode("|", $name);
+				array_push($messages, NeueAgModel::insertFromArchive($tmp[1] . "neueag", $tmp[2]));
 			}
 		}
 	}
@@ -85,7 +85,7 @@ $(document).ready(function() {
 		?>
 		
 		<tr>
-			<td><input type="checkbox" name="select_<?php echo $table ?>_<?php echo $ag['id']?>" value="<?php echo $table ?>_<?php echo $ag['id']?>"></td>
+			<td><input type="checkbox" name="select|<?php echo $table ?>|<?php echo $ag['id']?>" value="selected"></td>
 			<td><?php echo $ag['ag_nummer']?></td>
         	<td><?php echo $ag['ag_name']?></td>
         	<td><nobr><?php echo formatSQLDate($ag['termin'],true) . " " . $ag['termin_von'] . "-" . $ag['termin_bis'] ?></nobr><br>

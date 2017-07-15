@@ -129,10 +129,11 @@ table.agsLarge td
 	if ($zahlart == 'schule') {
 		array_push($sonstiges,"Ich lege die Teilnahmegebühr/en in Höhe von <b>$summe &euro;</b> meiner Anmeldung bei.");
 	} else {
-		array_push($sonstiges,"Ich überweise die Teilnahmegebühr/en in Höhe von <b>$summe &euro;</b> auf das Konto des Fördervereins: " . str_replace("<br>", " ", CfgModel::load("bankverbindung")));
+		$link = CfgModel::load("paypallink") . "/" . $summe;
+		array_push($sonstiges,"Ich überweise die Teilnahmegebühr/en in Höhe von <b>$summe &euro;</b> auf das Konto des Fördervereins");
+		array_push($sonstiges,"Alternativ kann ich auch <img src='images/paypal.png' height='32'> verwenden");
+		array_push($sonstiges,"Als Verwendungszweck gebe ich an: Die Anmeldenummer, Name und Klasse meines Kindes");
 	}
-	
-	
 	
 	if ($_SESSION['wirWollenMitgliedWerden'] == "Ja") {
 		array_push ($sonstiges,TEXT_WILL_MITGLIED_WERDEN);
@@ -143,9 +144,11 @@ table.agsLarge td
 	if ($_SESSION['bilder'] == "Ja") {
 		array_push ($sonstiges,TEXT_FOTOS);
 	}
+	/*
 	if ($_SESSION['sendConfirmation'] == "Ja") {
 		array_push ($sonstiges,TEXT_SEND_CONFIRMATION);
 	}
+	*/
 	if ($_SESSION['mithilfeBeiAktuellerAG'] != "") {
 		array_push ($sonstiges,TEXT_MITHILFE  ." " . $_SESSION['mithilfeBeiAktuellerAG']);
 	}
@@ -280,7 +283,12 @@ table.agsLarge td
  
   	<img src="images/heading.jpg" class="img-responsive img-rounded" alt="Header">
     <h1><?php echo $title?></h1>
- 
+ 	<div class="panel panel-default">
+	  <div class="panel-heading ">
+	    	<span class="attention">Achtung! Die Anmeldung wurde noch nicht versandt! Überprüfen Sie bitte die Daten und Drücken sie auf</span> <a class="btn btn-info" role="button" id="insertAnmeldung" href="insertAnmeldung.php">Anmeldung abschicken</a><br>
+	    	<span class="attention">Falls was noch nicht stimmt: Hier geht es </span> <a class="btn btn-info" role="button" href="anmelden2.php?reenter=true&silent=true">Zurück zur Eingabe</a>
+	  </div>
+	</div>
  	<div class="panel panel-default">
 	  <div class="panel-heading">
 	    <h3 class="panel-title">Schüler:</h3>
@@ -446,7 +454,9 @@ $teilnahme = $teilnahme . "</table>";
 	- <?php echo TEXT_COMMENT_UHRZEIT?><br>
 	<?php if ($_SESSION['zahlart'] == 'bank') { ?>
 	<br>
-	- Bitte überweisen Sie den Betrag von <?php echo $summe?>&euro; auf das Konto des Fördervereins: <?php echo str_replace("<br>", " ", CfgModel::load("bankverbindung"))?> <b>Verwendungszweck:</b> <?php echo "$name $klasse $AnmeldungsId" ?><br>
+	- Bitte überweisen Sie den Betrag von <?php echo $summe?>&euro; auf das Konto des Fördervereins: <?php echo str_replace("<br>", " ", CfgModel::load("bankverbindung"))?><br>
+	- Alternativ können sie uns das Geld auch per Paypal zusenden. Bitte verwenden Sie dazu folgenden Link: <a href="<?php echo CfgModel::load("paypallink")?>"><?php echo CfgModel::load("paypallink")?>/<?php echo $summe?></a> <?php echo CfgModel::load("paypal_kaeuferschutz")?><br>
+	- <b>Verwendungszweck:</b> <?php echo "$name $klasse $AnmeldungsId" ?><br>
 	- Rückerstattungen erfolgen direkt auf ihr Konto 
 	<?php } ?>
 	</div>

@@ -129,7 +129,10 @@ class NeueAgModel {
 			$ag[$key] = $value;				
 		}
 		
+		
 		$id = R::store( $ag );
+		$ag['edit_token'] = NeueAgModel::getEditToken($ag); 
+		R::store( $ag );
 		
 		return "Importiert: " . $archiveTableName . ": " . 	$old["ag_name"]; 
 	}	
@@ -403,13 +406,13 @@ class NeueAgModel {
 		if (!filter_var($ag["verantwortlicher_mail"], FILTER_VALIDATE_EMAIL)) {
 			array_push($arrContact, "Mail-Adresse nicht gültig");
 		} 
-		if (!checkPhone($ag["verantwortlicher_telefon"])) {
-			array_push($arrContact, "Telefonnumer nicht gültig");
+		if (strpos($ag["ausserdem"], $ag["verantwortlicher_telefon"] . ":ok") === false && !checkPhone($ag["verantwortlicher_telefon"])) {
+			array_push($arrContact, "Telefonnnumer nicht gültig");
 		} 
-		if (!checkTime($ag["termin_von"])) {
+		if (strpos($ag["ausserdem"], $ag["termin_von"] . ":ok") === false && !checkTime($ag["termin_von"])) {
 			array_push($arrDate, "Uhrzeit von hat nicht das Format: hh:mm bzw liegt nicht zwischen 8 und 22 Uhr");
 		}
-		if (!checkTime($ag["termin_bis"])) {
+		if (strpos($ag["ausserdem"], $ag["termin_bis"] . ":ok") === false && !checkTime($ag["termin_bis"])) {
 			array_push($arrDate, "Uhrzeit bis hat nicht das Format: hh:mm bzw liegt nicht zwischen 8 und 22 Uhr");
 		}
 		

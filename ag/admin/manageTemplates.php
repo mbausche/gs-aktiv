@@ -35,16 +35,16 @@
 	$templates = TemplateModel::getTemplates();
 ?>
 
-<link rel=stylesheet href="../codemirror/doc/docs.css">
-<link rel="stylesheet" href="../codemirror/lib/codemirror.css">
-<script src="../codemirror/lib/codemirror.js"></script>
-<script src="../codemirror/addon/edit/matchbrackets.js"></script>
-<script src="../codemirror/mode/htmlmixed/htmlmixed.js"></script>
-<script src="../codemirror/mode/xml/xml.js"></script>
-<script src="../codemirror/mode/javascript/javascript.js"></script>
-<script src="../codemirror/mode/css/css.js"></script>
-<script src="../codemirror/mode/clike/clike.js"></script>
-<script src="../codemirror/mode/php/php.js"></script>
+<link rel=stylesheet href="../scripts/codemirror/doc/docs.css">
+<link rel="stylesheet" href="../scripts/codemirror/lib/codemirror.css">
+<script src="../scripts/codemirror/lib/codemirror.js"></script>
+<script src="../scripts/codemirror/addon/edit/matchbrackets.js"></script>
+<script src="../scripts/codemirror/mode/htmlmixed/htmlmixed.js"></script>
+<script src="../scripts/codemirror/mode/xml/xml.js"></script>
+<script src="../scripts/codemirror/mode/javascript/javascript.js"></script>
+<script src="../scripts/codemirror/mode/css/css.js"></script>
+<script src="../scripts/codemirror/mode/clike/clike.js"></script>
+<script src="../scripts/codemirror/mode/php/php.js"></script>
 <style type="text/css">
 .CodeMirror {
 	border-top: 1px solid black;

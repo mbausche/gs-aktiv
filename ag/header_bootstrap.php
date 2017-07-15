@@ -56,7 +56,7 @@ require_once("db.php");
 			  "preventDuplicates": false,
 			  "onclick": null,
 			  "showDuration": "100",
-			  "hideDuration": "100",
+			  "hideDuration": "800",
 			  "timeOut": "1500",
 			  "extendedTimeOut": "1000",
 			  "showEasing": "swing",

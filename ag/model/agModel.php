@@ -279,6 +279,11 @@ class AgModel{
 		return count($all);
 	}
 	
+	public static function countAnmeldungenPaypal() {
+		$all = R::findAll( 'anmeldung', 'mail_paypal is not null',[]);
+		return count($all);
+	}
+	
 	public static function countAGs() {
 		$all = R::findAll( 'ag' );
 		return count($all);
@@ -739,7 +744,7 @@ class AgModel{
 		return $result; 
 	}
 	
-	public static function setGeprueft($id, $iban="", $kontoinhaber="") {
+	public static function setGeprueft($id, $iban="", $kontoinhaber="", $mailPaypal="") {
 		$anmeldung = R::load( 'anmeldung',$id );
 		$anmeldung['geprueft'] = 1;
 		$anmeldung['datum_geprueft'] = date("Y-m-d H:i:s");
@@ -747,6 +752,9 @@ class AgModel{
 			$anmeldung['iban'] = $iban;
 			$anmeldung['kontoinhaber'] = $kontoinhaber;
 		}
+		
+		$anmeldung['mail_paypal'] = $mailPaypal;
+		
 		R::store( $anmeldung );
 	}
 	
@@ -779,7 +787,7 @@ class AgModel{
 		return R::findOne('anmeldung',' id = ? ', [ $id ]);
 	}
 	
-	public static function updateAnmeldungById($id, $istMitglied, $geprueft, $iban="", $kontoinhaber="") {
+	public static function updateAnmeldungById($id, $istMitglied, $geprueft, $iban="", $kontoinhaber="", $mailPaypal="") {
 		$anmeldung = R::load('anmeldung',$id);
 		
 		//Beträge aktualisieren, wenn sich der Mitgliedstatus ändert
@@ -801,6 +809,8 @@ class AgModel{
 			$anmeldung['iban'] = $iban;
 			$anmeldung['kontoinhaber'] = $kontoinhaber;
 		}
+		
+		$anmeldung['mail_paypal'] = $mailPaypal;
 		
 		$anmeldung["ist_mitglied"] = $istMitglied;
 		$anmeldung["geprueft"] = $geprueft;
@@ -848,7 +858,7 @@ class AgModel{
 		R::store( $anmeldung );
 	}	
 	
-	public static function saveAnmeldung($id,$name, $klasse, $mail, $telefon, $mitglied = false, $fotosOk = false, $zahlart = "schule", $iban="", $kontoinhaber = "") {
+	public static function saveAnmeldung($id,$name, $klasse, $mail, $telefon, $mitglied = false, $fotosOk = false, $zahlart = "schule", $iban="", $kontoinhaber = "", $mailPaypal) {
 		$anmeldung = R::load( 'anmeldung',$id );
 		$anmeldung["name"] = $name;
 		$anmeldung["klasse"] = $klasse;
@@ -859,6 +869,7 @@ class AgModel{
 		$anmeldung["zahlart"] = $zahlart;
 		$anmeldung["iban"] = $iban;
 		$anmeldung["kontoinhaber"] = $kontoinhaber;
+		$anmeldung["mail_paypal"] = $mailPaypal;
 		R::store( $anmeldung );
 	}
 		
@@ -935,9 +946,28 @@ class AgModel{
 		return $result;
 	}
 	
-	public static function getMailAdresses($typ = "Veranstalter") {
-		$sql1 = "SELECT distinct verantwortlicher_name as name, verantwortlicher_mail as mail from ag order by verantwortlicher_name";
-		$sql2 = "SELECT distinct name, mail from anmeldung where mail is not null and mail <> '' order by name";
+	public static function getMailAdresses($typ = "Veranstalter", $alleJahre = false) {
+		
+		$result = array();
+		
+		AgModel::getMailAdressesImpl($typ, $result);
+		
+		if ($alleJahre) {
+			$prefixe = explode(",", CfgModel::load("prefix.vorjahre"));
+			foreach ($prefixe as $prefixAndYear) {
+				$prefix = explode("=", $prefixAndYear)[0];
+				AgModel::getMailAdressesImpl($typ, $result, $prefix);
+			}
+		}
+		
+		return array_values($result);
+		
+	}
+	
+	
+	public static function getMailAdressesImpl($typ = "Veranstalter", &$result, $prefix="") {
+		$sql1 = "SELECT distinct verantwortlicher_name as name, verantwortlicher_mail as mail from ".$prefix."ag order by verantwortlicher_name";
+		$sql2 = "SELECT distinct name, mail from ".$prefix."anmeldung where mail is not null and mail <> '' order by name";
 		if ($typ == "Veranstalter")
 			$tmp = R::getAll($sql1);
 		else if ($typ == "Teilnehmer")
@@ -947,16 +977,13 @@ class AgModel{
 			error_log($sql);
 			$tmp = R::getAll($sql);
 		}
-		
-		$result = array();
+				
 		foreach ($tmp as $entry) {
 			if (!(array_key_exists($entry["mail"], $result))) {
 				$result[$entry["mail"]] = $entry;
 			}
 		}
-		
-		return array_values($result);
-		
+				
 	}
 	
 	public static function getStringForKlassen($ag, $colored=false) {

@@ -110,7 +110,7 @@ $(document).ready(function() {
 	<tbody>
 	<tr><td valign="middle">Name</td><td valign="middle"><input size="30" maxlength="100" type="text" name="name" value=""></td></tr>
 	<tr><td valign="middle">Beschreibung</td><td valign="middle"><input size="30" maxlength="200" type="text" name="beschreibung" value=""></td></tr>
-	<tr><td valign="middle">Wert</td><td valign="middle"><input size="30" maxlength="200" type="text" name="wert" value=""></td></tr>
+	<tr><td valign="middle">Wert</td><td valign="middle"><textarea rows="10" cols="80" id="textarea_new" name="wert"></textarea></td></tr>
 	</tbody>
 	</table>
 	<input type="hidden" name="newEntry" value="true"/>
@@ -137,7 +137,13 @@ $(document).ready(function() {
         <tr>
         	<td><?php echo $t["name"]?></td>
         	<td><?php echo $t["description"]?></td>
-        	<td><input type="text" id="cfg_<?php echo $t["id"]?>" size="100" maxlength="5000" name="cfg_<?php echo $t["id"]?>" value="<?php echo $t["value"]?>"></td>
+        	<td>
+        	<?php if (strlen($t["value"]) < 50) {?>
+        		<input type="text" id="cfg_<?php echo $t["id"]?>" size="100" maxlength="5000" name="cfg_<?php echo $t["id"]?>" value="<?php echo $t["value"]?>"><span style="display:none"><?php echo $t["value"]?></span>
+        	<?php } else { ?>
+        		<textarea rows="10" cols="80" id="textarea_new" name="cfg_<?php echo $t["id"]?>"><?php echo $t["value"]?></textarea>
+        	<?php } ?>
+        	</td>
         	<td><a type="buttonDelete" title="Löschen" href="<?php echo $_SERVER['PHP_SELF']?>?loesche=true&id=<?php echo $t["id"]?>"></a></td>
         </tr>
         <?php } ?>
